@@ -274,3 +274,4 @@ a.path-item:hover { background: var(--surface-2); color: var(--text); }
 .objectives { border: 1px solid var(--line); padding: .9rem 1.1rem; margin: 1rem 0 1.5rem; font-size: .95rem; }
 .objectives b { display: block; font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-bottom: .4rem; }
 .objectives ul { margin: 0; padding-left: 1.2rem; }
+.opt-letter { font-family: var(--serif); color: var(--muted); margin-right: .25rem; font-weight: 400; }

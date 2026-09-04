@@ -290,7 +290,7 @@
       <h2>Check your understanding</h2>
       <p class="muted">Score ${Math.round(passMark * 100)}% or better to pass.${passMark === PASS_MARK ? " Questions you pass join your review bank." : " Closed book: no looking back at the lessons."}</p>
       <form id="quizForm">
-        ${l.quiz.map((q, qi) => `<div class="q" data-q="${qi}"><p class="stem">${qi + 1}. ${esc(q.q)}</p>${q.options.map((o, oi) => `<label><input type="radio" name="q${qi}" value="${oi}" required> <span>${esc(o)}</span></label>`).join("")}</div>`).join("")}
+        ${l.quiz.map((q, qi) => `<div class="q" data-q="${qi}"><p class="stem">${qi + 1}. ${esc(q.q)}</p>${q.options.map((o, oi) => `<label><input type="radio" name="q${qi}" value="${oi}" required> <span><b class="opt-letter">${"ABCDEF"[oi]}.</b> ${esc(o)}</span></label>`).join("")}</div>`).join("")}
         <button class="btn btn-primary" type="submit">Submit answers</button>
         <div class="quiz-result" id="quizResult" aria-live="polite"></div>
       </form></section>`;
@@ -382,7 +382,7 @@
         <div class="review-card">
           <div class="from">${esc(c.title)} · <a href="#/course/${c.id}/lesson/${l.id}">${esc(l.title)}</a></div>
           <div class="stem">${esc(q.q)}</div>
-          <div class="review-opts">${q.options.map((o, oi) => `<button data-oi="${oi}">${esc(o)}</button>`).join("")}</div>
+          <div class="review-opts">${q.options.map((o, oi) => `<button data-oi="${oi}"><b class="opt-letter">${"ABCDEF"[oi]}.</b> ${esc(o)}</button>`).join("")}</div>
           <div id="explain"></div>
           <div class="review-foot"><span>${i + 1} of ${queue.length}</span><button class="btn btn-primary" id="nextBtn" hidden>Next →</button></div>
         </div>`;
