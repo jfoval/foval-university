@@ -267,3 +267,7 @@ a.path-item:hover { background: var(--surface-2); color: var(--text); }
   .site-header, .site-footer, .btn-row, .site-nav { display: none !important; }
   .cert { margin: 2rem; }
 }
+
+/* Standpoint courses (standards 3.7) */
+.standpoint-tag { display: inline-block; font-size: .7rem; letter-spacing: .1em; text-transform: uppercase; color: var(--gold); border: 1px solid var(--gold); padding: .15rem .5rem; margin-bottom: .6rem; align-self: flex-start; }
+.standpoint { border-left: 3px solid var(--gold); padding: .6rem 1rem; margin: 0 0 1rem; font-size: .95rem; color: var(--text-2); font-style: italic; }

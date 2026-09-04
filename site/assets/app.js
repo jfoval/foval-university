@@ -79,6 +79,8 @@
   const byId = id => COURSES.find(c => c.id === id);
   const totalMinutes = c => c.lessons.reduce((n, l) => n + (l.minutes || 0), 0);
   const fmtHours = mins => mins < 60 ? `${mins} min` : `${Math.round(mins / 60 * 10) / 10} h`;
+  const STANDPOINT = { christian: "Taught from within the Christian tradition. This course makes the case; it does not pretend to be neutral." };
+  const spLabel = sp => sp ? `<span class="standpoint-tag">${esc(sp)} standpoint</span>` : "";
   const shuffle = a => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
   function setActiveNav(path) {
     document.querySelectorAll(".site-nav a").forEach(a => {
@@ -100,6 +102,7 @@
         <span class="eyebrow">${esc(c.subject)}</span>
         <h3>${esc(c.title)}</h3>
         <p>${esc(c.summary)}</p>
+        ${spLabel(c.standpoint)}
         <div class="card-meta">
           <span class="card-level">${esc(c.level)}</span>
           <span>${c.lessons.length} lessons</span>
@@ -177,10 +180,10 @@
       let remainingMin = 0;
       const items = t.courses.map(e => {
         const c = byId(e.id);
-        if (!c) return `<li><span class="path-item soon"><span class="path-dot"></span><span>${esc(e.title)}${e.optional ? " <span class='path-meta'>(optional)</span>" : ""}</span><span class="path-meta">coming soon</span></span></li>`;
+        if (!c) return `<li><span class="path-item soon"><span class="path-dot"></span><span>${esc(e.title)}${e.optional ? " <span class='path-meta'>(optional)</span>" : ""}${e.standpoint ? " <span class='path-meta'>· " + esc(e.standpoint) + " standpoint</span>" : ""}</span><span class="path-meta">coming soon</span></span></li>`;
         const p = courseProgress(c); const done = p.done === p.total;
         if (!done) remainingMin += totalMinutes(c) * (1 - p.done / p.total);
-        return `<li><a class="path-item" href="#/course/${c.id}"><span class="path-dot ${done ? "done" : courseStarted(c) ? "active" : ""}"></span><span>${esc(c.title)}${e.optional ? " <span class='path-meta'>(optional)</span>" : ""}</span><span class="path-meta">${done ? "complete" : courseStarted(c) ? `${p.pct}%` : fmtHours(totalMinutes(c))}</span></a></li>`;
+        return `<li><a class="path-item" href="#/course/${c.id}"><span class="path-dot ${done ? "done" : courseStarted(c) ? "active" : ""}"></span><span>${esc(c.title)}${e.optional ? " <span class='path-meta'>(optional)</span>" : ""}${c.standpoint ? " <span class='path-meta'>· " + esc(c.standpoint) + " standpoint</span>" : ""}</span><span class="path-meta">${done ? "complete" : courseStarted(c) ? `${p.pct}%` : fmtHours(totalMinutes(c))}</span></a></li>`;
       }).join("");
       const live = t.courses.filter(e => byId(e.id)).length;
       const weeks = remainingMin ? Math.max(1, Math.round(remainingMin / 60 / pr.hoursPerWeek)) : 0;
@@ -211,6 +214,7 @@
         <div>
           <span class="eyebrow">${esc(c.subject)} · ${esc(c.level)}</span>
           <h1>${esc(c.title)}</h1>
+          ${c.standpoint ? `<div class="standpoint">${esc(STANDPOINT[c.standpoint] || c.standpoint)}</div>` : ""}
           <p class="lede">${esc(c.description)}</p>
           <h3>What you'll learn</h3>
           <ul class="outcomes">${(c.outcomes || []).map(o => `<li>${esc(o)}</li>`).join("")}</ul>
