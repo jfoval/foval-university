@@ -83,7 +83,10 @@ th { font-weight: 600; border-bottom: 2px solid var(--line-strong); }
 }
 .brand { display: flex; align-items: center; gap: .7rem; color: var(--text); font-family: var(--serif); font-size: 1.2rem; text-decoration: none; letter-spacing: .01em; }
 .brand:hover { color: var(--text); }
-.brand-mark { width: 34px; height: 34px; border-radius: 0; }
+.brand-mark { width: 40px; height: 40px; border-radius: 0; color: var(--navy); }
+.brand-mark .ks { stroke: var(--bg); stroke-width: 2; }
+.brand-mark .ks-f { fill: var(--bg); }
+.cert-seal { width: 110px; height: 110px; margin: 0 auto .5rem; display: block; }
 .site-nav { display: flex; gap: 1.5rem; }
 .site-nav a { color: var(--text-2); text-decoration: none; font-size: .82rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; padding-bottom: 2px; border-bottom: 2px solid transparent; white-space: nowrap; }
 .site-nav a.active, .site-nav a:hover { color: var(--text); border-bottom-color: var(--oxblood); }

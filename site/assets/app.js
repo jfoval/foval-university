@@ -455,7 +455,7 @@
     const date = new Date().toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" });
     render(`
       <div class="cert">
-        <div class="seal">🎓</div>
+        <img class="cert-seal" src="assets/mark.svg" alt="Foval University seal">
         <span class="eyebrow">Foval University</span>
         <h2>Certificate of Completion</h2>
         <p>This certifies that</p>
