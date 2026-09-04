@@ -57,55 +57,77 @@ quiz:
     explain: "Both summaries are accurate. Yeager et al. (2019) found small gains concentrated among lower achievers in schools where peer norms supported the message; Sisk et al. (2018) and Macnamara and Burgoyne (2023) found averages of d = 0.08 and 0.05, and 0.02 in the six studies Macnamara and Burgoyne rated best designed. The camps differ on what that pattern means: Yeager and Dweck reply that the heterogeneity was predicted and that the meta-analyses mix in low-fidelity interventions; Macnamara and Burgoyne read the shrinking effect as bias. That is what makes the question contested rather than settled. Option B treats 'meta-analysis beats trial' as a rule; a preregistered trial that meets What Works Clearinghouse standards is not dismissed by count alone. Option C is one camp's reading stated as fact and inflated to 'large', which neither camp claims. Option D misclassifies a contested question as a myth; the lesson separates the two deliberately."
 ---
 
-Here is the uncomfortable part of everything you have learned so far: none of it runs itself. You know that fluency lies (lesson 1), that retrieval beats rereading (lesson 3), when to come back (lesson 4), when to mix (lesson 5), how to get through hard material (lesson 6), and what practice with feedback looks like (lesson 7). Every one of those techniques costs effort now for a payoff later, and the two most common study habits, multitasking and putting it off, are ways of avoiding exactly that trade.
+Everything you've learned so far has one awkward property: none of it runs itself. You know that fluency lies (lesson 1), that retrieval beats rereading (lesson 3), when to come back (lesson 4), when to mix (lesson 5), how to get through hard material (lesson 6), and what practice with feedback looks like (lesson 7). Every one of those techniques costs effort now for a payoff later, and the two most common study habits, multitasking and putting it off, are ways of dodging exactly that trade.
 
-This lesson is about the delivery mechanism: attention, procrastination, and sleep, with the evidence at its actual size rather than its popular size; the myths the course has been dodging, with the studies that test them; and a template that builds two real weekly plans, one for five hours a week and one for a phone and a commute. The plan you write at the end is the start of the course project.
+So this lesson is about the delivery mechanism. Attention, procrastination, and sleep, with the evidence at its actual size rather than its popular size. The myths the course has been stepping around, with the studies that test them. And a template that builds two real weekly plans, one for five hours a week and one for a phone and a commute. The plan you write at the end is the start of the course project.
 
 ## The core idea
 
-The core idea is one sentence: every technique in this course feels worse in the moment than its useless rival, so any decision you make in the moment will go the wrong way, and the only fix is to make the decision before the moment arrives.
+The whole idea fits in one sentence: every technique in this course feels worse in the moment than its useless rival, so any decision you make in the moment will go the wrong way, and the only fix is to make the decision before the moment arrives.
 
-The evidence for the first half has run through the whole course. Rereading feels smoother than recall, blocked practice smoother than mixed, a phone smoother than a problem set. Bjork, Dunlosky and Kornell's 2013 review gives the cleanest single figure: in one study, 90 percent of students did better after spaced practice, and 72 percent still said massed practice had worked better for them.[1] The feeling does not update when the data comes in.
+You've seen the evidence for the first half all through the course. Rereading feels smoother than recall, blocked practice smoother than mixed, a phone smoother than a problem set. Bjork, Dunlosky and Kornell's 2013 review gives the cleanest single figure.
 
-So self-management is not a separate subject from learning. It is the condition under which the other techniques happen or don't. Retrieval only strengthens a memory if you open the blank page. Spacing only works if the second session exists. Interleaving only forces discrimination if you sit through the mixed set instead of switching to the phone. Everything below is a way of taking the decision away from the moment.
+:::predict In one study in that review, 90 percent of students did better after spaced practice than after massed practice. Afterwards they were asked which had worked better for them. What share do you think still said massed practice?
+72 percent.[1] Nine in ten had just done better with spacing, and nearly three in four still said the other method had worked. The feeling doesn't update when the data comes in.
+:::
+
+That's why self-management isn't a separate subject from learning. It's the condition under which the other techniques happen or don't. Retrieval only strengthens a memory if you open the blank page. Spacing only works if the second session exists. Interleaving only forces discrimination if you sit through the mixed set instead of switching to the phone. Everything below is a way of taking the decision away from the moment.
+
+:::checkpoint Why does this lesson insist the decision has to be made before the study session, not during it?
+Because in the moment, the useful technique always feels worse than its rival, and that feeling doesn't correct itself even when you see your own results. A decision made in the moment follows the feeling, so it goes the wrong way. A decision made in advance can follow the evidence.
+:::
 
 ## Attention: single-task, in short blocks
 
-Start with the habit almost everyone has: studying with something else open. May and Elder (2018) reviewed the research on media multitasking, meaning using a second stream of media (messages, video, social feeds) while doing academic work.[2] Their finding is consistent across the studies they surveyed: media multitasking is associated with lower grade point averages, worse test performance, worse recall, and worse reading comprehension, and the effects show up both in class and while students are studying on their own.
+Start with the habit almost everyone has: studying with something else open. May and Elder (2018) reviewed the research on media multitasking, which means using a second stream of media (messages, video, social feeds) while doing academic work.[2] Their finding is consistent across the studies they surveyed. Media multitasking goes with lower grade point averages, worse test performance, worse recall, and worse reading comprehension, and the effects show up both in class and while students are studying on their own.
 
-Two limits on that finding. It is a narrative review, so it reports direction and consistency, not a pooled effect size; you are acting on the agreement of many studies, not on one number. And much of the survey evidence is associational, so some of the relationship could run the other way, with weaker students multitasking more.
+Two limits on that finding. It's a narrative review, so it reports direction and consistency, not a pooled effect size; you're acting on the agreement of many studies, not on one number. And much of the survey evidence is associational, so some of the relationship could run the other way, with weaker students multitasking more.
 
-What the review also found is that students misjudge the cost.[2] A learner with a chat open judges the lecture "fine" because they are judging moment-to-moment comprehension, and lesson 2 showed why that is the wrong measure: working memory holds about four chunks, and a second stream takes some of them.[3] What you feel is that you followed along. What you lose is the residue.
+The review also found that students misjudge the cost.[2] Picture a learner with a chat open who judges the lecture "fine". They're judging moment-to-moment comprehension, and lesson 2 showed why that's the wrong measure: working memory holds about four chunks, and a second stream takes some of them.[3] What you feel is that you followed along. What you lose is the residue.
 
-The practical rule is short blocks of single tasking. The block length is a convention; no study fixes 25 minutes, the figure in Francesco Cirillo's Pomodoro technique, which Oakley (2014) recommends to learners.[5] What the evidence does fix is what has to be true of the block. One stream, because of May and Elder. A phone you cannot reach rather than one you have resolved not to check, because changing the situation beats resisting it (Duckworth's point, below).[4] And an end that is a retrieval act rather than a clock: close the notes and write what you have. A block with those three properties is doing the work; its length is whatever you can start. If 25 minutes is too long for where you are now, use 15. A short block is a startable block, which brings us to the next problem.
+The practical rule is short blocks of single tasking. The block length is a convention. No study fixes 25 minutes, the figure in Francesco Cirillo's Pomodoro technique, which Oakley (2014) recommends to learners.[5] What the evidence does fix is what has to be true of the block. One stream, because of May and Elder. A phone you can't reach rather than one you've resolved not to check, because changing the situation beats resisting it (Duckworth's point, below).[4] And an end that is a retrieval act rather than a clock: close the notes and write what you have. A block with those three properties is doing the work; its length is whatever you can start. If 25 minutes is too long for where you are now, use 15. A short block is a startable block, which brings us to the next problem.
 
 ## Procrastination: tactics from the self-regulation literature
 
 Oakley's chapters are where most learners meet procrastination, and her vocabulary is a useful bridge: "focus on process, not product", meaning commit to a block of time rather than to finishing something, and her point, drawn from research on maths anxiety, that the discomfort peaks in anticipation and fades once you start.[5] Her chapters are written for a general reader, so they carry the ideas on stories and metaphors and cite only a few studies. The three tactics below come from the self-regulation literature itself.
 
-**Implementation intentions.** Gollwitzer (1999) distinguished a goal intention ("I will study statistics this week") from an implementation intention, which has the form "when situation X arises, I will do Y".[6] A goal intention leaves the decision of when and how to a future self who will be tired and holding a phone. An implementation intention hands the cue to the situation itself, so the action fires without a fresh decision.
+**Implementation intentions.** Compare two plans. "I will study statistics this week." And: "When I put my plate in the sink on Tuesday, I open the statistics notes." Gollwitzer (1999) called the first a goal intention and the second an implementation intention, which always has the form "when situation X arises, I will do Y".[6] A goal intention leaves the decision of when and how to a future self who will be tired and holding a phone. An implementation intention hands the cue to the situation itself, so the action fires without a fresh decision.
 
-Gollwitzer and Sheeran's 2006 meta-analysis of 94 tests found that adding an if-then plan to a goal produced a medium-to-large improvement in goal attainment over the goal alone, d = 0.65, across a wide range of behaviours.[7] The trick is specificity: "after dinner" is weaker than "when I put my plate in the sink on Tuesday".
+Gollwitzer and Sheeran's 2006 meta-analysis of 94 tests found that adding an if-then plan to a goal produced a medium-to-large improvement in goal attainment over the goal alone, d = 0.65, across a wide range of behaviours.[7] What makes it work is specificity: "after dinner" is weaker than "when I put my plate in the sink on Tuesday".
 
-**Shrink the first step.** Steel's 2007 meta-analysis of 691 correlations found the strongest, most consistent predictors of procrastination were how aversive a task is, how far away its payoff is, low confidence in doing it, and impulsiveness.[8] You cannot move the exam, but you can make the first step nearly costless. "Study statistics" is aversive. "Open the notes to question 4 and read it" is not. Once you have read question 4 you are in, and Oakley's point about the discomfort fading applies. Write the first step into the if-then plan so that the cue triggers something almost too small to refuse.
+:::checkpoint A friend writes "I'll do my reading on Thursday evenings from now on." What kind of intention is that, and what one change would turn it into the other kind?
+It's a goal intention: it names a wish and leaves when and how to a future self. To make it an implementation intention, tie a specific cue to a specific action: "When the 6.15 bus pulls in on Thursday, I open the reading at chapter 3." The cue happens to you, so no fresh decision is needed.
+:::
 
-**Design the environment.** Duckworth, Gendler and Gross (2016) argue, from a process model of self-control, that because an impulse strengthens over time, strategies applied before temptation appears (choosing or changing the situation) should beat strategies applied during it (resisting), and that people underuse them because they feel effortless.[4] It is an argument, not a trial result, but it is the reason the concrete moves work: the phone in another room or on airplane mode, the notes already open, the problem set printed the night before, the chat apps in a folder off the home screen. Each removes a decision from the moment when your judgement is worst.
+**Shrink the first step.** Steel's 2007 meta-analysis of 691 correlations found the strongest, most consistent predictors of procrastination were how aversive a task is, how far away its payoff is, low confidence in doing it, and impulsiveness.[8] You can't move the exam, but you can make the first step nearly costless. "Study statistics" is aversive. "Open the notes to question 4 and read it" isn't. Once you've read question 4 you're in, and Oakley's point about the discomfort fading applies. Write the first step into the if-then plan so that the cue triggers something almost too small to refuse.
 
-None of these is a personality change. They are engineering around a known weakness in how people decide about future effort, which is why they work for people who have "tried to be more disciplined" many times.
+**Design the environment.** Duckworth, Gendler and Gross (2016) argue, from a process model of self-control, that because an impulse strengthens over time, strategies applied before temptation appears (choosing or changing the situation) should beat strategies applied during it (resisting), and that people underuse them because they feel effortless.[4] It's an argument, not a trial result, but it's the reason the concrete moves work: the phone in another room or on airplane mode, the notes already open, the problem set printed the night before, the chat apps in a folder off the home screen. Each removes a decision from the moment when your judgement is worst.
+
+None of these is a personality change. They're engineering around a known weakness in how people decide about future effort, which is why they work for people who have "tried to be more disciplined" many times.
 
 ## Sleep, at its actual size
 
-You have probably heard that sleep is where learning happens and that a night's sleep after study is worth more than the study. The evidence supports a weaker and more interesting claim.
+You've probably heard that sleep is where learning happens and that a night's sleep after study is worth more than the study. The evidence supports a weaker and more interesting claim.
 
 The mechanism is well developed. Rasch and Born's 2013 review in *Physiological Reviews* describes active systems consolidation: during slow-wave sleep, memories encoded during the day are reactivated and gradually integrated into longer-term stores.[9] That consolidation happens during sleep is established; how much of it runs through slow-wave sleep specifically is now in question.
 
-The behavioural size of the effect is where the popular version overreaches. Cordi and Rasch (2021), with Rasch a co-author of that review, asked how robust sleep-mediated memory benefits are and concluded they are "smaller, more task-dependent, less SWS-related, less robust and less long-lasting than previously assumed".[10] In a separate 2021 study with 159 participants they found no within-person correlation between the amount of slow-wave sleep and how much was consolidated.[11] That is a careful group reporting that its own headline is smaller than it looked.
+The behavioural size of the effect is where the popular version overreaches. Cordi and Rasch (2021), with Rasch a co-author of that review, asked how reliable sleep-mediated memory benefits are and concluded they are "smaller, more task-dependent, less SWS-related, less robust and less long-lasting than previously assumed".[10] In a separate 2021 study with 159 participants they found no within-person correlation between the amount of slow-wave sleep and how much was consolidated.[11] That's a careful group reporting that its own headline is smaller than it looked.
 
-The classroom-level number is smaller still. Dewald et al. (2010) meta-analysed sleep and school performance across 15,199 children and adolescents and found a correlation of about r = 0.07 between sleep duration and performance; sleep quality did slightly better (r of about 0.10) and daytime sleepiness best (r of about −0.13), all small.[12] Read that number for what it is. It is a between-person correlation across children who mostly sleep roughly enough, so it says the differences in their hours do not track grades much. It is the wrong number for "does a lost night hurt" and the right number for "is sleep the lever".
+The classroom-level number is smaller still. Dewald et al. (2010) meta-analysed sleep and school performance across 15,199 children and adolescents.
 
-A lost night does hurt, and it hurts attention first: Lim and Dinges' meta-analysis of 70 studies of short-term sleep deprivation found lapses in simple attention among the largest effects (g of about −0.78), with reasoning accuracy barely moved.[13] So a tired study session is a worse one, mostly because the single-tasking you just read about gets harder.
+:::predict Before you see it: how strong a correlation would you guess between how long children sleep and how well they do at school? Pick a number between 0 and 1.
+About r = 0.07.[12] Sleep quality did slightly better (r of about 0.10) and daytime sleepiness best (r of about −0.13), all small.
+:::
 
-Classify this the way lesson 7 classified practice: established that sleep matters for consolidation, contested how much and by what mechanism. Sleep enough, because consolidation is real and because a tired session is a worse one. Do not skip a review on the theory that sleep will do the work. Matthew Walker's *Why We Sleep* is the book most learners will have met; this course does not cite it, because its claims run larger than the reviews above support and a 2019 critique documented factual errors in it.[14]
+Read that number for what it is. It's a between-person correlation across children who mostly sleep roughly enough, so it says the differences in their hours don't track grades much. It's the wrong number for "does a lost night hurt" and the right number for "is sleep the lever".
+
+A lost night does hurt, and it hurts attention first. Lim and Dinges' meta-analysis of 70 studies of short-term sleep deprivation found lapses in simple attention among the largest effects (g of about −0.78), with reasoning accuracy barely moved.[13] So a tired study session is a worse one, mostly because the single-tasking you just read about gets harder.
+
+Classify this the way lesson 7 classified practice: established that sleep matters for consolidation, contested how much and by what mechanism. Sleep enough, because consolidation is real and because a tired session is a worse one. Don't skip a review on the theory that sleep will do the work. Matthew Walker's *Why We Sleep* is the book most learners will have met; this course doesn't cite it, because its claims run larger than the reviews above support and a 2019 critique documented factual errors in it.[14]
+
+:::checkpoint Dewald's r = 0.07 is a small number. Which question is it the wrong number for, and which is it the right number for?
+Wrong for "does a lost night hurt": that's a within-person question, and Lim and Dinges show a lost night costs attention a lot. Right for "is sleep the lever that moves grades": across children who mostly sleep roughly enough, differences in their hours barely track performance.
+:::
 
 :::callout Not medical advice
 This lesson is general education about attention, sleep, and study habits, not personalised medical advice. If you suspect ADHD, a sleep disorder, or a specific learning difficulty such as dyslexia, see a clinician. Some findings in this course, such as what counts as a surmountable difficulty or how note-taking works, may not apply to you unchanged.
@@ -115,13 +137,19 @@ This lesson is general education about attention, sleep, and study habits, not p
 
 The course has already refuted "if it feels easy I've learned it" and "rereading is studying" (lesson 1), "practise one thing until it's perfect" (lesson 5), and "10,000 hours" (lesson 7). Four more belong here, plus one that is contested rather than false.
 
-**Learning styles.** The claim: people have a visual, auditory, or kinaesthetic style and learn better when teaching matches it. Pashler, McDaniel, Rohrer and Bjork (2008) set out what would support it, a crossover interaction where the best method for one style is not the best for another, and found virtually no evidence of that pattern despite a large literature.[15] Preferences exist; the benefit of matching does not show up.
+**Learning styles.** The claim: people have a visual, auditory, or kinaesthetic style and learn better when teaching matches it. Pashler, McDaniel, Rohrer and Bjork (2008) set out what would support it, a crossover interaction where the best method for one style is not the best for another, and found virtually no evidence of that pattern despite a large literature.[15] Preferences exist; the benefit of matching doesn't show up.
 
-Yet Dekker et al. (2012) found over 90 percent of surveyed UK and Dutch teachers endorsed the idea,[16] and Nancekivell, Shah and Gelman (2020) found that many believers treat styles as innate, brain-based essences, which helps explain why the belief resists evidence.[17] This is not contested among researchers, so it does not get both sides.
+Yet Dekker et al. (2012) found over 90 percent of surveyed UK and Dutch teachers endorsed the idea,[16] and Nancekivell, Shah and Gelman (2020) found that many believers treat styles as innate, brain-based essences, which helps explain why the belief resists evidence.[17] This isn't contested among researchers, so it doesn't get both sides.
 
-**Hard fonts help.** The idea that a difficult-to-read typeface makes you process text more deeply is the canonical undesirable difficulty. Lessons 1, 5 and 7 gave Bjork and Bjork's condition: a difficulty helps only if you can meet it. This lesson adds the other half: it also has to engage the processing that builds the memory, as retrieval and mixed sets do. A hard font does neither. Rummer, Schweppe and Schwede (2016) found no benefit across three experiments.[18] A meta-analysis of 25 studies by Xie, Zhou and Liu (2018) put the effect near zero (d = −0.01 for recall, 0.03 for transfer),[19] and a 2021 reanalysis that found errors in it still left the transfer estimate at zero.[20] Of the studies of the purpose-built font Sans Forgetica published between 2020 and 2022, three found no memory benefit at all,[21][22][23] and the rest found one only under conditions that do not resemble studying, such as when no test was expected or only for strong spellers.[24][25][26] Use a readable font.
+**Hard fonts help.** The idea that a difficult-to-read typeface makes you process text more deeply is the canonical undesirable difficulty. Lessons 1, 5 and 7 gave Bjork and Bjork's condition: a difficulty helps only if you can meet it. This lesson adds the other half: it also has to engage the processing that builds the memory, as retrieval and mixed sets do. A hard font does neither. Rummer, Schweppe and Schwede (2016) found no benefit across three experiments.[18] A meta-analysis of 25 studies by Xie, Zhou and Liu (2018) put the effect near zero (d = −0.01 for recall, 0.03 for transfer),[19] and a 2021 reanalysis that found errors in it still left the transfer estimate at zero.[20] Of the studies of the purpose-built font Sans Forgetica published between 2020 and 2022, three found no memory benefit at all,[21][22][23] and the rest found one only under conditions that don't resemble studying, such as when no test was expected or only for strong spellers.[24][25][26] Use a readable font.
 
-**Handwriting beats typing.** Mueller and Oppenheimer (2014) reported that longhand note-takers beat laptop note-takers on conceptual questions, and the result travelled everywhere.[27] Two direct replications found no reliable advantage: Morehead, Dunlosky and Rawson (2019),[28] and Urry et al. (2021), with 142 participants and a mini-meta-analysis of eight studies.[29] Lesson 2 still holds: notes that reconstruct beat notes that copy, and copying is easier on a keyboard. But the medium is not the mechanism.
+**Handwriting beats typing.** Mueller and Oppenheimer (2014) reported that longhand note-takers beat laptop note-takers on conceptual questions, and the result travelled everywhere.[27]
+
+:::predict Two teams later ran direct replications of that study, one of them with 142 participants plus a mini-meta-analysis of eight studies. Given what you know about how findings like this usually fare, what do you predict they found?
+No reliable advantage for longhand, in either replication: Morehead, Dunlosky and Rawson (2019),[28] and Urry et al. (2021), with 142 participants and a mini-meta-analysis of eight studies.[29]
+:::
+
+Lesson 2 still holds: notes that reconstruct beat notes that copy, and copying is easier on a keyboard. But the medium isn't the mechanism.
 
 **Ten percent of the brain; left-brain versus right-brain.** Both sit in the Deans for Impact misconceptions table, produced with Willingham.[30] Imaging shows activity throughout the brain and damage almost anywhere costs something, so there is no idle 90 percent. And Nielsen et al. (2013) looked for "left-brained" and "right-brained" people in resting-state scans of 1,011 individuals and found lateralisation in particular connections, not in whole people.[31]
 
@@ -131,9 +159,13 @@ Yeager and Dweck's position, set out in Yeager et al. (2019) in *Nature* and Yea
 
 Sisk et al. (2018) and Macnamara and Burgoyne (2023) read it differently:[34][35] across 43 intervention studies Sisk found an average effect of d = 0.08; across 63 studies with 97,672 participants Macnamara and Burgoyne found d = 0.05, falling to 0.02 in the six studies they rated best designed. On this reading the effect shrinks as design quality rises, which they treat as the signature of design flaws and bias rather than of hidden moderators, and the honest average is close to nothing.
 
-What would settle it is more preregistered, third-party, adequately powered trials with moderators specified in advance. Until then, the calibrated statement is: across all studies the average effect is small (d of about 0.05 to 0.08), and the dispute is over whether that average is the right summary. One camp reads it as real effects concentrated in identifiable students and schools, diluted by weaker studies; the other reads it as a near-zero true effect inflated by weaker studies. That is different from both the poster version and the debunking version.
+What would settle it is more preregistered, third-party, adequately powered trials with moderators specified in advance. Until then, the calibrated statement is: across all studies the average effect is small (d of about 0.05 to 0.08), and the dispute is over whether that average is the right summary. One camp reads it as real effects concentrated in identifiable students and schools, diluted by weaker studies; the other reads it as a near-zero true effect inflated by weaker studies. That's different from both the poster version and the debunking version.
 
-For your own study, the disputed part is whether being told "ability grows" changes anything. The part both camps report is that where effects appeared at all, they appeared where the surrounding environment reinforced the message. That is the same lesson as the phone in the other room: the situation does more than the resolution.
+For your own study, the disputed part is whether being told "ability grows" changes anything. The part both camps report is that where effects appeared at all, they appeared where the surrounding environment reinforced the message. That's the same lesson as the phone in the other room: the situation does more than the resolution.
+
+:::checkpoint Both camps in the growth-mindset dispute accept the same numbers. What do they actually disagree about?
+They agree the average effect across all studies is small, about d = 0.05 to 0.08. They disagree about whether that average is the right summary. Yeager and Dweck read it as real effects concentrated in particular students and schools, diluted by weaker studies. Macnamara and Burgoyne read it as a near-zero true effect inflated by weaker studies. That's what makes it contested rather than a myth.
+:::
 
 ## The system: a week-plan template
 
@@ -148,13 +180,23 @@ Everything above feeds one deliverable: a week of study that spaces, interleaves
 
 The tag in step 2 decides the technique. List-like material gets spaced retrieval and not interleaving, because Brunmair and Richter (2019) found interleaving harms word lists (g of minus 0.39).[36] Problem types get interleaved sets. Prose gets free recall on the way out, and self-explanation on the way in once you have enough background to explain with: Dunlosky et al. (2013) found its effects grow with prior knowledge and are uncertain without it (lesson 6),[37] so for the first week of a new subject, read and recall, and add the "why is that true?" prompts from the second. Skills get deliberate practice with a feedback source (lesson 7).
 
+:::checkpoint You're learning 200 French words and a set of French grammar rules. Which of the two gets interleaved, and why not the other?
+The grammar rules: they're problem types, so mixing them forces you to pick which rule applies. The words don't get interleaved, because they're a list, and Brunmair and Richter found interleaving harms word lists (g of minus 0.39). The words get spaced retrieval on their own.
+:::
+
 ## Worked example: five hours, three subjects
 
-Say you have three things on: Spanish vocabulary for a trip in eight weeks, a statistics module with an exam in five weeks, and a history course you are reading for its own sake. Five hours a week, 300 minutes.
+Say you have three things on: Spanish vocabulary for a trip in eight weeks, a statistics module with an exam in five weeks, and a history course you're reading for its own sake. Five hours a week, 300 minutes.
 
-Gaps first. The exam is 35 days out, so 10 to 20 percent gives a gap of three and a half to seven days: touch statistics at least twice a week. One caution on the rule itself: it is the course's simplification of Cepeda et al. (2008), whose own five-week condition found the best single gap nearer eleven days and whose data say gaps that are too short cost more than gaps that are too long.[38] So twice a week is a floor for a topic you have just met, not a target to exceed for its own sake.
+Gaps first. The exam is 35 days out, so 10 to 20 percent gives a gap of three and a half to seven days: touch statistics at least twice a week. One caution on the rule itself. It's the course's simplification of Cepeda et al. (2008), whose own five-week condition found the best single gap nearer eleven days and whose data say gaps that are too short cost more than gaps that are too long.[38] So twice a week is a floor for a topic you've just met, not a target to exceed for its own sake.
 
-The trip is 56 days out, gap of six to eleven days, but vocabulary is high-volume, so two short sessions beat one long one. The history has no deadline; treat it as a one-year horizon, where Cepeda et al. put the optimal gap at 5 to 10 percent, roughly three to five weeks.[38] So each week's chapter gets its spaced review about a month later; the shorter recall you will see on Fridays is a check that keeps the chapter warm, not the spaced review itself.
+Now do the next one yourself before reading on. The trip is 56 days out. Apply the same rule and write down the gap, then decide how you'd split the vocabulary time.
+
+:::checkpoint The trip is 56 days out. What gap does the rule give, and how would you split the time?
+Ten to twenty percent of 56 days is a gap of six to eleven days. But vocabulary is high-volume, so two short sessions beat one long one, and the plan below gives Spanish two 30-minute slots rather than one hour.
+:::
+
+The history has no deadline; treat it as a one-year horizon, where Cepeda et al. put the optimal gap at 5 to 10 percent, roughly three to five weeks.[38] So each week's chapter gets its spaced review about a month later. The shorter recall you'll see on Fridays is a check that keeps the chapter warm, not the spaced review itself.
 
 The blocks, each with its cue and its "done":
 
@@ -170,7 +212,7 @@ The blocks, each with its cue and its "done":
 
 Sunday's "criterion" is Rawson and Dunlosky's (2011) prescription: three correct recalls the first time an item is learned, then one correct recall in each later spaced session.[39]
 
-That is 300 minutes. Notice where interleaving lives: statistics problem types are mixed within Thursday's block, but the Spanish cards are not, because they are a word list. Spreading subjects across the week is spacing, not interleaving; the plan uses both. Drop rule: if the week collapses, Saturday's free recall survives and Wednesday's new chapter goes, because a missed retrieval breaks a spacing gap you cannot get back (lesson 4), while a missed chapter is only a week's delay.
+That's 300 minutes. Notice where interleaving lives: statistics problem types are mixed within Thursday's block, but the Spanish cards aren't, because they're a word list. Spreading subjects across the week is spacing, not interleaving; the plan uses both. Drop rule: if the week collapses, Saturday's free recall survives and Wednesday's new chapter goes, because a missed retrieval breaks a spacing gap you can't get back (lesson 4), while a missed chapter is only a week's delay.
 
 ## A harder example: 45 minutes a day, on a phone, on a train
 
@@ -178,7 +220,7 @@ Now the wrinkle: no desk time on weekdays, two train legs of about 22 minutes, s
 
 What fits. Spaced retrieval of cards or the site's Review page fits a leg exactly: short items, no paper, tolerant of interruption. Typed free recall fits too: open a notes app, write what you remember of the statistics you last studied, check against the notes only afterwards. Audio fits with one rule: pause every ten minutes and recall what was said, because listening without retrieval is rereading with your ears. Self-explanation of a prose passage fits, typed as answers to "why is that true?".
 
-What does not fit. Worked-example cycles need paper, sustained working memory, and few interruptions; a train supplies none, and lesson 2 says every interruption is extraneous load. Deliberate practice of a performed skill needs the skill and a feedback source. Long writing needs a keyboard. So stage the week: the commute carries retrieval and spacing, and one 60-minute desk block at the weekend carries the worked examples and the mixed problem set the week's retrieval has been preparing you for.
+What doesn't fit. Worked-example cycles need paper, sustained working memory, and few interruptions; a train supplies none, and lesson 2 says every interruption is extraneous load. Deliberate practice of a performed skill needs the skill and a feedback source. Long writing needs a keyboard. So stage the week: the commute carries retrieval and spacing, and one 60-minute desk block at the weekend carries the worked examples and the mixed problem set the week's retrieval has been preparing you for.
 
 Ten legs and one desk block, 280 minutes:
 
@@ -198,14 +240,14 @@ Ten legs and one desk block, 280 minutes:
 
 Check the gaps. A statistics topic met on Saturday is retrieved Monday, Tuesday, Thursday and the next Saturday: gaps of two to three days, inside the exam's window, and it re-enters the mixed set every week after that. Spanish cards run three times a week with the app setting the per-card gap. Every slot has a cue: the train doors closing.
 
-The phone is the catch: the single-tasking problem and the environment-design problem in one object. So: Do Not Disturb for the leg, the review app on the home screen, the chat apps in a folder, and the if-then plan cued by the doors. If the leg still goes to messages, that is data, and the answer is a further environment change, not more resolve.
+The phone is the catch: the single-tasking problem and the environment-design problem in one object. So: Do Not Disturb for the leg, the review app on the home screen, the chat apps in a folder, and the if-then plan cued by the doors. If the leg still goes to messages, that's data, and the answer is a further environment change, not more resolve.
 
-And the 45 minutes is not "too short to be worth it". Two retrieval blocks a day is a better week than one three-hour reread on Sunday. Roediger and Karpicke's 2006 result from lesson 1 is the reason: at one week the tested group held 56 percent against 42 percent for the restudiers, and extra rereading time does not change which side of that line you are on.[40]
+And the 45 minutes isn't "too short to be worth it". Two retrieval blocks a day is a better week than one three-hour reread on Sunday. Roediger and Karpicke's 2006 result from lesson 1 is the reason: at one week the tested group held 56 percent against 42 percent for the restudiers, and extra rereading time doesn't change which side of that line you're on.[40]
 
 ## What people get wrong
 
 - **"I need long uninterrupted blocks or it's pointless."** The evidence in this course is about gaps and retrieval, not block length. A 20-minute block that retrieves beats a two-hour block that rereads.
-- **"I'd notice if it wasn't working."** Kornell and Bjork (2008) showed 72 people their own results from two study methods; 64 still said the worse one had worked better.[41] Seeing the data is not enough. The plan has to be written before you consult your judgement, which is the point of step 4 of the template.
+- **"I'd notice if it wasn't working."** Kornell and Bjork (2008) showed 72 people their own results from two study methods; 64 still said the worse one had worked better.[41] Seeing the data isn't enough. The plan has to be written before you consult your judgement, which is the point of step 4 of the template.
 - **"I'll be more disciplined this term."** Discipline is a goal intention. The literature's answer is cues, small first steps, and a changed environment, none of which require you to be a different person.
 - **"Sleep will consolidate it, so I can skip the review."** Consolidation is real and smaller than advertised. Review anyway.
 
@@ -214,11 +256,11 @@ And the 45 minutes is not "too short to be worth it". Two retrieval blocks a day
 :::exercise Write next week's plan
 Using the six-step template, write your actual plan for next week. Real hours. Each subject tagged by material type. A gap from its horizon. Every block with an if-then cue, a technique from lessons 3 to 7, and a definition of done. One free-recall session. One drop rule.
 
-Then, before you study anything, write a ten-question self-test on the subject you care most about, with the answers on a separate sheet. Make at least three of the questions things you cannot do today, so the test can detect learning. Date it and seal it: an envelope, a file you do not open, a note you hand to someone else. On day 14 of the two-week project you will retake it closed-book, then open the answers and score it. This plan and this sealed test are the project's first deliverables; the project brief has the rubric.
+Then, before you study anything, write a ten-question self-test on the subject you care most about, with the answers on a separate sheet. Make at least three of the questions things you can't do today, so the test can detect learning. Date it and seal it: an envelope, a file you don't open, a note you hand to someone else. On day 14 of the two-week project you'll retake it closed-book, then open the answers and score it. This plan and this sealed test are the project's first deliverables; the project brief has the rubric.
 :::
 
 :::exercise Spaced review
-Without looking back, answer on a blank page: what were the two-day results in Roediger and Karpicke's study, for the tested group and the restudy group (lesson 1)? What is successive relearning (lesson 3)? What gap does a 30-day horizon imply (lesson 4)? Lesson 7 gave one condition a difficulty must meet to be desirable: state it, then use it plus this lesson's second condition to say why a mixed problem set (lesson 5) passes and a hard font fails. Check only after you have written all four.
+Without looking back, answer on a blank page: what were the two-day results in Roediger and Karpicke's study, for the tested group and the restudy group (lesson 1)? What is successive relearning (lesson 3)? What gap does a 30-day horizon imply (lesson 4)? Lesson 7 gave one condition a difficulty must meet to be desirable: state it, then use it plus this lesson's second condition to say why a mixed problem set (lesson 5) passes and a hard font fails. Check only after you've written all four.
 :::
 
 ## Connections
@@ -227,10 +269,10 @@ This lesson is where the course turns from findings into a routine. Lesson 1's f
 
 ## Go deeper
 
-- **Gollwitzer, "Implementation Intentions: Strong Effects of Simple Plans", *American Psychologist* 54 (1999)** — the original statement of if-then planning, short and readable.
-- **Cordi and Rasch, "How robust are sleep-mediated memory benefits?", *Current Opinion in Neurobiology* 67 (2021)** — researchers honestly resizing their own finding; a model of calibrated science.
-- **Pashler, McDaniel, Rohrer and Bjork, "Learning Styles: Concepts and Evidence", *Psychological Science in the Public Interest* 9 (2008)** — read it for the crossover test itself, which you can apply to any future "styles" claim.
-- **Deans for Impact, *The Science of Learning* (2nd ed., 2026; free PDF)** — the one-page misconceptions table is the fastest check on any study advice you encounter.
+- **Gollwitzer, "Implementation Intentions: Strong Effects of Simple Plans", *American Psychologist* 54 (1999)**: the original statement of if-then planning, short and readable.
+- **Cordi and Rasch, "How robust are sleep-mediated memory benefits?", *Current Opinion in Neurobiology* 67 (2021)**: researchers honestly resizing their own finding; a model of calibrated science.
+- **Pashler, McDaniel, Rohrer and Bjork, "Learning Styles: Concepts and Evidence", *Psychological Science in the Public Interest* 9 (2008)**: read it for the crossover test itself, which you can apply to any future "styles" claim.
+- **Deans for Impact, *The Science of Learning* (2nd ed., 2026; free PDF)**: the one-page misconceptions table is the fastest check on any study advice you encounter.
 
 ## Sources
 

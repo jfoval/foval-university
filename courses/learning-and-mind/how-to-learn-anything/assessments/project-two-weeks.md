@@ -29,7 +29,7 @@ Choose something you're near the start of. If you already know it well, the test
 Your plan uses **at least three** of these five techniques. Name each one, and say concretely what it looks like in your subject:
 
 - **Retrieval** (lesson 3): what you'll retrieve, how (free recall on a blank page, flashcards, self-set questions, the site's Review page), and when in each session.
-- **Spacing** (lesson 4): the horizon you're aiming at, the gap you've calculated from it, and the actual dates. For a 14-day project with a test on day 14, a gap of 2 to 3 days is in the 10–20% range from Cepeda et al. (2008).
+- **Spacing** (lesson 4): the horizon you're aiming at, the gap you've calculated from it, and the actual dates. For a 14-day project with a test on day 14, a gap of 2 to 3 days fits the 10–20% rule of thumb (Carpenter et al. 2012). It also sits inside the data the rule was drawn from: Cepeda et al. (2008) found a one-day gap best for a test one week away and an 11-day gap best for one five weeks away, and too-short gaps cost more than too-long ones. If in doubt, go longer.
 - **Interleaving** (lesson 5): which confusable things you'll mix, and a note that they are confusable. If your subject has nothing confusable in it, say so and don't force it; interleaving unrelated material doesn't help.
 - **Worked examples and self-explanation** (lesson 6): which solutions or passages you'll study before attempting, and the self-explanation prompts you'll use.
 - **Deliberate practice** (lesson 7): the specific sub-skill you can't yet do, the drill, and the feedback source.
@@ -75,7 +75,7 @@ What goes in each column:
 
 - **Date.** The actual date, so the gaps can be checked against your plan.
 - **Minutes.** Real minutes, not planned ones. Twelve is a valid entry.
-- **Technique(s) used.** From the five above. If you did something else (reread, watched a video), write that too; it's not a failure, it's data.
+- **Technique(s) used.** From the five above. If you did something else (reread, watched a video), write that too. A reread session is data, and the reflection will need it.
 - **What was retrieved / spaced / interleaved.** Specifics. Not "vocabulary" but "the 15 preterite forms from Monday, recalled on paper, got 11". Not "spacing" but "second pass on chapter 3, three days after the first". This column is what the reflection will be built from.
 - **One honest note.** One sentence. What was hard, what you skipped, what surprised you, what felt like it wasn't working. "Felt fluent, then got 4/10 on recall" is the most useful kind of note you can write, because it's lesson 1 happening to you.
 

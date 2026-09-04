@@ -59,29 +59,49 @@ quiz:
 
 The proof runs a page and a half. The mechanism has seven arrows. The case-law paragraph has one sentence nine lines long. You read it, you follow it, you nod, and then you turn the page and cannot say what it said.
 
-Lessons 3 to 5 gave you tools for holding on to things you already understand. This lesson is about the step before that: getting a hard thing into your head at all. The research says that for a beginner learning a procedure, studying a solution beats attempting the problem unguided, that this stops being true as you improve, and that the difference between reading an explanation and understanding it is a specific, learnable habit.
+Lessons 3 to 5 gave you tools for holding on to things you already understand. This lesson is about the step before that: getting a hard thing into your head at all. The research says three things, and each comes with a limit. For a beginner learning a procedure, studying a solution beats attempting the problem unguided. That stops being true as you improve. And the difference between reading an explanation and understanding it is a specific habit you can learn.
 
 ## The core idea
 
-Three findings, each with a limit.
+Start in an algebra classroom. Sweller and Cooper (1985) gave Year 9 algebra students pairs of similar problems. One group solved both. The other group studied the first as a worked solution and then solved the second.
 
-**Worked examples beat unguided problem-solving for novices.** Sweller and Cooper (1985) gave Year 9 algebra students pairs of similar problems. One group solved both; the other studied the first as a worked solution and then solved the second. In the key experiment, the students who had studied worked examples solved the test problems in about 44 seconds each against 78 seconds for those who had practised by solving, and made 0.18 mathematical errors per problem against 1.64.[1] Note the design: not "reading instead of doing", but a worked example immediately followed by a problem of the same type. The boundary: the advantage did not extend to problems that used the same algebraic moves in a different order. The worked example taught the pattern shown, not the general skill.
+:::predict Which group did better on the test problems, and by roughly how much?
+The group that had studied worked examples, by a wide margin. In the key experiment they solved the test problems in about 44 seconds each against 78 seconds for those who had practised by solving, and made 0.18 mathematical errors per problem against 1.64.[1]
+:::
 
-**The benefit reverses as you gain expertise.** Kalyuga and colleagues (2003) named the expertise-reversal effect: guidance that helps a novice becomes redundant for a more knowledgeable learner and can actively harm one who already has the pattern, because processing an explanation you no longer need costs working memory that could go on the task.[2] The same worked example that builds the schema in week one is dead weight once the schema exists.
+Look at the design before you take a lesson from it. This wasn't "reading instead of doing". It was a worked example immediately followed by a problem of the same type. And there's a boundary: the advantage did not extend to problems that used the same algebraic moves in a different order. The worked example taught the pattern shown, not the general skill.
 
-**Explaining to yourself is what turns reading into understanding.** Chi and colleagues (1989) recorded eight university students with no college physics working through a mechanics text and its worked examples, thinking aloud. The students who went on to do well explained each step to themselves as they read, asking what it was for and why it followed, and they noticed accurately when they were lost. The students who did poorly seldom noticed when they hadn't understood; when they later got stuck on problems they went back and reread the example, searching for a line to use.[3] That study could not tell whether the habit caused the difference or better students simply had it, so Chi and colleagues (1994) prompted ordinary eighth-graders to explain a text on the circulatory system to themselves, sentence by sentence; the fourteen who were prompted learned more than the ten who read the text twice.[4] Bisra and colleagues (2018) pooled the later studies of prompted self-explanation and found a moderate overall benefit, g = 0.55 across 69 effect sizes.[10] A related habit, elaborative interrogation, comes from Pressley and colleagues (1987): as you read a claim, ask "why would that be true?" and answer it.[5] Dunlosky and colleagues (2013) rate both self-explanation and elaborative interrogation as moderate utility, mainly because neither has been adequately tested in real classrooms, and add a condition for elaborative interrogation: its effects grow with prior knowledge and are uncertain for learners who have little.[6]
+The second finding is that the benefit reverses as you gain expertise. Kalyuga and colleagues (2003) named this the expertise-reversal effect. Guidance that helps a novice becomes redundant for a more knowledgeable learner, and it can actively harm one who already has the pattern, because processing an explanation you no longer need costs working memory that could go on the task.[2] The same worked example that builds the schema in week one is dead weight once the schema exists.
+
+The third finding is about what happens while you read. Chi and colleagues (1989) recorded eight university students with no college physics working through a mechanics text and its worked examples, thinking aloud. The students who went on to do well explained each step to themselves as they read, asking what it was for and why it followed, and they noticed accurately when they were lost.
+
+:::predict The students who did poorly later got stuck on problems. What did they do then?
+They went back and reread the example, searching for a line to use. And while reading, they had seldom noticed when they hadn't understood.[3]
+:::
+
+That study couldn't tell whether the habit caused the difference or whether better students simply had it. So Chi and colleagues (1994) prompted ordinary eighth-graders to explain a text on the circulatory system to themselves, sentence by sentence. The fourteen who were prompted learned more than the ten who read the text twice.[4] Bisra and colleagues (2018) pooled the later studies of prompted self-explanation and found a moderate overall benefit, g = 0.55 across 69 effect sizes.[10]
+
+There's a related habit, elaborative interrogation, which comes from Pressley and colleagues (1987): as you read a claim, ask "why would that be true?" and answer it.[5] Dunlosky and colleagues (2013) rate both self-explanation and elaborative interrogation as moderate utility, mainly because neither has been adequately tested in real classrooms. They add a condition for elaborative interrogation: its effects grow with prior knowledge and are uncertain for learners who have little.[6] Keep that condition in mind. It comes back later.
+
+:::checkpoint Sweller and Cooper's example-first students were faster and more accurate on the test. What kind of test problem did the advantage not reach?
+Problems that used the same algebraic moves in a different order. The example taught the pattern shown, not the general skill.[1]
+:::
 
 ## Why it works: cognitive load
 
 Lesson 2 gave you the machinery. Working memory holds about four chunks; long-term memory is where the chunks live; learning is building new chunks out of what passes through the small space.
 
-Now put a novice in front of a problem. She doesn't have the pattern yet, so she has to search: try a move, check whether it got closer to the goal, back up, try another. Every attempt occupies working memory. Sweller's account is that searching for a solution and building the schema compete for the same space, and a novice mid-search has little working memory left for the second.[1][7] The novice may even reach the answer, but she spent her working memory on getting there rather than on noticing how, so she can't do it again.
+Now put a novice in front of a problem. She doesn't have the pattern yet, so she has to search: try a move, check whether it got closer to the goal, back up, try another. Every attempt occupies working memory. Sweller's account is that searching for a solution and building the schema compete for the same space, and a novice mid-search has little working memory left for the second.[1][7] She may even reach the answer, but she spent her working memory on getting there rather than on noticing how, so she can't do it again.
 
 A worked example removes the search. The pattern is on the page: here is the move, here is why, here is the next move. Working memory is free to do the one thing that matters, which is to build the chunk. That is the worked-example effect, and the cognitive-load account explains its boundary too. The chunk built is the one shown. A problem that requires a different move exposes that the learner has a pattern, not yet a method.
 
 It also explains the reversal. A learner who already has the chunk gains nothing from reading a full explanation: it means processing information that is already in long-term memory and reconciling it with what she knows, which is work with no payoff. For her, the problem is the better exercise, because attempting it now exercises the schema rather than searching for one.
 
 Self-explanation works on a different gap. Every explanation ever written skips steps. The author, who understands, doesn't see the gaps; the reader, who doesn't, falls into them without noticing, because a skipped step doesn't announce itself. Asking "why does this line follow from the last one?" forces you to reconstruct the missing step, and the moment you can't is the moment you have found where your understanding actually stops. Chi's 1989 study can't say whether the good students were cleverer; what it recorded was that they kept checking, and the 1994 study showed that students told to check learned more.
+
+:::checkpoint Why does the same worked example that helps in week one start to cost later on?
+Once the pattern is in long-term memory, reading a full explanation means processing information you already have and reconciling it with what you know. That uses working memory with no payoff. It's the expertise-reversal effect, and it's why the problem becomes the better exercise once the schema exists.[2]
+:::
 
 :::callout What "germane load" means now
 Older writing presents "germane load" as a third kind of load alongside intrinsic and extraneous. In 2010 Sweller redefined it as the working-memory resources you devote to the material's intrinsic load, not a separate load, and the theory's authors restated that in their 2019 review.[7][11] The reason: intrinsic and extraneous load could each be defined by element interactivity, how many things must be held in mind at once, but a free-standing germane load could not, which left it unmoored from the rest of the theory. Tying it to intrinsic load fixed that. In plain terms: cut the extraneous, then spend what's left on the hard part. Worked examples and self-explanation are two ways of doing that.
@@ -102,7 +122,13 @@ Read that as Chi's good students would. Why expand first? Because the bracket hi
 
 **Stage 2: attempt a near-transfer problem.** Solve 5(*x* − 2) = 3*x* + 4.
 
-The moves are the same in the same order, with one extra step at the end: expand (5*x* − 10 = 3*x* + 4), collect *x* (2*x* − 10 = 4), collect numbers (2*x* = 14), and now divide, because the *x*-coefficient didn't collapse to 1 this time (*x* = 7), then check (25 = 25). If Stage 1 went in, this feels almost mechanical. That's the Sweller and Cooper result: faster, fewer errors, on problems that share the studied pattern.
+The moves are the same in the same order. Expand first: 5*x* − 10 = 3*x* + 4. Now stop and do the next two moves yourself, on paper, before you read on.
+
+:::checkpoint From 5*x* − 10 = 3*x* + 4, what are the next two moves, and what is *x*?
+Collect *x* (2*x* − 10 = 4), then collect numbers (2*x* = 14). Then there's one extra step the example didn't need: divide, because the *x*-coefficient didn't collapse to 1 this time (*x* = 7). Check: 25 = 25.
+:::
+
+If Stage 1 went in, that felt almost mechanical. That's the Sweller and Cooper result: faster, fewer errors, on problems that share the studied pattern.
 
 **Stage 3: attempt a varied problem.** Solve (*x* + 3) / 2 = *x* − 1.
 
@@ -132,6 +158,10 @@ Two gaps in one sentence, both invisible on a straight read. The first you could
 
 Notice also what the pass required: you had to already know what working memory is. Without lesson 2, "why is that true?" has nothing to grip. That's the prior-knowledge condition Dunlosky attaches to elaborative interrogation.[6] On material where you have no base at all, the honest order is: get some facts and cases in first (retrieval practice on the basics), then come back and interrogate.
 
+:::checkpoint The pass found two gaps in one sentence. What made the first one fillable by thinking, and the second one not?
+The first ("manage" rather than "reduce") you could work out from what you already knew: you can't cut the number of interacting elements without changing what's taught, only sequence them. The second (why germane load was folded into intrinsic) isn't in the sentence and can't be rebuilt from it. You had to go to Sweller's 2010 paper and the 2019 review.[7][11] Finding a gap and deciding which kind it is are both part of the habit.
+:::
+
 ## What people get wrong
 
 **"Struggling first is always best."** It's the most common misreading of desirable difficulties. Lesson 1 gave the rule: a difficulty is desirable only if you can meet it. A novice searching for moves she doesn't have is not meeting a difficulty; she's spending working memory on search. Worked examples first. The struggle comes later, on purpose, when you fade. There is a designed version of struggling first, Kapur's "productive failure", in which the problem is chosen to expose what you don't know and is always followed by a full explanation; whether that beats examples-first for understanding is a live research question, discussed below, and it is not what 40 unguided minutes on a problem set is.
@@ -152,9 +182,19 @@ Kirschner, Sweller and Clark (2006) argued that instruction with minimal guidanc
 
 Part of the disagreement is definitional: the two sides don't mean the same thing by "guidance". Part is empirical and open: how much structure, of what kind, at which stage. What would settle it is trials that specify the scaffolding precisely, measure prior knowledge, and measure the outcomes each side cares about, including delayed transfer and reasoning as well as immediate content tests, so that "problem-based" stops being one label for unguided and richly guided designs alike.
 
-There is a second, more recent form of the same dispute, and it bears directly on this lesson. Kapur and colleagues argue for "productive failure": novices first attempt a carefully designed problem, usually in groups, and only then receive the full explanation. Sinha and Kapur's 2021 meta-analysis of 53 studies found that problem-solving followed by instruction beat instruction followed by problem-solving, g = 0.36, and more when the design followed the productive-failure principles closely.[13] The cognitive-load side disputes this, and the two literatures differ in what they measure: the worked-example studies measure procedural performance on the taught problem type; the productive-failure studies mostly report conceptual understanding and transfer. Whether a designed attempt before instruction can beat examples-first for understanding is open, and it depends on how the attempt is structured and what is tested.
+There is a second, more recent form of the same dispute, and it bears directly on this lesson. Kapur and colleagues argue for "productive failure": novices first attempt a carefully designed problem, usually in groups, and only then receive the full explanation. Sinha and Kapur (2021) pooled 53 studies that compared the two orders, problem-solving then instruction against instruction then problem-solving.
+
+:::predict Given everything above about novices and search, which order do you expect won?
+Problem-solving followed by instruction beat instruction followed by problem-solving, g = 0.36, and by more when the design followed the productive-failure principles closely.[13] If that surprises you, good. The next paragraph is about why it may not contradict the worked-example result.
+:::
+
+The cognitive-load side disputes this, and the two literatures differ in what they measure: the worked-example studies measure procedural performance on the taught problem type; the productive-failure studies mostly report conceptual understanding and transfer. Whether a designed attempt before instruction can beat examples-first for understanding is open, and it depends on how the attempt is structured and what is tested.
 
 What isn't seriously disputed is the piece this lesson rests on. For a novice learning a procedure, studying worked examples beats unguided attempts at the same kind of problem, and guidance should fade with expertise. Neither Kirschner, Sweller and Clark nor Hmelo-Silver, Duncan and Chinn dispute that novices need support or that it should fade. The argument is about the rest.
+
+:::checkpoint After all that disagreement, what do both sides still accept?
+That novices need support and that it should fade as expertise grows. The argument is about how much guidance, of what kind, at which stage, and measured on which outcomes. The claim this lesson rests on, that for a novice learning a procedure worked examples beat unguided attempts at the same kind of problem, sits inside the agreed part.
+:::
 
 ## Practice
 
@@ -179,10 +219,10 @@ Lesson 7 takes the same logic to skills: the worked example becomes a demonstrat
 
 ## Go deeper
 
-- **Sweller, van Merriënboer & Paas, "Cognitive Architecture and Instructional Design: 20 Years Later", *Educational Psychology Review* 31 (2019)** — the theory's authors restating it with its effects, including worked examples and expertise reversal, in one paper.
-- **Chi, Bassok, Lewis, Reimann & Glaser, "Self-Explanations", *Cognitive Science* 13 (1989)** — the original protocol study. The transcripts of good and poor students are the clearest picture of what self-explanation actually looks like.
-- **Dunlosky, "Strengthening the Student Toolbox", *American Educator* (Fall 2013)** — free via ERIC. The plain-English ratings of all ten techniques, including why elaborative interrogation and self-explanation are moderate rather than high.
-- **The *Educational Psychologist* 42(2) exchange (2007): Hmelo-Silver, Duncan & Chinn; Schmidt, Loyens, van Gog & Paas; Kuhn; and the Sweller, Kirschner & Clark reply**, following Kirschner, Sweller & Clark (2006) — read the whole exchange, not just one pair, to see a scientific disagreement conducted well and to decide for yourself how much of it is about definitions.
+- **Sweller, van Merriënboer & Paas, "Cognitive Architecture and Instructional Design: 20 Years Later", *Educational Psychology Review* 31 (2019).** The theory's authors restating it with its effects, including worked examples and expertise reversal, in one paper.
+- **Chi, Bassok, Lewis, Reimann & Glaser, "Self-Explanations", *Cognitive Science* 13 (1989).** The original protocol study. The transcripts of good and poor students are the clearest picture of what self-explanation actually looks like.
+- **Dunlosky, "Strengthening the Student Toolbox", *American Educator* (Fall 2013).** Free via ERIC. The plain-English ratings of all ten techniques, including why elaborative interrogation and self-explanation are moderate rather than high.
+- **The *Educational Psychologist* 42(2) exchange (2007): Hmelo-Silver, Duncan & Chinn; Schmidt, Loyens, van Gog & Paas; Kuhn; and the Sweller, Kirschner & Clark reply**, following Kirschner, Sweller & Clark (2006). Read the whole exchange rather than a single pair, to see a scientific disagreement conducted well and to decide for yourself how much of it is about definitions.
 
 ## Sources
 
