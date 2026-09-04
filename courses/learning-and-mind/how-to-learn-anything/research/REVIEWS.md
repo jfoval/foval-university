@@ -143,3 +143,168 @@ Verified without issue: all 13 bibliographic entries incl. the six flagged by th
 37. Fixed: Q1 stem asks one question; Q3 key reworded (predict-then-check) so it is not a phrase match; exercise step 2 adds a last-week problem type.
 
 **Status after review:** needs second pass. Three fact errors (Sweller & Cooper figures and design, Chi 1989 description, Dunlosky attribution) and a neutrality misclassification (productive failure omitted) were found; the fixes are substantial and add three new sources. Recommend a second full review pass. Open for the owner: (a) SOURCES.md carries the wrong Sweller & Cooper figure and lacks Sweller 2010, Sweller/Kirschner/Clark 2007, Sinha & Kapur 2021, a concrete Kalyuga reversal study, and Tarmizi & Sweller 1988; (b) whether to swap the algebra worked example for one the reader cannot already do; (c) whether the lesson's quiz should stay at six items.
+
+---
+
+## 2026-09-04 — Lesson 08, "Running yourself" — Stage 4 review
+
+Four fresh-context passes (depth, fact-check, neutrality, pedagogy). Findings listed by reviewer with the resolution applied. Severity: S = severe, M = moderate, m = minor.
+
+### Depth
+
+- **S1** Procrastination tactics rest on four sources not in SOURCES.md and carry no numbers. *Resolved:* fact-checker verified all four (see below); Gollwitzer & Sheeran d = 0.65 across 94 tests, Steel 691 correlations and the four predictors, Duckworth et al. stated as an argument from a theoretical paper; all added to SOURCES.md under "Self-regulation" and cited in text.
+- **S2** Multitasking section has one adjective ("consistent") and no size. *Resolved:* text now says the review pools no effect size, reports direction and consistency, covers in-class and studying contexts, and adds the review's own finding that students misjudge the cost (from the abstract). No invented study count.
+- **S3** Pomodoro paragraph generic and admits it. *Resolved:* rewritten around what the evidence does fix (one stream, phone out of reach as situation change, retrieval as the block's end); Cirillo credited; Oakley "recommends", not "popularised".
+- **M1** Core idea buried in third paragraph. *Resolved:* section now opens with the one-sentence core idea; added Bjork, Dunlosky & Kornell 2013 (90% did better after spacing, 72% still preferred massing) as evidence.
+- **M2** Sleep: Walker unnamed; r = 0.07 not explained. *Resolved:* one restrained sentence names *Why We Sleep* and cites Guzey 2019; added the between-person vs within-person explanation of a small population r.
+- **M3** "Pending fact-check" leaked into body; Sans Forgetica unnamed. *Resolved:* removed; figures replaced with verified ones; six Sans Forgetica studies cited.
+- **M4** Mindset section gives the learner nothing to apply. *Resolved:* closing sentence links the peer-norms finding to environment design, in Yeager's own terms.
+- **M5** Prose tag hands beginners self-explanation without the prior-knowledge boundary. *Resolved:* boundary added, citing Dunlosky et al. 2013 and lesson 6.
+- **M6** Drop-rule reason is a slogan. *Resolved:* reason is now the unrecoverable spacing gap (lesson 4).
+- **M7** Harder example worked at half resolution. *Resolved:* ten-slot table added, 280-minute total stated, statistics gaps stated.
+- **M8** Misconception bullets restate the lesson. *Resolved:* "I can multitask" bullet replaced with "I'd notice if it wasn't working" using Kornell & Bjork's 64 of 72.
+- **m1** Opening flattery. *Resolved:* cut. **m2** "Two honest notes", "The advice is unexciting". *Resolved:* cut. **m3** Callout placement. *Resolved:* moved to end of sleep section. **m4** 10%/left-right brain gets no evidence. *Resolved:* two lines added; Nielsen et al. 2013 (1,011 scans) cited. **m5** "the site's Review page". *Rejected:* the page exists and lessons 3 and 4 describe it. **m6** Quiz answers recognisable by length. *Resolved:* see pedagogy. **m7** Spaced-review exercise answerable by scrolling. *Resolved:* asks for the two-day figures (68 vs 54), which appear nowhere in this lesson. **m8** Unused SOURCES.md details. *Partly resolved:* Bjork/Dunlosky/Kornell 2013 and Kornell & Bjork 2008 now used; WEIRD caveat already stated in lesson 3, not repeated; Ambrose principle 7 and PSYC 150 not added (no room, no loss).
+
+### Fact-check (37 claims checked; 8 wrong or overstated)
+
+- **Rummer et al. 2016 ran three experiments, not four.** *Resolved:* corrected in lesson; SOURCES.md correction appended.
+- **Xie et al. 2018 misreported.** Paper gives recall d = −0.01, transfer d = 0.03 (25 articles, 3,135 participants); Weissgerber, Brunmair & Rummer 2021 found coding errors, transfer robust, recall doubtful. *Resolved:* rewritten; both cited; "via secondary source" removed.
+- **"Five Sans Forgetica null studies" unsupportable as stated.** Three clean nulls (Taylor 2020; Wetzler 2021; Huff 2022), three conditional (Geller, Davis & Peterson 2020; Geller & Peterson 2021; Eskenazi & Nix 2021). *Resolved:* reworded to "three found no memory benefit at all, and the rest found one only under conditions that do not resemble studying"; all six cited.
+- **Gollwitzer & Sheeran under-reported** ("medium"; paper says medium-to-large, d = 0.65, 94 tests). *Resolved:* corrected. Participant count not quoted (only in secondary sources).
+- **Pomodoro attributed to Oakley.** *Resolved:* Cirillo credited.
+- **Deans for Impact "two-page" table.** It is one page (2nd ed., May 2026, p. 13). *Resolved:* corrected; edition dated.
+- **Dewald reported selectively** (only the weakest of three r's; sample is children and adolescents). *Resolved:* quality r ≈ 0.10 and sleepiness r ≈ −0.13 added; "children and adolescents".
+- **Uncited "tired session is a worse one".** *Resolved:* Lim & Dinges 2010 (70 articles; attention lapses g ≈ −0.78) cited and added to SOURCES.md.
+- **Cepeda 10–20% rule is a course simplification, not in the paper**; 35-day condition optimum ≈ 11 days; too-short gaps cost more than too-long. *Resolved:* worked example says so; Sources entry says so; the course convention from lesson 4 retained.
+- **History one-year plan contradicted itself** (3–5 weeks vs "a week later"). *Resolved:* the one-week recall is now labelled a check, the one-month recall the spaced review.
+- **Nancekivell overstated** (paper shows essentialist believers exist, not that essentialism is why the belief persists). *Resolved:* reworded.
+- **"Same lab" for Cordi & Rasch vs Rasch & Born.** *Resolved:* "Rasch, a co-author of that review".
+- Verified unchanged: all remaining journal details (May & Elder; Urry; Morehead; Yeager & Dweck 2020; Yeager 2019; Sisk; Macnamara & Burgoyne; Mueller & Oppenheimer; Pashler; Dekker 93%/96%; Brunmair g = −0.39; Rawson & Dunlosky; Rasch & Born; Cordi & Rasch SLEEP n = 159 and the exact quoted phrase; Cowan; Oakley chapters 5–6); arithmetic (3.5–7 days; 5.6–11.2 days; 300 minutes). Roediger & Karpicke 56/42 verified against SOURCES.md and lesson 1 only (Purdue PDF fetch failed).
+- Additional verification by the review coordinator: Nielsen et al. 2013, PLOS ONE 8(8) e71275, n = 1,011 (fetched); May & Elder abstract (fetched, via Semantic Scholar): effects "demonstrated during in-class activities (largely lectures) and while students are studying"; "students struggle to accurately assess the impact"; no pooled effect size in the abstract. Yeager 2019 abstract fetched: "short (less than one hour)", "improved grades among lower-achieving students", "when peer norms aligned"; the 0.10-grade-point figure is not in the abstract and is NOT quoted in the lesson.
+
+### Neutrality (perspectives checked: Yeager/Dweck; Macnamara/Burgoyne/Sisk; a teacher who believes in learning styles; Oakley and her readers; popular sleep-science advocates and a sleep researcher; handwriting advocates; a multitasking-causation sceptic; a learner with ADHD/sleep disorder/SpLD; teachers generally)
+
+- **HIGH (1)** Growth mindset: Position A lacked its strongest arguments (predicted heterogeneity; uneven-fidelity pooling; small-but-cheap-at-scale) while B's critique of A was present. *Resolved:* A's three arguments added in A's terms; B's reading of the quality gradient stated in B's terms for symmetry.
+- **HIGH (2)** "Calibrated statement" adopted B's unit of analysis ("small average effect"). *Resolved:* rewritten: the dispute is over whether the average is the right summary; both readings given.
+- **MEDIUM (3)** Quiz item said "best-designed" in author's voice; mindset sat under "The myths, named". *Resolved:* item rewritten (pedagogy); "the six studies Macnamara and Burgoyne rated best designed"; section retitled "The myths, named, and one contested question"; objective 4 reworded to distinguish myths from contested questions.
+- **MEDIUM (4)** Opening line sneered at teachers. *Resolved:* cut.
+- **MEDIUM (5)** "her chapters are mostly anecdote" (Oakley). *Resolved:* reworded: written for a general reader, carried on stories and metaphors, cites few studies.
+- **MEDIUM (6)** Sleep: "That part is established" contradicted "contested by what mechanism"; Dewald selective. *Resolved:* mechanism sentence now says SWS-specific share is in question; Dewald fixed as above; between-person limit stated.
+- **LOW (7)** Multitasking caveat mis-sized. *Resolved:* text now says effects were shown both in class and while studying (from the abstract) and that survey evidence is associational; the "What people get wrong" bullet that asserted causation flatly was replaced (see depth M8).
+- **LOW (8)** "learning disability" in UK usage. *Resolved:* "a specific learning difficulty such as dyslexia".
+- **LOW (9)** "It did not replicate" absolute. *Resolved:* "Two direct replications found no reliable advantage".
+- **LOW (10)** Draft notes visible to learners. *Resolved:* removed. **LOW (11)** "put them down", "refusing". *Resolved:* "test them", "avoiding".
+- Verdicts after fixes: growth mindset presented as contested with both positions in their own terms; learning styles not both-sided and no sneer at teachers who hold it.
+
+### Pedagogy
+
+- **HIGH (1)** Correct answer was the longest option in all six items (1.4x–3.0x). *Resolved:* all six items rewritten or rebalanced; options now within roughly 30 percent of each other and at least one distractor per item is also nuanced.
+- **HIGH (2)** Only one clean application item; Q2, Q5 lifted from the lesson's own examples. *Resolved:* new scenarios (compliance manual; Priya's bus; sleep-sync app; Leo's anatomy and bandaging; head teacher's two summaries); Q4 kept and rebalanced. Five of six are now application.
+- **HIGH (3)** Spaced-review exercise and body line credited lesson 7 with hard fonts and the "target processing" clause; neither appears before this lesson; mixed sets are lesson 5. *Resolved:* body attributes "can meet it" to Bjork & Bjork via lessons 1, 5, 7 and states "engages the target processing" as this lesson's addition; exercise reworded accordingly.
+- **MEDIUM (4)** Objectives: attention untested by any objective; objective 4 tested only by Q4; Q6 tested a non-myth. *Resolved:* objective 2 → "attention or procrastination tactic"; objective 3 → "Explain"; objective 4 → distinguishes myths from contested questions. Answer indices rechecked.
+- **MEDIUM (5)** Sealed self-test under-specified. *Resolved:* aligned with the project brief (assessments/project-two-weeks.md): answers on a separate sheet, at least three items you cannot do today, dated, sealed, retaken closed-book on day 14; project named.
+- **MEDIUM (6)** Template step 3 lacked the no-deadline rule; table rows lacked "done". *Resolved:* both added.
+- **LOW (7)** Long paragraphs; heavy table cells. *Resolved:* paragraphs split; Rawson & Dunlosky gloss moved out of the table into prose; cues kept short.
+- **LOW (8)** Q6 option 4 silly by its own explain. *Resolved:* replaced. Optional hard-font quiz item not adopted (would make seven items; its explain also repeated the "four experiments" error).
+
+### Convention
+
+- Body had zero bracketed citation markers. *Resolved:* every checkable claim now carries [n] keyed to the renumbered `## Sources` list (41 entries).
+
+### Severity call
+
+Findings were severe on two of the three axes the command names: wrong facts (Rummer count, Xie figure, Sans Forgetica count, Gollwitzer size, Pomodoro attribution, Deans for Impact page count) and a failed neutrality check on growth mindset (Position A under-argued; calibrated statement leaned B). Roughly a quarter of the body was flagged generic, under the one-third threshold. **A second full review pass after these fixes is recommended**, with the fact-checker re-verifying the new mindset paragraph, the Lim & Dinges figure, and the Sans Forgetica characterisation.
+
+### For a human decision
+
+1. Naming *Why We Sleep* and citing Guzey (2019), a blog essay, in a lesson: SOURCES.md says not to cite Walker; the lesson now names him only to say why. Strike the sentence if the owner prefers the earlier unnamed version.
+2. The course-wide 10–20% gap rule (lesson 4) is a simplification of Cepeda 2008, not a figure in the paper; the lesson now says so once. The owner may want lesson 4 to say the same.
+3. SOURCES.md line-level corrections (Rummer three experiments; Xie figures; Dewald sample; Cepeda rule; Deans for Impact edition) were appended as a correction note, not edited in place, per the append-only rule. Someone with edit rights should fold them in.
+4. Sources list is 41 entries; long but every one is load-bearing. Trim if the owner finds it heavy.
+
+## 2026-09-04 — Lesson 07 — depth / fact-check / neutrality / pedagogy
+**Reviewer:** four fresh-context subagents (depth, fact-check, neutrality, pedagogy), then the review coordinator, who verified the additional claims proposed by reviewers before inserting them (Ericsson & Harwell 2019 full text; Hambrick et al. 2014 PDF; Ericsson et al. 1993 PDF; Mosing et al. 2014 abstract).
+
+**Findings:**
+
+*Fact-check (claims verified against the primary papers, fetched in full)*
+1. [high] "Macnamara, Moreau and Hambrick (2016) answered that they had used the strictest definition the underlying studies allowed ... a theory that can only be tested by studies that have not been done is not a strong position" — none of this is in the reply; the summary was invented. Author order also wrong. Actual paper: Macnamara, Hambrick & Moreau, "How Important Is Deliberate Practice? Reply to Ericsson (2016)", PPS 11(3), 355–358: Ericsson's own definition includes practice designed "by a teacher or the performers themselves"; his own studies did not restrict estimates; restricting the sports meta-analysis to solitary/objective measures moves 18% to 20–22%; definitions must be used consistently for falsifiability.
+2. [high] "Ericsson's 2016 reply argued that the meta-analysis had counted ... hours playing, hours in group rehearsal, years in a job" — the 2016 commentary is a reply to the 2016 *sports* meta-analysis (Macnamara, Moreau & Hambrick, PPS 11(3), 333–350), not the 2014 five-domain one, and its list is "group activities, watching games on television, play and competitions". The criticism of the 2014 meta-analysis is Ericsson & Harwell 2019 (Frontiers in Psychology 10:2396): lectures and seminars, team practice, TV watching, unspecified practice; with the 1993 criteria no professions study qualified (k = 0).
+3. [high] "it is a fact about how those studies measured practice: as years of experience, or hours on the job" (professions section; repeated in quiz 3 explain and "Where that leaves you") — unverifiable and probably wrong. The 2014 inclusion criterion required a measure of accumulated practice; the professions category was programming, military piloting, soccer refereeing, insurance selling (7 effect sizes, 321 participants, not significant, p = .62). Also a neutrality problem (see 14).
+4. [medium] "the best group had practised *less* than the good group" (body, quiz 2 explain, misconceptions) — means 8,224 vs 9,844 verified, but the difference is not significant (t24 = −0.93, p = 0.36, d = −0.38); the paper's claim is that the predicted ordering did not appear.
+5. [medium] "26% ... against the 48% implied by the 1993 data" and "variance in the violinists' ratings" — 48% is the 1993 study's own best+good vs less-accomplished comparison, not "implied"; the outcome is skill-group membership, not ratings.
+6. [medium] "Play" and "Performance" as Ericsson's other two categories — the 1993 paper's categories are work, play and deliberate practice; "work" covers public performance, competition and paid services.
+7. [medium] "divided by their teachers into three groups by ability" — professors nominated the best (potential international soloists); the good group was matched by age and sex; the third group were students of the music-education department. Study 1 also had 10 professional orchestral violinists; Study 2 was 12 expert vs 12 amateur pianists.
+8. [medium] Hambrick et al. 2014 "about a third in chess, 30% in music" — correct figures are 34% and about 30% of *reliable* (reliability-corrected) variance; author list verified.
+9. [medium] "Ericsson's side replies that it, too, counted hours rather than quality" (of the replication) — no published Ericsson reply to Macnamara & Maitra 2019 found; Ericsson & Harwell 2019 does not mention it; Ericsson died in 2020.
+10. [low] Ericsson 2016 title lacks its subtitle "Commentary on Macnamara, Moreau, & Hambrick (2016)"; issue 11(3), 351–354 verified.
+11. [low] Five-element definition presented as if enumerated by Ericsson; it is a synthesis of the 1993 text. "At the edge" is Peak's language.
+12. [low] "Only a few hours a day" — source gives about 3.5 hr/day for the two best groups and no benefit beyond about 4 hr/day. Verified.
+13. Verified, no change: 30 violinists, 7,410 / 5,301 / 3,420 by 18; over 10,000 by 20; diaries plus retrospective estimates; 2014 domain percentages and pages; 88 studies / 111 samples / 157 effect sizes / 11,135 participants (restored); 2019 replication details (39 violinists, 13 per group, preregistered, CIM plus CWRU, 4,558 for the less accomplished, "not an inconsequential amount"); Peak ch. 1–4 and the rejection of the 10,000-hour rule ("half of the ten violinists ... hadn't accumulated ten thousand hours", "still had a long way to go"); Outliers, Little, Brown 2008; Ambrose ch. 5 title and principle; Bjork & Bjork 2011 pages and the "can meet it" condition; 40,000-hour arithmetic.
+
+*Neutrality (checked against Ericsson's side, Macnamara/Hambrick's side, Gladwell, a practising-professional reader)*
+14. [high] Ericsson's reading of the professions figure stated as "a fact" in the author's voice (see 3). Contested presented as established.
+15. [high] "Where that leaves you" listed two contested points as "established" ("when measured as experience"; "did not replicate in its strong form"), and the debate ran Macnamara → Ericsson → Macnamara → Macnamara with the replication as the last word.
+16. [high] "It does show ... that something other than accumulated hours separates the very best from the good" — Macnamara's conclusion asserted as what the study shows.
+17. [medium] "a floor produced by sloppy measurement" — "sloppy" is the author's word, not Ericsson's.
+18. [medium] "Talent doesn't matter ... overstates Ericsson, who argued that deliberate practice was the dominant *modifiable* cause" — softens the 1993 paper, which said "many characteristics once believed to reflect innate talent are actually the result of intense practice" and that the search for heritable predictors had been "surprisingly unsuccessful" (height in sport excepted). Hambrick's side would insist on the stronger original claim.
+19. [medium] Hambrick's side given no evidence beyond a percentage: the chess hours range (Hambrick 2014: masters 832–24,284 h, 5 of 16 below the expert mean) and the twin study (Mosing et al. 2014: 10,500 twins, practice heritability 40–70%, no within-MZ-pair association) were missing.
+20. [medium] Professions example overreached the <1% figure ("in many fields the honest answer is no ... the curve flattened long ago") — a between-person correlation was used to assert within-person plateau.
+21. [medium] Gladwell callout omitted that Outliers' chapter argues about opportunity to accumulate hours, and that the 1993 paper itself endorsed the "10-year rule"; heading "never were a rule" mildly sneering.
+22. [medium] Go deeper warned that Peak is partisan but endorsed the two Macnamara papers without the same note; no Ericsson-side paper on the debate listed.
+23. [low] "Talent" used in the author's voice for the other-factors position; "loud argument" in the intro; quiz 4 explain called the 20,000-hour distractor "invented"; quiz 3 explain implied starting age is irrelevant.
+Verdict: conditional pass on 3.1 after the high fixes; the definition, ladder, mechanism, guitar example, exercise and connections are not sensitive.
+
+*Depth*
+24. [high] "A professional, a nurse, lawyer, or salesperson ... In many fields the honest answer is no" — three nouns, not a case; asserted, not worked; then cited back as evidence in the misconceptions section.
+25. [medium] Mechanism section opened on aphorisms ("A goal without feedback is a wish") and left SOURCES material unused: Ambrose's mastery principle, Soderstrom & Bjork 2015, Dunlosky & Rawson 2012, Chase & Simon 1973.
+26. [medium] "Variance explained" used throughout and never explained; objective 3 used the loose form ("how much of expertise practice explains").
+27. [medium] "it will make her measurably better" plus no statement that self-designed purposeful practice has no trial evidence (SOURCES open concern on outcome 3).
+28. [low] "the honest answer" three times; "cannot be resolved by preference" reads as the standards leaking; intro generalisation noun-swappable; "a few hours a day" where the source has a number; Peak chapters and Ambrose chapter unchecked (now verified).
+Word count 2,941 (body through Go deeper); 10–15% generic; well under a third.
+
+*Pedagogy*
+29. [high] The correct option was the longest in all five quiz questions (Q2 nearly twice the runner-up).
+30. [high] Only 2 of 5 questions were application to a new case (Q2 paraphrased "Where that leaves you"; Q3 restated the professions example; Q4 restated the callout).
+31. [medium] Throwaway distractors (invented 20,000 hours, "skills decay after fifteen years", "a study reaching 10,000 hours per participant"); Q5 option C conflicted with the lesson's own purposeful/deliberate distinction without the explain reconciling it; Q2 explain never addressed option A.
+32. [medium] No retrieval prompt before the exercise, unlike lessons 1 and 8.
+33. [low] "the course project asks for it" overstated what assessments/project-two-weeks.md requires; lesson 8 attributes to lesson 7 a "engages the target processing" clause lesson 7 did not state. Objectives, worked-example order, misconceptions, exercise deliverable and YAML all checked and fine.
+
+**Resolutions:**
+1–2. Rewrote "The Ericsson position" and "The rejoinder" from the papers; corrected source 8 (author order, title, pages); source 7 now carries the subtitle and is described as the reply to the sports meta-analysis; added Ericsson & Harwell 2019 as source 10 and cited it for the 2014 criticism. Quiz 2 explain no longer says "Ericsson (2016) replied to the meta-analysis".
+3, 14, 20, 24. Rewrote the professions section around one worked case (a commercial lawyer drafting leases, with the years-long feedback loop as the wrinkle). The <1% figure is now given with its base (7 effect sizes, 321 people, four named occupations, not significant), followed by both sides' reading of it (Ericsson & Harwell k = 0; Macnamara's reply on definitions) and the point both accept. Removed "in many fields the honest answer is no ... curve flattened" and "most-quoted number". Quiz 3 replaced (radiologists; explain states the figure is disputed).
+4. "Not statistically significant with 13 per group"; "the predicted best-above-good ordering did not appear". Quiz 4 option D explain fixed.
+5. Now "26% of the variance in which skill group a violinist belonged to, against the 48% that Ericsson's own comparison had explained in 1993".
+6. "Work" and "play", with the 1993 definitions. Source 1 note corrected.
+7. Group selection described as in the paper; orchestral violinists and pianists recorded in source 1 note (cut from the body for length).
+8. "34% of the reliable variance in chess and about 30% in music", "correcting for measurement error".
+9, 15, 16. Removed the invented reply. Replication paragraph now attributes the "something other than hours" reading to the authors, states that Ericsson died in 2020 with no reply found, applies his standing objection (retrospective hours) as a standing objection, and raises group comparability as an open question rather than a claim. "Where that leaves you" now lists three things "nobody in this dispute denies" and moves the professions figure, group comparability and the unexplained share into the contested list.
+10–12. Subtitle added; "Pulling the paper's definition into five parts"; 3.5 hours a day and the 4-hour ceiling with citation.
+13. "88 studies (157 effect sizes, 11,135 participants)" restored in the body and source 5.
+17. "produced by counting activities that do not meet the definition".
+18. Misconception now quotes the 1993 claims (cited) and says Ericsson did not claim everyone can reach the top; Macnamara's objection is that the framing outran the data.
+19. Added the chess range (source 6) and the twin study (source 11) to the Macnamara–Hambrick paragraph, with a note on what the twin study measured so neither side is short-changed.
+21. Callout retitled "The 10,000-hour rule: what was in the study and what was added"; added Gladwell's actual argument (opportunity) and the 1993 endorsement of the 10-year rule (verified in the PDF).
+22. Go deeper: Peak and the Macnamara papers now each note which side wrote them; Ericsson & Harwell 2019 added as the pair to the meta-analysis.
+23. "unresolved argument"; "Hambrick's side does not talk about 'talent' at all; it names measurable factors"; quiz 4 rebuilt so no distractor is "invented"; quiz 3 explain no longer mentions starting age.
+25. Added Ambrose's mastery principle (components + integration + application) as the reason for isolating one transition and then playing songs; Chase & Simon cited for the chess-master sentence; Soderstrom & Bjork and Dunlosky & Rawson cited in the "I'll know when I'm improving" misconception. Sources 13–15 added. "Wish/noise" aphorisms cut.
+26. Added a one-paragraph explanation of variance explained (between-person differences; range restriction). Objective 3 reworded.
+27. "should make her measurably better"; added the "One caution" paragraph on the evidence base.
+28. "honest" tic removed except in the exercise; "cannot be resolved by preference" cut; intro made concrete (typing hours).
+29–31. All five quiz items replaced or rebalanced per the pedagogy proposals (lengths balanced; Q2 chess study, Q3 radiologists, Q4 running coach are new cases; Q5 option C and explain reconciled; every explain addresses each distractor). Two explain fields double-quoted for YAML after validate flagged colons. 5 of 5 now application.
+32. Closed-page retrieval prompt added before the exercise.
+33. Exercise closing line now matches the project file; "and it must engage the thing you are trying to learn" added to the "Harder is always better" misconception so lesson 8's attribution is now true.
+Declined / deferred: Choudhry et al. 2005 (physician performance declining with years), Schmidt & Hunter 1998, Hambrick & Tucker-Drob 2015, Ericsson's "20,000–25,000 hours" for competition winners, and Gladwell's 2013 New Yorker reply were proposed by reviewers from memory and not verified in this pass; not added. Twin-study objection from Ericsson's side (discrimination tests are not expert performance) could not be sourced to a specific paper, so it is stated as a limitation of the measure rather than attributed.
+
+`npm run validate`: ok (5 courses, 28 lessons); only remaining warning is in clear-writing/03-concrete.md, still being drafted. Body word count after fixes: 3,374 to the Practice heading, 3,975 including exercise and Go deeper; at the upper end of 1.3 but the added material is the debate evidence the neutrality audit required.
+
+**Needs a human decision:**
+- SOURCES.md (not touched, outside this task's scope) carries the same errors the fact-check found: line 59 "play and paid performance" should be "work and play"; line 60 has the rejoinder author order wrong and does not record that Ericsson 2016 replies to the sports meta-analysis, that the best-vs-good replication difference is non-significant, or the 88/157/11,135 counts; Ericsson & Harwell 2019, Mosing 2014 and Chase & Simon citation details should be added.
+- Length: at ~3,975 words with exercise and Go deeper the lesson sits just under the 4,000 guideline. If the owner wants it shorter, the candidates are the twin-study sentences and the Gladwell fairness note, but each was added to satisfy a neutrality finding.
+- Quiz 2's chess-study scenario assumes learners will accept a hypothetical newspaper study; if the owner prefers only real cases, the Hambrick 2014 chess data (now in the body) could replace it.
+
+**Status after review:** clean on validate; findings were severe (three wrong factual claims, neutrality tilt in both directions) and the debate section was substantially rewritten, so a second full review pass is recommended before human sign-off.
+
+**Validation:** `npm run validate` run 2026-09-04 after fixes: `ok: 5 courses, 28 lessons`; no errors or warnings for this lesson.
+
+**Length note for the owner (5):** after fixes the lesson body is about 4,600 words including both plan tables, callouts and exercises (about 3,700 words of prose). That is above the 4,000 soft ceiling in standards 1.3. The growth added is almost all reviewer-required (second worked example at full resolution, Position A's arguments, Sans Forgetica and Xie corrections, sleep-deprivation sourcing). Options: accept as is, or split the myths section into its own short lesson 9 as SOURCES.md's scope note already suggested. Not done here because it would change the course structure.
