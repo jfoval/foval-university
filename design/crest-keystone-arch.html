@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Foval University crest: the Keystone Arch</title>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root { --navy:#0f2a4a; --paper:#ffffff; --gold:#b08d2a; --ox:#8b1e2d; --ink:#111418; --muted:#6b7482; --line:#d6dbe3; }
+  body { margin:0; background:#f7f8fa; color:var(--ink); font-family:"IBM Plex Sans",system-ui,sans-serif; line-height:1.55; }
+  .wrap { max-width:1000px; margin:0 auto; padding:2.5rem 1.25rem 4rem; }
+  h1,h2 { font-family:"Libre Caslon Text",Georgia,serif; font-weight:400; line-height:1.15; }
+  h1 { font-size:2.3rem; margin:0 0 .25rem; }
+  .motto { font-family:"Libre Caslon Text",Georgia,serif; font-style:italic; color:var(--gold); font-size:1.15rem; margin-bottom:1.5rem; }
+  .row { display:grid; grid-template-columns:1fr 1fr; gap:1.25rem; margin:1.5rem 0; }
+  .panel { background:var(--paper); border:1px solid var(--line); padding:1.5rem; display:grid; place-items:center; gap:.75rem; }
+  .panel.dark { background:var(--navy); }
+  .label { font-size:.72rem; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); }
+  .dark .label { color:rgba(255,255,255,.6); }
+  .seal svg { width:300px; height:300px; }
+  .big svg { width:180px; height:180px; }
+  .icons { display:flex; gap:1.25rem; align-items:flex-end; }
+  .icons svg { display:block; }
+  .lockup { display:flex; align-items:center; gap:1.1rem; }
+  .lockup .word { font-family:"Libre Caslon Text",Georgia,serif; font-size:1.9rem; letter-spacing:.02em; line-height:1; }
+  .lockup .word small { display:block; font-family:"IBM Plex Sans",sans-serif; font-size:.68rem; letter-spacing:.22em; text-transform:uppercase; color:var(--muted); margin-top:.35rem; }
+  .dark .word { color:#fff; } .dark .word small { color:rgba(255,255,255,.6); }
+  .text { max-width:52rem; }
+  .text p { margin:0 0 .8rem; }
+  .text b { color:var(--navy); }
+  @media (max-width:760px) { .row { grid-template-columns:1fr; } .seal svg { width:240px; height:240px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>The Keystone Arch</h1>
+  <div class="motto">"Open to all."</div>
+
+  <div class="row">
+    <div class="panel seal">
+      <svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" aria-label="Keystone Arch seal">
+        <defs>
+          <path id="s-top" d="M 17 120 A 103 103 0 0 1 223 120"/>
+          <path id="s-bot" d="M 5 120 A 115 115 0 0 0 235 120"/>
+        </defs>
+        <circle cx="120" cy="120" r="118" fill="none" stroke="#0f2a4a" stroke-width="3.5"/>
+        <circle cx="120" cy="120" r="98" fill="none" stroke="#0f2a4a" stroke-width="1.25"/>
+        <text font-family="Libre Caslon Text, Georgia, serif" font-size="12.5" font-weight="700" letter-spacing="3" fill="#0f2a4a"><textPath href="#s-top" startOffset="50%" text-anchor="middle">FOVAL UNIVERSITY</textPath></text>
+        <text font-family="Libre Caslon Text, Georgia, serif" font-size="10.5" letter-spacing="2.5" fill="#0f2a4a"><textPath href="#s-bot" startOffset="50%" text-anchor="middle">OPEN TO ALL · MMXXVI</textPath></text>
+        <g transform="translate(20,20)">
+          <!-- arch -->
+          <path d="M56 160 V100 A44 44 0 0 1 144 100 V160" fill="none" stroke="#0f2a4a" stroke-width="14"/>
+          <path d="M44 160 H68 M132 160 H156" stroke="#0f2a4a" stroke-width="6"/>
+          <!-- masonry joints -->
+          <g stroke="#ffffff" stroke-width="1.5">
+            <path d="M118.5 68 L125.5 55.8 M81.5 68 L74.5 55.8"/>
+            <path d="M129.2 77.2 L140.2 68.6 M70.8 77.2 L59.8 68.6"/>
+            <path d="M135.6 89.8 L149 85.9 M64.4 89.8 L51 85.9"/>
+            <path d="M49 100 H63 M137 100 H151"/>
+            <path d="M49 130 H63 M137 130 H151"/>
+          </g>
+          <!-- keystone, with F cut -->
+          <polygon points="83.5,42.3 116.5,42.3 108.3,71.2 91.7,71.2" fill="#b08d2a" stroke="#ffffff" stroke-width="2.2"/>
+          <path d="M94 49 H108 V52.6 H98.2 V56 H105 V59.6 H98.2 V66 H94 Z" fill="#0f2a4a"/>
+          <!-- path through the opening -->
+          <path d="M72 160 L97 118 M128 160 L103 118" stroke="#0f2a4a" stroke-width="2.2" fill="none"/>
+          <path d="M76.2 153 H123.8 M80.3 146 H119.7 M83.9 140 H116.1 M86.9 135 H113.1 M89.3 131 H110.7 M91 128 H109 M92.8 125 H107.2" stroke="#0f2a4a" stroke-width="1.6"/>
+          <path d="M68 118 H132" stroke="#0f2a4a" stroke-width="1.2"/>
+        </g>
+      </svg>
+      <div class="label">Seal, for certificates and the diploma</div>
+    </div>
+
+    <div style="display:grid; gap:1.25rem">
+      <div class="panel big">
+        <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" aria-label="Keystone Arch mark">
+          <path d="M28 104 V56 A32 32 0 0 1 92 56 V104" fill="none" stroke="#0f2a4a" stroke-width="11"/>
+          <path d="M19 104 H37 M83 104 H101" stroke="#0f2a4a" stroke-width="5"/>
+          <g stroke="#ffffff" stroke-width="1.3">
+            <path d="M73.3 33.3 L78.7 24 M46.7 33.3 L41.3 24"/>
+            <path d="M81.1 40.5 L89.6 34 M38.9 40.5 L30.4 34"/>
+            <path d="M85.7 49.6 L96 46.6 M34.3 49.6 L24 46.6"/>
+            <path d="M22.5 56 H33.5 M86.5 56 H97.5 M22.5 80 H33.5 M86.5 80 H97.5"/>
+          </g>
+          <polygon points="46.6,13.5 73.4,13.5 66.9,36.9 53.1,36.9" fill="#b08d2a" stroke="#ffffff" stroke-width="2"/>
+          <path d="M55 19 H66.5 V22 H58.5 V24.8 H64 V27.8 H58.5 V33 H55 Z" fill="#0f2a4a"/>
+          <path d="M42 104 L57 71 M78 104 L63 71" stroke="#0f2a4a" stroke-width="1.8" fill="none"/>
+          <path d="M44.5 98.5 H75.5 M47.3 92.4 H72.7 M49.8 87 H70.2 M51.8 82.5 H68.2 M53.5 79 H66.5 M54.8 76 H65.2" stroke="#0f2a4a" stroke-width="1.3"/>
+          <path d="M39 71 H81" stroke="#0f2a4a" stroke-width="1"/>
+        </svg>
+        <div class="label">Mark, no ring</div>
+      </div>
+      <div class="panel">
+        <div class="icons">
+          <svg viewBox="0 0 64 64" width="96" height="96"><rect width="64" height="64" fill="#0f2a4a"/><path d="M16 52 V34 A16 16 0 0 1 48 34 V52" fill="none" stroke="#ffffff" stroke-width="6"/><path d="M11 52 H21 M43 52 H53" stroke="#ffffff" stroke-width="3"/><polygon points="24.9,12.1 39.1,12.1 35.1,24.5 28.9,24.5" fill="#b08d2a" stroke="#0f2a4a" stroke-width="1.6"/><path d="M29.5 14.8 H36 V16.5 H31.5 V17.9 H34.8 V19.6 H31.5 V22.4 H29.5 Z" fill="#0f2a4a"/></svg>
+          <svg viewBox="0 0 64 64" width="48" height="48"><rect width="64" height="64" fill="#0f2a4a"/><path d="M16 52 V34 A16 16 0 0 1 48 34 V52" fill="none" stroke="#ffffff" stroke-width="6"/><path d="M11 52 H21 M43 52 H53" stroke="#ffffff" stroke-width="3"/><polygon points="24.9,12.1 39.1,12.1 35.1,24.5 28.9,24.5" fill="#b08d2a" stroke="#0f2a4a" stroke-width="1.6"/></svg>
+          <svg viewBox="0 0 64 64" width="24" height="24"><rect width="64" height="64" fill="#0f2a4a"/><path d="M16 52 V34 A16 16 0 0 1 48 34 V52" fill="none" stroke="#ffffff" stroke-width="6"/><path d="M11 52 H21 M43 52 H53" stroke="#ffffff" stroke-width="3"/><polygon points="24.9,12.1 39.1,12.1 35.1,24.5 28.9,24.5" fill="#b08d2a" stroke="#0f2a4a" stroke-width="1.6"/></svg>
+        </div>
+        <div class="label">App icon at three sizes (the F drops out below 48px, the keystone stays)</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="panel">
+      <div class="lockup">
+        <svg viewBox="0 0 120 120" width="72" height="72" xmlns="http://www.w3.org/2000/svg"><path d="M28 104 V56 A32 32 0 0 1 92 56 V104" fill="none" stroke="#0f2a4a" stroke-width="11"/><path d="M19 104 H37 M83 104 H101" stroke="#0f2a4a" stroke-width="5"/><polygon points="46.6,13.5 73.4,13.5 66.9,36.9 53.1,36.9" fill="#b08d2a" stroke="#ffffff" stroke-width="2"/><path d="M55 19 H66.5 V22 H58.5 V24.8 H64 V27.8 H58.5 V33 H55 Z" fill="#0f2a4a"/><path d="M42 104 L57 71 M78 104 L63 71" stroke="#0f2a4a" stroke-width="1.8" fill="none"/><path d="M44.5 98.5 H75.5 M47.3 92.4 H72.7 M49.8 87 H70.2 M51.8 82.5 H68.2 M53.5 79 H66.5" stroke="#0f2a4a" stroke-width="1.3"/></svg>
+        <div class="word">Foval University<small>Open to all</small></div>
+      </div>
+      <div class="label">Wordmark lockup, light</div>
+    </div>
+    <div class="panel dark">
+      <div class="lockup">
+        <svg viewBox="0 0 120 120" width="72" height="72" xmlns="http://www.w3.org/2000/svg"><path d="M28 104 V56 A32 32 0 0 1 92 56 V104" fill="none" stroke="#ffffff" stroke-width="11"/><path d="M19 104 H37 M83 104 H101" stroke="#ffffff" stroke-width="5"/><polygon points="46.6,13.5 73.4,13.5 66.9,36.9 53.1,36.9" fill="#b08d2a" stroke="#0f2a4a" stroke-width="2"/><path d="M55 19 H66.5 V22 H58.5 V24.8 H64 V27.8 H58.5 V33 H55 Z" fill="#0f2a4a"/><path d="M42 104 L57 71 M78 104 L63 71" stroke="#ffffff" stroke-width="1.8" fill="none"/><path d="M44.5 98.5 H75.5 M47.3 92.4 H72.7 M49.8 87 H70.2 M51.8 82.5 H68.2 M53.5 79 H66.5" stroke="#ffffff" stroke-width="1.3"/></svg>
+        <div class="word">Foval University<small>Open to all</small></div>
+      </div>
+      <div class="label">Wordmark lockup, dark</div>
+    </div>
+  </div>
+
+  <div class="text">
+    <h2>How the two became one</h2>
+    <p>The arch supplies the <b>institution</b> and the <b>openness</b>: a gate with nothing in it, and a path with its steps drawn in climbing through. The keystone supplies the <b>identity</b>: it is the one stone that holds everything else up, it sits dead centre bearing both sides equally, and it carries the F cut in like a mason's mark. Rather than sitting inside the arch as decoration, the keystone is oversized and projects above and below the ring of stones, which is how real keystones are cut. It is the thing your eye lands on first.</p>
+    <p>The masonry joints are the detail that makes it one object instead of two symbols stacked. They turn the arch into <i>built</i> stone, so the keystone has something to hold. At small sizes the joints and the F disappear on their own and you are left with the simplest version: arch, gold stone, open ground. That is the app icon.</p>
+    <p>Colour logic: navy is the stone, gold is the one stone that matters, white is the open air through the gate. Three colours, all flat, so it prints in two inks (gold can drop to navy) and embroiders cleanly.</p>
+    <p>If you approve, I'll refine the curves at large size, cut a proper favicon set and social image, and swap it into the site header, the certificate, and the manifest.</p>
+  </div>
+</div>
+</body>
+</html>
