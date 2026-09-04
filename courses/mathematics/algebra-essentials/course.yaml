@@ -1,0 +1,23 @@
+id: algebra-essentials
+title: Algebra Essentials
+school: mathematics
+subject: Mathematics
+level: Beginner
+status: review
+summary: >-
+  Variables, equations, and graphs from the ground up. The algebra you need for science, finance,
+  and further maths.
+description: >-
+  Algebra is the language for describing relationships between quantities. If arithmetic is about
+  specific numbers, algebra is about patterns that hold for any number. This course builds it up
+  carefully: what a variable is, how to solve equations by keeping them balanced, how straight lines
+  encode rates of change, and how to handle two unknowns at once.
+outcomes:
+  - Read and write expressions with variables
+  - Simplify expressions by collecting like terms and expanding brackets
+  - Solve linear equations step by step
+  - Understand slope and intercept and graph straight lines
+  - Solve systems of two equations
+  - Translate word problems into algebra
+prerequisites: []
+estimated_hours: 2.3

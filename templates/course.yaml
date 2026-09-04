@@ -1,0 +1,17 @@
+id: course-id                 # must match folder name; lowercase, hyphens
+title: Course Title
+school: school-slug           # one of the 14 in curriculum/TAXONOMY.md; must match parent folder
+subject: School Display Name  # e.g. "History", "Money", "Natural Sciences"
+level: Foundation             # Foundation | Core | Advanced
+status: research              # planned | research | drafting | review | published
+summary: One sentence for the catalog card. What you'll be able to do.
+description: >-
+  Two to four sentences for the course page. What the course covers, who it's for,
+  why it matters, and what makes this treatment worth your time.
+outcomes:
+  - Verb-first, testable outcome (explain, calculate, build, compare, apply...)
+  - Another
+  - Another
+prerequisites: []             # course ids, e.g. [algebra-essentials]
+estimated_hours: 0
+sensitive_domain: false       # true if Part 3.4 of the standards applies; makes neutrality audit mandatory

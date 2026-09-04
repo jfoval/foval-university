@@ -1,0 +1,90 @@
+# The Foval Core: the recommended general-education progression.
+# Source of truth for the site's "Path" page. Order matters. Courses that don't exist yet
+# (no folder under courses/) show as "coming soon". Keep in sync with TAXONOMY.md.
+#
+# Design: thinking tools first, then quantitative foundations, then alternating between
+# "the world" (history/philosophy/literature), "the physical world" (science), and
+# "competence" (practical), so a learner following the path is always balanced across
+# head, world, and hands. Every term mixes at least two schools.
+
+terms:
+  - title: Tools
+    theme: How to learn, read, write, and reason. Everything else assumes these.
+    courses:
+      - { id: how-to-learn-anything, school: learning-and-mind, title: How to Learn Anything }
+      - { id: reading-well, school: foundations, title: Reading Well }
+      - { id: clear-writing, school: communication-and-people, title: Writing Clearly }
+      - { id: logic-and-argument, school: foundations, title: Logic and Argument }
+      - { id: personal-finance, school: money, title: Personal Finance Fundamentals }
+      - { id: using-ai-effectively, school: computer-science-and-ai, title: Using AI Effectively }
+
+  - title: Quantitative foundations
+    theme: Numbers, evidence, and the scientific way of knowing.
+    courses:
+      - { id: number-sense, school: mathematics, title: Number Sense and Arithmetic Refresher, optional: true }
+      - { id: algebra-essentials, school: mathematics, title: Algebra Essentials }
+      - { id: statistics-for-citizens, school: foundations, title: Statistics for Citizens }
+      - { id: scientific-method, school: foundations, title: The Scientific Method }
+      - { id: python-basics, school: computer-science-and-ai, title: Introduction to Programming with Python }
+
+  - title: The world, part one
+    theme: Where we came from and the oldest answers to the biggest questions.
+    courses:
+      - { id: how-historians-know, school: history, title: How Historians Know }
+      - { id: ancient-world, school: history, title: The Ancient World }
+      - { id: greece-and-rome, school: history, title: Greece and Rome }
+      - { id: intro-philosophy, school: philosophy-and-religion, title: Introduction to Philosophy }
+      - { id: great-books-1, school: literature-and-arts, title: "Great Books I: The Ancients" }
+      - { id: world-religions, school: philosophy-and-religion, title: World Religions }
+
+  - title: The physical world
+    theme: How matter, life, the Earth, and the cosmos work.
+    courses:
+      - { id: physics-1, school: natural-sciences, title: "Physics I: Motion, Force, Energy" }
+      - { id: chemistry-fundamentals, school: natural-sciences, title: Chemistry Fundamentals }
+      - { id: evolution-and-genetics, school: natural-sciences, title: "Biology II: Evolution and Genetics" }
+      - { id: earth-science, school: natural-sciences, title: Earth Science }
+      - { id: astronomy, school: natural-sciences, title: Astronomy and Cosmology }
+
+  - title: The world, part two
+    theme: The medieval and early modern world, and how societies organise themselves.
+    courses:
+      - { id: medieval-world, school: history, title: The Medieval World }
+      - { id: early-modern-world, school: history, title: Early Modern World, 1400–1750 }
+      - { id: western-philosophy-1, school: philosophy-and-religion, title: "History of Western Philosophy I: Ancient and Medieval" }
+      - { id: western-philosophy-2, school: philosophy-and-religion, title: "History of Western Philosophy II: Modern" }
+      - { id: great-books-2, school: literature-and-arts, title: "Great Books II: Medieval and Renaissance" }
+      - { id: microeconomics, school: economics-government-and-law, title: Principles of Microeconomics }
+      - { id: american-government, school: economics-government-and-law, title: American Government and the Constitution }
+
+  - title: The modern world
+    theme: Revolutions, wars, ideologies, and the arguments that still shape today.
+    courses:
+      - { id: age-of-revolutions, school: history, title: The Age of Revolutions, 1750–1850 }
+      - { id: modern-world, school: history, title: The Modern World, 1850–1945 }
+      - { id: world-since-1945, school: history, title: The World Since 1945 }
+      - { id: political-economy, school: economics-government-and-law, title: "Political Economy: The Great Debates" }
+      - { id: political-philosophy, school: philosophy-and-religion, title: Political Philosophy }
+      - { id: great-books-3, school: literature-and-arts, title: "Great Books III: The Modern Novel" }
+
+  - title: Competence
+    theme: Skills for making a living and staying alive.
+    courses:
+      - { id: sales, school: business-and-enterprise, title: Sales }
+      - { id: entrepreneurship, school: business-and-enterprise, title: "Entrepreneurship: Idea to First Customer" }
+      - { id: negotiation, school: business-and-enterprise, title: Negotiation }
+      - { id: nutrition, school: health-and-body, title: "Nutrition: The Evidence" }
+      - { id: strength-and-fitness, school: health-and-body, title: Strength and Fitness }
+      - { id: sleep, school: health-and-body, title: Sleep }
+      - { id: first-aid, school: health-and-body, title: First Aid and CPR }
+      - { id: wilderness-survival, school: practical-life-and-self-reliance, title: Wilderness Survival }
+      - { id: emergency-preparedness, school: practical-life-and-self-reliance, title: Emergency Preparedness }
+
+  - title: Integration
+    theme: Putting it together and deciding how to live.
+    courses:
+      - { id: ethics, school: philosophy-and-religion, title: Ethics }
+      - { id: meaning-and-the-good-life, school: philosophy-and-religion, title: Meaning, Death, and the Good Life }
+      - { id: mental-models, school: learning-and-mind, title: Mental Models }
+      - { id: investing, school: money, title: Investing }
+      - { id: capstone, school: foundations, title: "Capstone: Teach What You Learned" }

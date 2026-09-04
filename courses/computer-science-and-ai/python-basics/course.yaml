@@ -1,0 +1,23 @@
+id: python-basics
+title: Introduction to Programming with Python
+school: computer-science-and-ai
+subject: Computer Science
+level: Beginner
+status: review
+summary: >-
+  Learn to think like a programmer and write real Python from your first lesson. No prior experience
+  needed.
+description: >-
+  Programming is the skill of giving precise instructions to a machine. This course teaches you the
+  core ideas every programmer relies on, using Python, one of the most readable and widely used
+  languages in the world. By the end you will be able to write small programs that store data, make
+  decisions, repeat work, and organise themselves into reusable pieces.
+outcomes:
+  - Run Python and write your first programs
+  - Store and transform data with variables and basic types
+  - Make decisions with if, elif, and else
+  - Repeat work with for and while loops
+  - Organise code into functions
+  - Work with lists and dictionaries to handle collections of data
+prerequisites: []
+estimated_hours: 2.8

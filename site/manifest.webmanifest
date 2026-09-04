@@ -1,0 +1,13 @@
+{
+  "name": "Foval University",
+  "short_name": "Foval",
+  "description": "A free, open, general-education university. Learn anything, keep it fresh.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f2a4a",
+  "icons": [
+    { "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

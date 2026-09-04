@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Foval University</title>
+  <meta name="description" content="Foval University is a free, open, general-education online university. Real courses with lessons, quizzes, and continual review. No account, no cost, any device.">
+  <meta name="theme-color" content="#1f4d3a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Foval">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#/">
+      <img class="brand-mark" src="assets/icon.svg" alt="" width="34" height="34">
+      <span class="brand-name">Foval University</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="#/courses">Courses</a>
+      <a href="#/path">Path</a>
+      <a href="#/review">Review</a>
+      <a href="#/my-learning">Me</a>
+    </nav>
+  </header>
+
+  <main id="main" class="page"></main>
+
+  <footer class="site-footer">
+    <p><strong>Foval University</strong> is free for everyone, forever. No accounts, no ads, no paywalls.</p>
+    <p class="muted"><a href="#/about">About</a> · Your progress is saved in this browser. Export it from <a href="#/my-learning">your page</a>.</p>
+  </footer>
+
+  <script src="data/courses.js"></script>
+  <script src="assets/app.js"></script>
+  <script>
+    if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
+      navigator.serviceWorker.register("sw.js").catch(() => {});
+    }
+  </script>
+</body>
+</html>
