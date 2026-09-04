@@ -238,7 +238,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 
 | Course | Level | Status | Notes |
 |---|---|---|---|
-| How to Learn Anything | Foundation | research | Retrieval, spacing, interleaving, deliberate practice. Take this first. |
+| How to Learn Anything | Foundation | drafting | Retrieval, spacing, interleaving, deliberate practice. Take this first. |
 | Memory | Foundation | planned | |
 | Focus and Deep Work | Foundation | planned | |
 | Note-Taking and Personal Knowledge | Foundation | planned | |

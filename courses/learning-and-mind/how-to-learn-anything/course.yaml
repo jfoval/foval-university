@@ -3,21 +3,30 @@ title: How to Learn Anything
 school: learning-and-mind
 subject: Learning & Mind
 level: Foundation
-status: research
-summary: The research on how people actually learn, turned into a method you can use on any subject, starting with this university.
+status: drafting
+summary: >-
+  The research on how people actually learn, turned into a method you can use on any subject,
+  starting with this university.
 description: >-
-  Most people were never taught how to learn; they were taught subjects and left to guess at the method.
-  A century of research in cognitive psychology has produced clear, replicated findings about what makes
-  learning stick and what only feels like it does. This course teaches those findings and turns them into
-  a working method: how to study, practise, remember, and get genuinely good at something. It is the first
-  course on the Foval Core because every other course goes better once you have it.
+  Most people were never taught how to learn; they were taught subjects and left to guess at the
+  method. A century of research in cognitive psychology has produced clear, replicated findings
+  about what makes learning stick and what only feels like it does. This course teaches those
+  findings and turns them into a working method: how to study, practise, remember, and get genuinely
+  good at something. It is the first course on the Foval Core because every other course goes better
+  once you have it.
 outcomes:
-  - Explain why rereading and highlighting feel productive but produce weak learning, and what to do instead
-  - Apply retrieval practice, spacing, and interleaving to a real subject
-  - Design deliberate practice for a skill, with feedback loops
-  - Use worked examples, elaboration, and self-explanation to understand hard material
-  - Build a personal study system that fits the time you actually have
-  - Recognise the common learning myths and the evidence against them
+  - >-
+    Explain why what you can do today is a poor guide to what you will remember next month, and spot
+    the fluency illusion in your own habits
+  - >-
+    Apply retrieval practice, spacing, and interleaving to a real subject, with the right gaps and
+    the right boundaries
+  - Use worked examples, self-explanation, and elaboration to understand genuinely hard material
+  - >-
+    Design deliberate practice for a skill, with specific goals and a feedback loop, and state
+    honestly what the evidence shows about practice and expertise
+  - Build a weekly study system that fits the hours you actually have
+  - Name the common learning myths and the evidence against each
 prerequisites: []
-estimated_hours: 6
+estimated_hours: 8
 sensitive_domain: false
