@@ -8,6 +8,10 @@
   const SUBJECTS = [...new Set(COURSES.map(c => c.subject))];
   const PASS_MARK = 0.7;
   const REPO = "https://github.com/jfoval/foval-university";
+  // Feedback endpoint: when set, feedback is POSTed here as JSON (Supabase REST insert, Formspree, or any endpoint).
+  // Leave empty to keep feedback in this browser and offer the GitHub issue route. See docs/FEEDBACK_LOOP.md.
+  const FEEDBACK_ENDPOINT = window.FOVAL_FEEDBACK_ENDPOINT || "";
+  const FEEDBACK_HEADERS = window.FOVAL_FEEDBACK_HEADERS || { "Content-Type": "application/json" };
   const K = { progress: "foval.progress.v1", review: "foval.review.v1", activity: "foval.activity.v1", prefs: "foval.prefs.v1" };
   const main = document.getElementById("main");
   const DAY = 86400000;
@@ -267,8 +271,9 @@
           ${l.objectives && l.objectives.length ? `<div class="objectives"><b>In this lesson you will learn to</b><ul>${l.objectives.map(o => `<li>${esc(o)}</li>`).join("")}</ul></div>` : ""}
           ${l.video ? `<iframe class="video" src="${esc(l.video)}" title="${esc(l.title)}" allowfullscreen loading="lazy"></iframe>` : ""}
           <div class="lesson-content">${l.content}</div>
+          ${hasQuiz ? `<section class="recall"><h2>Before the quiz: write what you remember</h2><p class="muted">Close your notes. In the box, write everything you can recall from this lesson, in your own words. Two minutes. This is the single most useful thing you can do with a lesson, and it is harder than it sounds.</p><textarea id="recallBox" rows="6" placeholder="What was the main idea? What were the examples? What surprised you?"></textarea><p class="muted small" id="recallNote"></p></section>` : ""}
           ${hasQuiz ? renderQuiz(l) : `<div class="quiz"><h2>Finished reading?</h2><button class="btn btn-primary" id="markDone">${st.done ? "Completed ✓" : "Mark lesson complete"}</button></div>`}
-          <div class="feedback"><span>Was this lesson clear?</span><button data-fb="up" class="${st.fb === "up" ? "on" : ""}">👍 Yes</button><button data-fb="down" class="${st.fb === "down" ? "on" : ""}">👎 Not really</button><a href="${issueUrl}" target="_blank" rel="noopener">Report a problem</a></div>
+          ${renderFeedback(c, l, st, issueUrl)}
           <nav class="lesson-nav">
             ${prev ? `<a class="btn btn-secondary" href="#/course/${c.id}/lesson/${prev.id}">← ${esc(prev.title)}</a>` : `<a class="btn btn-secondary" href="#/course/${c.id}">← Course home</a>`}
             ${next ? `<a class="btn btn-secondary" href="#/course/${c.id}/lesson/${next.id}">${esc(next.title)} →</a>` : `<a class="btn btn-primary" href="#/course/${c.id}">Finish course →</a>`}
@@ -276,13 +281,40 @@
         </article>
       </div>
     `, l.title);
-    main.querySelectorAll("[data-fb]").forEach(b => b.addEventListener("click", () => {
-      const p = load(K.progress, {}); p[c.id] = p[c.id] || {}; p[c.id][l.id] = Object.assign({}, p[c.id][l.id], { fb: b.dataset.fb }); save(K.progress, p);
-      main.querySelectorAll("[data-fb]").forEach(x => x.classList.toggle("on", x === b));
-    }));
+    const fbForm = main.querySelector("#feedbackForm");
+    if (fbForm) fbForm.addEventListener("submit", e => { e.preventDefault(); submitFeedback(c, l, fbForm); });
+    const recall = main.querySelector("#recallBox");
+    if (recall) recall.addEventListener("input", () => { const n = recall.value.trim().split(/\s+/).filter(Boolean).length; main.querySelector("#recallNote").textContent = n ? `${n} words. Keep going until nothing else comes, then take the quiz.` : ""; });
     const markBtn = main.querySelector("#markDone");
     if (markBtn) markBtn.addEventListener("click", () => { markLesson(c.id, l.id, { done: true }); markBtn.textContent = "Completed ✓"; afterComplete(c); });
     if (hasQuiz) wireQuiz(c, l);
+  }
+
+  function renderFeedback(c, l, st, issueUrl) {
+    const fb = st.feedback || {};
+    return `<section class="feedback-ask" id="feedbackAsk">
+      <h2>Help make this lesson better</h2>
+      <p>This is a real ask, not a formality. Every lesson here gets rewritten based on what learners tell us: where it was confusing, what was missing, what you had to look up elsewhere. Your answers go straight into the next version. Two minutes of honesty from you makes this easier for the next thousand people.</p>
+      <form id="feedbackForm">
+        <p class="stem">How clear was this lesson?</p>
+        <div class="fb-scale">${[["1", "Lost most of the way"], ["2", "Some parts confused me"], ["3", "Mostly clear"], ["4", "Clear throughout"]].map(([v, t]) => `<label><input type="radio" name="clarity" value="${v}" ${fb.clarity === v ? "checked" : ""}> ${t}</label>`).join("")}</div>
+        <label class="fb-field">What did you struggle with, or have to reread? Be specific: which section, which idea.<textarea name="struggled" rows="3">${esc(fb.struggled || "")}</textarea></label>
+        <label class="fb-field">What would have made it better? A missing example, a clearer explanation, something cut, something added.<textarea name="improve" rows="3">${esc(fb.improve || "")}</textarea></label>
+        <div class="btn-row" style="margin-top:.75rem"><button class="btn btn-primary" type="submit">${fb.sent ? "Update my feedback" : "Send feedback"}</button><a class="btn btn-secondary" href="${issueUrl}" target="_blank" rel="noopener">Report an error</a></div>
+        <p class="muted small" id="feedbackNote">${fb.sent ? "Thank you. Your feedback is saved" + (FEEDBACK_ENDPOINT ? " and sent." : " in this browser.") : ""}</p>
+      </form>
+    </section>`;
+  }
+  async function submitFeedback(c, l, form) {
+    const data = Object.fromEntries(new FormData(form).entries());
+    const record = { course: c.id, lesson: l.id, clarity: data.clarity || null, struggled: (data.struggled || "").trim(), improve: (data.improve || "").trim(), at: new Date().toISOString(), site: location.hostname };
+    const p = load(K.progress, {}); p[c.id] = p[c.id] || {}; p[c.id][l.id] = Object.assign({}, p[c.id][l.id], { feedback: { ...record, sent: true } }); save(K.progress, p);
+    const note = form.querySelector("#feedbackNote");
+    if (!FEEDBACK_ENDPOINT) { note.textContent = "Thank you. Saved in this browser. Once the feedback service is switched on, it will be sent automatically."; return; }
+    try {
+      const r = await fetch(FEEDBACK_ENDPOINT, { method: "POST", headers: FEEDBACK_HEADERS, body: JSON.stringify(record) });
+      note.textContent = r.ok ? "Thank you. Sent. It will be read before the next revision of this lesson." : "Saved here, but sending failed. It will be kept in this browser.";
+    } catch { note.textContent = "Saved here, but sending failed (offline?). It will be kept in this browser."; }
   }
 
   function renderQuiz(l, passMark = PASS_MARK) {
@@ -310,7 +342,7 @@
       result.className = "quiz-result " + (passed ? "pass" : "fail");
       result.textContent = passed ? `${correct} of ${l.quiz.length} correct. ${isTest ? "Passed." : "Lesson complete. These questions will come back in Review."}` : `${correct} of ${l.quiz.length} correct. ${isTest ? "Not yet. Review the lessons and retake after a day." : "Review the lesson and try again."}`;
       markLesson(c.id, l.id, { done: passed || Boolean((lessonState(c.id, l.id) || {}).done), score });
-      if (passed) { if (!isTest) addToReviewBank(c, l); afterComplete(c); }
+      if (passed) { if (!isTest) addToReviewBank(c, l); afterComplete(c); const ask = main.querySelector("#feedbackAsk"); if (ask) { ask.classList.add("nudge"); setTimeout(() => ask.scrollIntoView({ behavior: "smooth", block: "start" }), 900); } }
     });
   }
   function afterComplete(c) {

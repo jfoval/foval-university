@@ -42,13 +42,16 @@ No lesson is drafted without a `research/SOURCES.md` for its course that names t
 
 ### 1.5 Voice
 
+The full style guide is `docs/STYLE_GUIDE.md`. Read it. The short version:
+
 - Direct, warm, and plain. Second person. Contractions are fine.
 - Concrete over abstract. Short words over long ones. Active over passive.
 - No throat-clearing ("In this lesson we will explore..."). Start with the substance.
 - No hedging filler ("It's important to note that", "Generally speaking"). If something is uncertain, say exactly how and why.
 - No hype. Never "unlock", "empower", "transform", "journey", "dive into", "game-changer", "in today's fast-paced world".
 - Humour is welcome when it serves clarity.
-- Write like a brilliant friend explaining it across a table, not like a textbook and not like a blog.
+- Write like a good professor talking to one student across a table, not like a textbook and not like a blog.
+- No em dashes anywhere. No AI vocabulary (delve, unlock, leverage, journey, robust, "it's not just X, it's Y"). The style guide has the full list and a voice review checks every lesson against it.
 
 ---
 
@@ -187,6 +190,8 @@ A lesson is done when:
 - [ ] Every checkable claim has a source and the fact-check pass found no remaining errors (Part 2)
 - [ ] Claims are correctly sorted as established / contested / value (3.1) and the neutrality audit is clean, if the domain is sensitive (3.4)
 - [ ] The quiz meets 4.3 and at least half its questions require application
+- [ ] It passes the voice review against `docs/STYLE_GUIDE.md`: no em dashes, no banned phrases, reads aloud as a person talking
+- [ ] It makes the reader think as they read: predict blocks, checkpoints, an exercise, free recall before the quiz
 - [ ] It reads well at phone width
 - [ ] A human has read it and signed off
 

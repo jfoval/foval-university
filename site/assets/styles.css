@@ -85,6 +85,7 @@ th { font-weight: 600; border-bottom: 2px solid var(--line-strong); }
 .brand:hover { color: var(--text); }
 .brand-mark { width: 40px; height: 40px; border-radius: 0; color: var(--navy); }
 .brand-mark .ks { stroke: var(--bg); stroke-width: 2; }
+.brand-mark .joints { stroke: var(--bg); }
 .brand-mark .ks-f { fill: var(--bg); }
 .cert-seal { width: 110px; height: 110px; margin: 0 auto .5rem; display: block; }
 .site-nav { display: flex; gap: 1.5rem; }
@@ -278,3 +279,30 @@ a.path-item:hover { background: var(--surface-2); color: var(--text); }
 .objectives b { display: block; font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-bottom: .4rem; }
 .objectives ul { margin: 0; padding-left: 1.2rem; }
 .opt-letter { font-family: var(--serif); color: var(--muted); margin-right: .25rem; font-weight: 400; }
+
+/* Think-while-reading blocks */
+.think { border: 1px solid var(--line-strong); padding: 1rem 1.25rem; margin: 1.5rem 0; background: var(--surface); }
+.think > b { display: block; font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: var(--oxblood); margin-bottom: .35rem; }
+.think.checkpoint > b { color: var(--navy); }
+.think .think-q { font-family: var(--serif); font-size: 1.15rem; margin: 0 0 .6rem; }
+.think details summary { cursor: pointer; font-weight: 600; font-size: .9rem; color: var(--navy); list-style: none; display: inline-block; padding: .35rem .8rem; border: 1.5px solid var(--navy); }
+.think details summary::-webkit-details-marker { display: none; }
+.think details[open] summary { margin-bottom: .6rem; background: var(--navy-soft); }
+.think details p:last-child { margin-bottom: 0; }
+
+/* Free recall */
+.recall { margin-top: 2.5rem; padding: 1.5rem; border: 1px solid var(--line-strong); border-left: 4px solid var(--gold); }
+.recall h2 { margin-top: 0; font-size: 1.4rem; }
+.recall textarea { width: 100%; font: inherit; font-size: 1rem; padding: .75rem; border: 1px solid var(--line); background: var(--bg); color: var(--text); resize: vertical; }
+.small { font-size: .85rem; }
+
+/* Feedback ask */
+.feedback-ask { margin-top: 2.5rem; padding: 1.5rem; border: 1px solid var(--line); border-top: 3px solid var(--oxblood); }
+.feedback-ask.nudge { border-color: var(--oxblood); }
+.feedback-ask h2 { margin-top: 0; font-size: 1.4rem; }
+.feedback-ask .stem { font-weight: 600; margin: .5rem 0 .35rem; }
+.fb-scale { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: .4rem; margin-bottom: 1rem; }
+.fb-scale label { display: flex; gap: .5rem; align-items: center; padding: .5rem .7rem; border: 1px solid var(--line); cursor: pointer; font-size: .92rem; }
+.fb-scale label:hover { background: var(--surface-2); }
+.fb-field { display: block; margin: .75rem 0; font-size: .92rem; color: var(--text-2); }
+.fb-field textarea { display: block; width: 100%; margin-top: .35rem; font: inherit; font-size: 1rem; padding: .6rem; border: 1px solid var(--line); background: var(--bg); color: var(--text); resize: vertical; }

@@ -18,8 +18,14 @@ marked.setOptions({ gfm: true, breaks: false });
 
 function renderBlocks(md) {
   // :::callout Title / :::exercise Title ... ::: → styled div
-  return md.replace(/^:::(callout|exercise)[ \t]*(.*)\r?\n([\s\S]*?)^:::[ \t]*$/gm, (_, kind, title, body) =>
-    `<div class="${kind}"><b>${title.trim()}</b>${marked.parse(body.trim())}</div>`);
+  // :::predict Question / :::checkpoint Question ... ::: → question with the body hidden behind a button
+  return md.replace(/^:::(callout|exercise|predict|checkpoint)[ \t]*(.*)\r?\n([\s\S]*?)^:::[ \t]*$/gm, (_, kind, title, body) => {
+    if (kind === "predict" || kind === "checkpoint") {
+      const label = kind === "predict" ? "Predict first" : "Check yourself";
+      return `<div class="think ${kind}"><b>${label}</b><p class="think-q">${marked.parseInline(title.trim())}</p><details><summary>Show the answer</summary>${marked.parse(body.trim())}</details></div>`;
+    }
+    return `<div class="${kind}"><b>${title.trim()}</b>${marked.parse(body.trim())}</div>`;
+  });
 }
 function parseFrontmatter(src, file) {
   const m = src.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/);

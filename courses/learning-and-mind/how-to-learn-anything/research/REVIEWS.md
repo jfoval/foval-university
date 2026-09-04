@@ -308,3 +308,48 @@ Declined / deferred: Choudhry et al. 2005 (physician performance declining with 
 **Validation:** `npm run validate` run 2026-09-04 after fixes: `ok: 5 courses, 28 lessons`; no errors or warnings for this lesson.
 
 **Length note for the owner (5):** after fixes the lesson body is about 4,600 words including both plan tables, callouts and exercises (about 3,700 words of prose). That is above the 4,000 soft ceiling in standards 1.3. The growth added is almost all reviewer-required (second worked example at full resolution, Position A's arguments, Sans Forgetica and Xie corrections, sleep-deprivation sourcing). Options: accept as is, or split the myths section into its own short lesson 9 as SOURCES.md's scope note already suggested. Not done here because it would change the course structure.
+
+**Resolutions (2026-09-04, lesson 02):**
+1. Fixed: fault standard now "favours the *indemnified* party, because the exception only bites when that party was seriously at fault; the other side's lawyer would have pushed for plain 'negligence'".
+2. Fixed: chess passage now credits de Groot (1940s), states the three-subject, five-second design, first-trial recall (about four-fifths / half / a third), "no relation at all" on random boards in Chase & Simon's data, and the Gobet & Simon 1996 residual (about one piece per 400 rating points); de Groot 1965 added to Source 4, Gobet & Simon 1996 (PB&R) to Source 5.
+3. Fixed: "Simon and Kevin Gilmartin estimated in 1973 ... 10,000 and 100,000 ... 50,000 is the figure that stuck, and when Gobet and Simon re-tested it in the 1990s it held up, with later models using even larger stores"; Simon & Gilmartin 1973 added to Source 5.
+4. Fixed: Q4 replaced with the Dana/Leo activity-vs-thought item; Q2 distractors lengthened to match the key; Q6 (Priya, chunk-count diagnostic) added. Now six items, five of them cases not in the text. Q1 and Q3 keys left as written (content is sound; length gap modest).
+5. Fixed: "First, *knowledge of a domain comes before skill in that domain* ... That is the cognitive claim, and it is well supported. How far it should dictate the order of teaching ... is a live and partly political argument ... this lesson takes no side on it." Scare quotes removed; "that beginners resist" removed; Go deeper line now "why reasoning in a domain depends on knowledge of that domain".
+6. Fixed: pharmacology before/after rewrite added under extraneous load, with the extraneous-vs-intrinsic test; test repeated in exercise step 4. Pharmacology facts (half-life varies inversely with GFR; GFR definition) verified in a second fact-check pass.
+7. Fixed: Craik & Tulving 1975 described (case / rhyme / sentence questions; more than five-fold recognition difference; the Experiment 5 slow-shallow-task control, worded per second fact-check as a consonant-vowel-pattern question, not typeface); "in the form you want it back" attributed to Morris, Bransford & Franks 1977. New Source 11. "Roughly in proportion" hedge removed.
+8. Fixed: split-attention and redundancy now illustrated with Chandler & Sweller 1991 (wiring-diagram apprentices); music/decoration attributed to Moreno & Mayer 2000 coherence effect in body and Q3 explain. New Source 12. Both verified in second pass.
+9. Fixed: hedge replaced with the Mueller & Oppenheimer non-replications (Morehead et al. 2019; Urry et al. 2021) and Chi et al. 1989 self-explainers vs copiers. New Source 14.
+10. Fixed: paragraph now acknowledges capacity predicts reasoning and reading comprehension (Shipstead, Harrison & Engle 2016), gives the three-to-five range, and cites Melby-Lervåg & Hulme 2013, Melby-Lervåg, Redick & Hulme 2016 and Simons et al. 2016 for near-transfer-only training results; "overwhelmingly" dropped. New Source 13. Q5 explain aligned.
+11. Fixed: May & Elder paragraph now "in nearly every study it covered", reports the correlational caveat, the on-task-messaging and self-paced-reading exceptions, and adds the Sana, Weston & Cepeda 2013 experiment (multitaskers and peers in view of their screens scored lower); "the chunk collapses" softened to "has one fewer part in mind". Source 8 extended.
+12. Fixed: "a research summary written for teacher-training programmes with Willingham as its scientific adviser"; Source 9 now "(2015; 2nd ed. 2026). First edition developed with Daniel Willingham and Paul Bruno; second edition with Veronica Yan"; Go deeper "one-page misconceptions table"; heading now the table's own wording, "Novices and experts think in all the same ways."
+13. Fixed: Source 7 states "Chapter numbers follow the first edition".
+14. Fixed: added "Two honesties about that number" paragraph (slot vs resource models; limit applies to new material, cited to Source 1); "showed" → "argued"; "three to five, about four on average"; Q1 explain "give or take one, for almost everyone".
+15. Fixed: callout now describes Oakley's dual use (stored unit and building process), credits Sejnowski, and drops "fine everyday meaning".
+16. Fixed: "The textbook picture of memory" with the activated-LTM aside; germane-load paragraph now records the measurement criticism before the 2010 redefinition.
+17. Fixed: own/half/new marking modelled with a second-year law student in the contract example; Q6 added.
+18. Fixed: exercise keeps the real-subject default and adds a lesson-1 fallback (storage strength, retrieval strength, fluency illusion, five-minute vs one-week result). Outline convention left unchanged; owner may wish to amend it to "on this course's content or a subject the learner is actually studying".
+19. Fixed: Peterson & Peterson 1959 cited ("heard three letters ... mostly lost them within about twenty seconds"; 18 s was the longest interval tested). New Source 15.
+20. Fixed: "nine or ten interacting elements, depending how you count".
+21. Fixed: the Python line is now shown (`top = sorted(rows, key=lambda r: r[1])[-3:]`) with its eight-or-nine beginner elements and two programmer chunks listed.
+22. Fixed: "10% of our brains" replaced with "Chunking means memorising the terms", tied to Q6.
+23. Fixed: "Twenty-seven pages, but the random-position section alone is a lesson in experimental design."
+24. Fixed: step 3 now "look it up, write its parts and how they relate, close the source, and explain it in one sentence from memory".
+25. Fixed: all quiz explanations reference options by letter (renderer uses A–F).
+26. Fixed: "The *new* and *half* items on it are the first things you will self-test in lesson 3." Lesson 3 drafter should pick this up in its practice section.
+27. Fixed: step 3 has a four-or-fewer branch pointing to step 4 or a why-question per sentence.
+28. Fixed: step 1 "every element a first-time reader would have to hold: the things it assumes you already know and the things it is introducing".
+29. Fixed: intro now "what it takes to build one, which the next lessons turn into method"; concrete build step added in exercise step 3.
+30. Fixed: minutes 35 → 40.
+31. Fixed: one sentence on Gobet's templates and Ericsson & Kintsch's long-term working memory; new Source 16.
+32. Fixed: "Paul's long chained sentences". Scriptural examples retained (audited as neutral).
+33. Fixed: "For the kind of learning this course is about" added to the bottleneck claim and to "Not ... by exposure"; Q5 explain likewise.
+34. Fixed: subtitles added to Sources 2 and 3; Sweller 2010 added to Source 1.
+Second fact-check pass on the sixteen citations added in this revision (Sources 4–5 additions and 11–16): all verified against primary or publisher pages; three wording nits (Peterson & Peterson "heard" not "shown"; Craik & Tulving Experiment 5 task; Melby-Lervåg 2016 subtitle) applied.
+
+**Open for a human decision:**
+- Outline convention ("exercise uses this course's own content") vs this lesson's real-subject default with a lesson-1 fallback: keep the lesson's approach or amend the outline wording.
+- Lesson 3 must make good on "the *new* and *half* items on it are the first things you will self-test"; flag to the lesson 3 drafter.
+- SOURCES.md "Memory basics" entry (one line) is now far thinner than what the lesson cites (de Groot, Simon & Gilmartin, Gobet & Simon 1996, Craik & Tulving, Morris et al., Chandler & Sweller, Moreno & Mayer, Peterson & Peterson, Engle/Melby-Lervåg/Simons, templates/LTWM). Consider back-filling SOURCES.md in a separate pass; not touched here per scope.
+- Two of the illustrative texts are scriptural (a commentary verse; Romans). Audited as neutral; owner may prefer to swap one for a non-religious example to remove even the signal.
+
+**Status after review:** clean (`npm run validate` passes for this lesson). Findings were severe in the fact category (three wrong claims in the chess and contract passages) and one high neutrality finding, all fixed and the fixes re-verified; the generic fraction was under one-third. A second full review pass is not required, but a quick re-read of the chess paragraph and the two new worked passages (pharmacology rewrite; Python line) by a human is recommended since they are new text.
