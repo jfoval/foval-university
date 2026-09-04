@@ -32,12 +32,14 @@
     p[cid][lid] = Object.assign({}, p[cid][lid], data, { at: Date.now() });
     save(K.progress, p); logActivity();
   }
+  const courseItems = c => [...c.lessons, ...(c.assessments || [])];
   function courseProgress(c) {
-    const done = c.lessons.filter(l => (lessonState(c.id, l.id) || {}).done).length;
-    return { done, total: c.lessons.length, pct: Math.round(100 * done / c.lessons.length) };
+    const items = courseItems(c);
+    const done = items.filter(l => (lessonState(c.id, l.id) || {}).done).length;
+    return { done, total: items.length, pct: Math.round(100 * done / items.length) };
   }
   const courseStarted = c => Boolean(load(K.progress, {})[c.id]);
-  const courseComplete = c => courseProgress(c).done === c.lessons.length;
+  const courseComplete = c => { const p = courseProgress(c); return p.done === p.total; };
 
   /* review bank (spaced repetition, SM-2 style) */
   function addToReviewBank(c, l) {
@@ -207,8 +209,10 @@
   function viewCourse(id) {
     const c = byId(id); if (!c) return viewNotFound();
     const p = courseProgress(c);
-    const next = c.lessons.find(l => !(lessonState(c.id, l.id) || {}).done) || c.lessons[0];
+    const nextItem = courseItems(c).find(l => !(lessonState(c.id, l.id) || {}).done) || c.lessons[0];
+    const nextHref = c.lessons.includes(nextItem) ? `#/course/${c.id}/lesson/${nextItem.id}` : `#/course/${c.id}/assessment/${nextItem.id}`;
     const complete = p.done === p.total;
+    const assess = c.assessments || [];
     render(`
       <div class="course-hero">
         <div>
@@ -221,14 +225,14 @@
         </div>
         <aside class="course-aside">
           <dl>
-            <dt>Lessons</dt><dd>${c.lessons.length}</dd>
+            <dt>Lessons</dt><dd>${c.lessons.length}${assess.length ? ` + ${assess.length} assessment${assess.length === 1 ? "" : "s"}` : ""}</dd>
             <dt>Time</dt><dd>${fmtHours(totalMinutes(c))}</dd>
             <dt>Level</dt><dd>${esc(c.level)}</dd>
             <dt>Cost</dt><dd>Free</dd>
           </dl>
           ${courseStarted(c) ? `<div class="progress"><i style="width:${p.pct}%"></i></div><div class="progress-label">${p.done} of ${p.total} complete</div>` : ""}
           <div class="btn-row">
-            ${complete ? `<a class="btn btn-primary" href="#/certificate/${c.id}">View certificate</a>` : `<a class="btn btn-primary" href="#/course/${c.id}/lesson/${next.id}">${courseStarted(c) ? "Continue" : "Start course"}</a>`}
+            ${complete ? `<a class="btn btn-primary" href="#/certificate/${c.id}">View certificate</a>` : `<a class="btn btn-primary" href="${nextHref}">${courseStarted(c) ? "Continue" : "Start course"}</a>`}
           </div>
         </aside>
       </div>
@@ -236,6 +240,10 @@
       <ol class="lesson-list">
         ${c.lessons.map((l, i) => { const st = lessonState(c.id, l.id) || {}; return `<li class="${st.done ? "lesson-done" : ""}"><a href="#/course/${c.id}/lesson/${l.id}"><span class="lesson-num">${st.done ? "✓" : i + 1}</span><span>${esc(l.title)}</span><span class="lesson-time">${l.minutes} min</span></a></li>`; }).join("")}
       </ol>
+      ${assess.length ? `<h2 style="margin-top:2rem">Assessments</h2>
+      <ol class="lesson-list">
+        ${assess.map(a => { const st = lessonState(c.id, a.id) || {}; return `<li class="${st.done ? "lesson-done" : ""}"><a href="#/course/${c.id}/assessment/${a.id}"><span class="lesson-num">${st.done ? "✓" : a.type === "test" ? "T" : "P"}</span><span>${esc(a.title)}<span class="path-meta" style="margin-left:.5rem">${a.type === "test" ? "final test" : "project"}</span></span><span class="lesson-time">${a.minutes >= 60 ? fmtHours(a.minutes) : a.minutes + " min"}</span></a></li>`; }).join("")}
+      </ol>` : ""}
     `, c.title);
   }
 
@@ -256,6 +264,7 @@
           <div class="breadcrumb"><a href="#/courses">Courses</a> / <a href="#/course/${c.id}">${esc(c.title)}</a> / Lesson ${idx + 1}</div>
           <h1>${esc(l.title)}</h1>
           <p class="muted">${l.minutes} min ${st.done ? "· <span style='color:var(--success)'>Completed</span>" : ""}</p>
+          ${l.objectives && l.objectives.length ? `<div class="objectives"><b>In this lesson you will learn to</b><ul>${l.objectives.map(o => `<li>${esc(o)}</li>`).join("")}</ul></div>` : ""}
           ${l.video ? `<iframe class="video" src="${esc(l.video)}" title="${esc(l.title)}" allowfullscreen loading="lazy"></iframe>` : ""}
           <div class="lesson-content">${l.content}</div>
           ${hasQuiz ? renderQuiz(l) : `<div class="quiz"><h2>Finished reading?</h2><button class="btn btn-primary" id="markDone">${st.done ? "Completed ✓" : "Mark lesson complete"}</button></div>`}
@@ -276,17 +285,17 @@
     if (hasQuiz) wireQuiz(c, l);
   }
 
-  function renderQuiz(l) {
+  function renderQuiz(l, passMark = PASS_MARK) {
     return `<section class="quiz" aria-label="Lesson quiz">
       <h2>Check your understanding</h2>
-      <p class="muted">Score ${Math.round(PASS_MARK * 100)}% or better to complete this lesson. Questions you pass join your review bank.</p>
+      <p class="muted">Score ${Math.round(passMark * 100)}% or better to pass.${passMark === PASS_MARK ? " Questions you pass join your review bank." : " Closed book: no looking back at the lessons."}</p>
       <form id="quizForm">
         ${l.quiz.map((q, qi) => `<div class="q" data-q="${qi}"><p class="stem">${qi + 1}. ${esc(q.q)}</p>${q.options.map((o, oi) => `<label><input type="radio" name="q${qi}" value="${oi}" required> <span>${esc(o)}</span></label>`).join("")}</div>`).join("")}
         <button class="btn btn-primary" type="submit">Submit answers</button>
         <div class="quiz-result" id="quizResult" aria-live="polite"></div>
       </form></section>`;
   }
-  function wireQuiz(c, l) {
+  function wireQuiz(c, l, passMark = PASS_MARK, isTest = false) {
     const form = main.querySelector("#quizForm"); const result = main.querySelector("#quizResult");
     form.addEventListener("submit", e => {
       e.preventDefault(); let correct = 0;
@@ -297,11 +306,11 @@
         if (chosen === q.answer) correct++;
         if (q.explain) { let ex = box.querySelector(".explain"); if (!ex) { ex = document.createElement("p"); ex.className = "explain muted"; box.appendChild(ex); } ex.textContent = q.explain; }
       });
-      const score = correct / l.quiz.length; const passed = score >= PASS_MARK;
+      const score = correct / l.quiz.length; const passed = score >= passMark;
       result.className = "quiz-result " + (passed ? "pass" : "fail");
-      result.textContent = passed ? `${correct} of ${l.quiz.length} correct. Lesson complete. These questions will come back in Review.` : `${correct} of ${l.quiz.length} correct. Review the lesson and try again.`;
+      result.textContent = passed ? `${correct} of ${l.quiz.length} correct. ${isTest ? "Passed." : "Lesson complete. These questions will come back in Review."}` : `${correct} of ${l.quiz.length} correct. ${isTest ? "Not yet. Review the lessons and retake after a day." : "Review the lesson and try again."}`;
       markLesson(c.id, l.id, { done: passed || Boolean((lessonState(c.id, l.id) || {}).done), score });
-      if (passed) { addToReviewBank(c, l); afterComplete(c); }
+      if (passed) { if (!isTest) addToReviewBank(c, l); afterComplete(c); }
     });
   }
   function afterComplete(c) {
@@ -309,6 +318,29 @@
       const nav = main.querySelector(".lesson-nav");
       if (nav && !nav.querySelector(".cert-link")) nav.insertAdjacentHTML("beforeend", `<a class="btn btn-primary cert-link" href="#/certificate/${c.id}">🎓 Get your certificate</a>`);
     }
+  }
+
+  /* ---------- Assessments ---------- */
+  function viewAssessment(courseId, aid) {
+    const c = byId(courseId); if (!c) return viewNotFound();
+    const a = (c.assessments || []).find(x => x.id === aid); if (!a) return viewNotFound();
+    const st = lessonState(c.id, a.id) || {};
+    const lessonsDone = c.lessons.every(l => (lessonState(c.id, l.id) || {}).done);
+    const isTest = a.type === "test" && a.quiz.length;
+    render(`
+      <article class="lesson-body" style="margin:0 auto">
+        <div class="breadcrumb"><a href="#/courses">Courses</a> / <a href="#/course/${c.id}">${esc(c.title)}</a> / ${isTest ? "Final test" : "Project"}</div>
+        <h1>${esc(a.title)}</h1>
+        <p class="muted">${a.minutes >= 60 ? fmtHours(a.minutes) : a.minutes + " min"} ${st.done ? "· <span style='color:var(--success)'>Completed" + (st.score !== undefined ? " · " + Math.round(st.score * 100) + "%" : "") + "</span>" : ""}</p>
+        ${!lessonsDone ? `<div class="callout"><b>Finish the lessons first</b><p>This ${isTest ? "test" : "project"} draws on the whole course. You can read it now; complete every lesson before you attempt it.</p></div>` : ""}
+        <div class="lesson-content">${a.content}</div>
+        ${isTest ? renderQuiz({ ...a, quiz: a.quiz }, a.pass_mark) : `<div class="quiz"><h2>Done with the project?</h2><p class="muted">Mark it complete when your deliverable meets the rubric. Be honest; nobody checks but you, and the point is what you learned.</p><button class="btn btn-primary" id="markDone">${st.done ? "Completed ✓" : "Mark project complete"}</button></div>`}
+        <nav class="lesson-nav"><a class="btn btn-secondary" href="#/course/${c.id}">← Course home</a></nav>
+      </article>
+    `, a.title);
+    const markBtn = main.querySelector("#markDone");
+    if (markBtn) markBtn.addEventListener("click", () => { markLesson(c.id, a.id, { done: true }); markBtn.textContent = "Completed ✓"; afterComplete(c); });
+    if (isTest) wireQuiz(c, a, a.pass_mark, true);
   }
 
   /* ---------- Review (spaced repetition) ---------- */
@@ -428,7 +460,7 @@
         <h2>Certificate of Completion</h2>
         <p>This certifies that</p>
         <h3>${name ? esc(name) : "________________"}</h3>
-        <p>has completed all ${c.lessons.length} lessons of</p>
+        <p>has completed all ${c.lessons.length} lessons${(c.assessments || []).some(a => a.type === "test") ? " and passed the final test" : ""} of</p>
         <h3>${esc(c.title)}</h3>
         <p class="muted">${date}</p>
       </div>
@@ -477,6 +509,7 @@
     if (path === "/path") return viewPath();
     if (path === "/review") return viewReview(params.get("mode"));
     if ((m = path.match(/^\/course\/([^/]+)\/lesson\/([^/]+)$/))) return viewLesson(m[1], m[2]);
+    if ((m = path.match(/^\/course\/([^/]+)\/assessment\/([^/]+)$/))) return viewAssessment(m[1], m[2]);
     if ((m = path.match(/^\/course\/([^/]+)$/))) return viewCourse(m[1]);
     if ((m = path.match(/^\/certificate\/([^/]+)$/))) return viewCertificate(m[1]);
     if (path === "/my-learning") return viewMyLearning();

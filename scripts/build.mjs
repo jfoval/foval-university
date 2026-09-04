@@ -61,9 +61,24 @@ for (const school of fs.readdirSync(COURSES_DIR, { withFileTypes: true }).filter
       });
       const words = body.split(/\s+/).filter(Boolean).length;
       if (words < 250) warn.push(`${file}: only ${words} words; depth standard expects substantially more`);
-      return { id: f.replace(/\.md$/, ""), title: lm.title, minutes: lm.minutes, video: lm.video, quiz, content: marked.parse(renderBlocks(body)) };
+      return { id: f.replace(/\.md$/, ""), title: lm.title, minutes: lm.minutes, video: lm.video, objectives: Array.isArray(lm.objectives) ? lm.objectives : [], quiz, content: marked.parse(renderBlocks(body)) };
     });
-    courses.push({ ...meta, lessons });
+    // assessments: final test (has quiz) and projects
+    const aDir = path.join(dir, "assessments");
+    const aFiles = fs.existsSync(aDir) ? fs.readdirSync(aDir).filter(f => f.endsWith(".md")).sort() : [];
+    const assessments = aFiles.map(f => {
+      const file = path.relative(ROOT, path.join(aDir, f));
+      const { meta: am, body } = parseFrontmatter(fs.readFileSync(path.join(aDir, f), "utf8"), file);
+      req(am, ["title"], file);
+      const quiz = Array.isArray(am.quiz) ? am.quiz : [];
+      quiz.forEach((q, i) => {
+        if (!q.q || !Array.isArray(q.options) || q.options.length < 2) errors.push(`${file}: item #${i + 1} needs a question and 2+ options`);
+        else if (!Number.isInteger(q.answer) || q.answer < 0 || q.answer >= q.options.length) errors.push(`${file}: item #${i + 1} answer index out of range`);
+      });
+      const type = am.type || (quiz.length ? "test" : "project");
+      return { id: f.replace(/\.md$/, ""), title: am.title, type, minutes: am.minutes || 0, pass_mark: am.pass_mark || 0.8, quiz, content: marked.parse(renderBlocks(body)) };
+    });
+    courses.push({ ...meta, lessons, assessments });
   }
 }
 
