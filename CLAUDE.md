@@ -23,6 +23,7 @@ Foval University is a free, open, general-education online university. Content l
 4. Every lesson change: run `npm run validate` before committing. Run `npm run build` and commit `site/data/courses.js` when publishing.
 5. When a course's status changes, update both `course.yaml` and its row in `curriculum/TAXONOMY.md`.
 6. Sensitive domains (standards Part 3.4) require the neutrality audit before publish. No exceptions.
+6b. School of Christian Studies courses carry `standpoint: christian` and follow standards 3.7: taught from within the faith, labelled as such, objections engaged at full strength. Neutral schools never assert or mock religious claims either way.
 7. Lesson content format: YAML frontmatter (title, minutes, objectives, quiz) + Markdown body. `:::callout Title` and `:::exercise Title` blocks (closed with `:::`) render as styled boxes. Raw HTML is allowed but discouraged.
 8. Site code is plain HTML/CSS/JS with no framework and no build step. Keep it that way; it must run fast on cheap phones.
 9. Commit messages: short imperative subject; body says what changed and why. Content commits name the course and lesson.

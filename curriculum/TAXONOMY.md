@@ -8,7 +8,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 
 1. **Two halves, one person.** Half the map is what a serious classical university teaches (history, philosophy, mathematics, science, literature). The other half is what almost no university teaches but every capable adult needs (money, sales, health, self-reliance, using AI). A Foval graduate should be both well-read and street-smart.
 2. **Foundations first.** The School of Foundations teaches how to think, read, and evaluate evidence. Everything else assumes it.
-3. **Neutral ground.** On contested questions we teach the debate, not a side. See `docs/EDITORIAL_STANDARDS.md`.
+3. **Neutral ground, honestly labelled.** On contested questions the neutral schools teach the debate, not a side. One school, Christian Studies, teaches from a declared standpoint and says so on every course. See `docs/EDITORIAL_STANDARDS.md` Part 3.
 4. **Depth over breadth per course.** A course should leave you genuinely competent in its subject, not "exposed" to it.
 
 **Levels:** `Foundation` (no prerequisites), `Core` (assumes Foundation courses), `Advanced` (assumes Core).
@@ -238,7 +238,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 
 | Course | Level | Status | Notes |
 |---|---|---|---|
-| How to Learn Anything | Foundation | planned | Retrieval, spacing, interleaving, deliberate practice. Take this first. |
+| How to Learn Anything | Foundation | research | Retrieval, spacing, interleaving, deliberate practice. Take this first. |
 | Memory | Foundation | planned | |
 | Focus and Deep Work | Foundation | planned | |
 | Note-Taking and Personal Knowledge | Foundation | planned | |
@@ -246,6 +246,26 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 | Habits and Self-Discipline | Foundation | planned | |
 | Time Management | Foundation | planned | |
 | Mental Models | Core | planned | The 50 that matter, with worked examples. |
+
+## 15. School of Christian Studies — `christian-studies`
+*Taught from within the Christian faith. Every course here says so on its first line; see Editorial Standards 3.7. The case is made at full strength, objections are engaged at full strength, and what is established, argued, and believed is kept distinct.*
+
+| Course | Level | Status | Notes |
+|---|---|---|---|
+| The Case for Christianity | Foundation | planned | Why a thinking person can believe: the existence of God, the reliability of the Gospels, the resurrection, the problem of evil, and the strongest objections, answered honestly. |
+| The Bible: What It Is and How to Read It | Foundation | planned | Bible basics: the books, the genres, how the canon formed, translations, and how to read each kind of text well. |
+| How to Study the Bible | Foundation | planned | Inductive study: observation, interpretation, application. Context, cross-reference, tools, a study plan you can keep. |
+| The Story of Scripture | Foundation | planned | Genesis to Revelation as one story: creation, fall, Israel, Christ, church, new creation. |
+| The Life and Teachings of Jesus | Foundation | planned | The Gospels in depth: who he claimed to be, what he taught, what he did, why it matters. |
+| Old Testament Survey | Core | planned | Book by book, with history and archaeology alongside. |
+| New Testament Survey | Core | planned | Book by book: Gospels, Acts, letters, Revelation. |
+| Core Christian Doctrine | Core | planned | What the creeds confess: God, Trinity, Christ, salvation, church, last things. Where traditions differ, and why. |
+| Church History | Core | planned | From Pentecost to today: the early church, councils, monasticism, Reformation, missions, the global church. |
+| Faith and Science | Core | planned | The range of Christian positions on origins, the age of the Earth, and evolution, each in its own terms, plus the history of faith and science together. |
+| Hard Questions | Core | planned | Suffering, hell, the exclusivity of Christ, other religions, Bible difficulties, the church's failures. Real answers, not deflections. |
+| Christian Living | Foundation | planned | Prayer, Scripture, worship, community, generosity, vocation. Practice, not just theory. |
+| Christian Ethics | Core | planned | How Scripture and the tradition reason about right and wrong, applied to work, money, sex, politics, and technology. |
+| Great Christian Books | Core | planned | Augustine, Athanasius, Aquinas, Luther, Calvin, Pascal, Bunyan, Lewis, Bonhoeffer, and more. |
 
 ---
 
@@ -275,6 +295,7 @@ The Core is the general-education spine: the sequence a student takes to become 
 15. Introduction to Philosophy
 16. Great Books I: The Ancients
 17. World Religions
+18. The Bible: What It Is and How to Read It *(Christian standpoint)*
 
 **Term 4: The physical world**
 18. Physics I
@@ -310,9 +331,10 @@ The Core is the general-education spine: the sequence a student takes to become 
 **Term 8: Integration**
 41. Ethics
 42. Meaning, Death, and the Good Life
-43. Mental Models
-44. Investing
-45. Capstone project: teach something you learned to someone else, and write it up.
+43. The Case for Christianity *(Christian standpoint)*
+44. Mental Models
+45. Investing
+46. Capstone project: teach something you learned to someone else, and write it up.
 
 ## Adding to the map
 

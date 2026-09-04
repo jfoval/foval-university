@@ -2,13 +2,13 @@
 
 A free, open, general-education online university. The goal is simple to state and hard to do: make a person broadly educated, in the classical sense (history, philosophy, mathematics, science, literature) *and* in the practical sense almost no university bothers with (money, sales, health, self-reliance, using AI). Free for everyone, no accounts required to learn, no ads, ever.
 
-**Live site:** deployed from `site/` via GitHub Pages (see `.github/workflows/pages.yml`).
+**Live site:** https://jfoval.github.io/foval-university/ (deployed from `site/` by GitHub Pages on every push to main).
 
 ## What's here
 
 | Path | What |
 |---|---|
-| `curriculum/TAXONOMY.md` | The full map: 14 schools, ~140 courses, and the Foval Core progression |
+| `curriculum/TAXONOMY.md` | The full map: 15 schools, ~155 courses, and the Foval Core progression |
 | `curriculum/core-path.yaml` | The Core path as data, used by the site |
 | `docs/EDITORIAL_STANDARDS.md` | What every lesson must meet: depth, truth, neutrality, pedagogy |
 | `docs/CONTENT_PIPELINE.md` | How courses are researched, drafted, and reviewed with Claude Code |

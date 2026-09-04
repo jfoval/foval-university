@@ -121,6 +121,25 @@ A separate review pass, in a fresh session, that reads the lesson specifically f
 
 It is not refusing to say true things because they are politically inconvenient to someone. It is not giving equal time to positions the evidence has decisively rejected. It is not vagueness. A neutral lesson on evolution teaches evolution. A neutral lesson on the effects of rent control reports the strong economist consensus and the minority view and the evidence for each. A neutral lesson on abortion explains what each side actually believes and why, in full, and reaches no verdict.
 
+### 3.7 Standpoint courses: the School of Christian Studies
+
+Foval has one school that is deliberately not neutral. The School of Christian Studies teaches from within the Christian faith: it makes the case for Christianity, teaches what the Bible says and how to study it, and says so on the first line of every course. This is not an exception to the honesty standard; it is an application of it. Universities have always housed confessional faculties (Oxford's theology faculty, Notre Dame, Baylor, Wheaton) alongside neutral ones. What makes that honest is the label. A reader always knows which kind of course they are in.
+
+**Rules for standpoint courses**
+
+- `course.yaml` carries `standpoint: christian`. The site shows, on the card and the course page: *"Taught from within the Christian tradition. This course makes the case; it does not pretend to be neutral."*
+- They are held to Parts 1, 2, and 4 in full. Depth, sourcing, and pedagogy do not relax. Primary sources are Scripture, the creeds and confessions, the major theologians, and the best current scholarship, including scholarship the course disagrees with.
+- Objections and alternatives are engaged at their strongest. The ideological Turing test (3.2) runs in both directions: a thoughtful atheist, Muslim, or Jew reading the course's description of their view should recognise it. A course that argues only with weak versions of its opponents fails the depth test, and it also fails the learner, who will meet the strong versions later.
+- The course distinguishes, in its own text, what history and archaeology establish, what is argued from evidence, and what is held by faith. Saying which is which is a strength, not a concession.
+- No sneering at other faiths, other Christian traditions, or unbelief. Where Christian traditions differ (baptism, church government, end times, the relationship of faith and science), the course presents the range fairly and may say which view it holds.
+
+**Rules for the rest of the university**
+
+- Neutral courses treat the existence of God, the truth of Christianity, and the authority of Scripture as value or contested questions under 3.1. They are described fairly, never asserted false, never mocked, and never treated as settled in either direction. This was already the standard; it is restated here so there is no doubt.
+- Established empirical findings remain established in the neutral schools: the age of the Earth, common descent, the textual history of ancient documents. The School of Christian Studies has a *Faith and Science* course that presents the range of Christian positions on how those findings relate to Scripture (young-earth, old-earth, evolutionary creation) in each position's own terms. Science courses note that questions of purpose, meaning, and God lie outside what science measures, which is true and which many scientists of every conviction would affirm.
+- *World Religions* stays descriptive. It is where Christianity is described alongside other faiths, in the terms its adherents use. The School of Christian Studies is where the case is made.
+- Nothing anywhere in Foval sets out to undermine faith. Nothing anywhere in Foval hides evidence. Both of those are the same commitment: tell the truth, say what you know and how you know it, and let the learner think.
+
 ---
 
 ## Part 4: Pedagogy

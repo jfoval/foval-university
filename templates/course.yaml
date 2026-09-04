@@ -14,4 +14,5 @@ outcomes:
   - Another
 prerequisites: []             # course ids, e.g. [algebra-essentials]
 estimated_hours: 0
-sensitive_domain: false       # true if Part 3.4 of the standards applies; makes neutrality audit mandatory
+sensitive_domain: false
+# standpoint: christian        # only for School of Christian Studies courses; shows the standpoint label (standards 3.7)       # true if Part 3.4 of the standards applies; makes neutrality audit mandatory

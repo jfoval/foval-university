@@ -1,0 +1,23 @@
+id: how-to-learn-anything
+title: How to Learn Anything
+school: learning-and-mind
+subject: Learning & Mind
+level: Foundation
+status: research
+summary: The research on how people actually learn, turned into a method you can use on any subject, starting with this university.
+description: >-
+  Most people were never taught how to learn; they were taught subjects and left to guess at the method.
+  A century of research in cognitive psychology has produced clear, replicated findings about what makes
+  learning stick and what only feels like it does. This course teaches those findings and turns them into
+  a working method: how to study, practise, remember, and get genuinely good at something. It is the first
+  course on the Foval Core because every other course goes better once you have it.
+outcomes:
+  - Explain why rereading and highlighting feel productive but produce weak learning, and what to do instead
+  - Apply retrieval practice, spacing, and interleaving to a real subject
+  - Design deliberate practice for a skill, with feedback loops
+  - Use worked examples, elaboration, and self-explanation to understand hard material
+  - Build a personal study system that fits the time you actually have
+  - Recognise the common learning myths and the evidence against them
+prerequisites: []
+estimated_hours: 6
+sensitive_domain: false

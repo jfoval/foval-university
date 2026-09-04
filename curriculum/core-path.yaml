@@ -36,6 +36,7 @@ terms:
       - { id: intro-philosophy, school: philosophy-and-religion, title: Introduction to Philosophy }
       - { id: great-books-1, school: literature-and-arts, title: "Great Books I: The Ancients" }
       - { id: world-religions, school: philosophy-and-religion, title: World Religions }
+      - { id: bible-basics, school: christian-studies, title: "The Bible: What It Is and How to Read It", standpoint: christian }
 
   - title: The physical world
     theme: How matter, life, the Earth, and the cosmos work.
@@ -85,6 +86,7 @@ terms:
     courses:
       - { id: ethics, school: philosophy-and-religion, title: Ethics }
       - { id: meaning-and-the-good-life, school: philosophy-and-religion, title: Meaning, Death, and the Good Life }
+      - { id: case-for-christianity, school: christian-studies, title: The Case for Christianity, standpoint: christian }
       - { id: mental-models, school: learning-and-mind, title: Mental Models }
       - { id: investing, school: money, title: Investing }
       - { id: capstone, school: foundations, title: "Capstone: Teach What You Learned" }
