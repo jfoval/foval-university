@@ -85,6 +85,23 @@
   const byId = id => COURSES.find(c => c.id === id);
   const totalMinutes = c => c.lessons.reduce((n, l) => n + (l.minutes || 0), 0);
   const fmtHours = mins => mins < 60 ? `${mins} min` : `${Math.round(mins / 60 * 10) / 10} h`;
+  const SCHOOLS = [
+    { name: "Foundations", line: "Logic, evidence, and how to think." },
+    { name: "Mathematics", line: "Arithmetic to calculus, for understanding." },
+    { name: "Natural Sciences", line: "How the physical world works." },
+    { name: "History", line: "What happened, and how we know." },
+    { name: "Philosophy & Religion", line: "The big questions and the traditions." },
+    { name: "Literature & Arts", line: "The best that has been thought and made." },
+    { name: "Economics, Government & Law", line: "Money, power, and rules." },
+    { name: "Computer Science & AI", line: "Understanding and building with computers." },
+    { name: "Business & Enterprise", line: "Creating value and getting paid for it." },
+    { name: "Money", line: "Personal finance from first principles." },
+    { name: "Health & the Body", line: "What the evidence says about staying well." },
+    { name: "Practical Life & Self-Reliance", line: "Competence in the physical world." },
+    { name: "Communication & People", line: "Working with other humans." },
+    { name: "Learning & Mind", line: "How to learn anything." },
+    { name: "Christian Studies", line: "The Bible, the faith, and the case for it." },
+  ];
   const STANDPOINT = { christian: "Taught from within the Christian tradition. This course makes the case; it does not pretend to be neutral." };
   const spLabel = sp => sp ? `<span class="standpoint-tag">${esc(sp)} standpoint</span>` : "";
   const shuffle = a => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
@@ -127,37 +144,45 @@
     const lessons = COURSES.reduce((n, c) => n + c.lessons.length, 0);
     const started = COURSES.filter(courseStarted);
     const rs = reviewStats();
+    const liveSchools = new Set(COURSES.map(c => c.subject));
     render(`
-      <section class="hero">
-        <div>
-          <span class="eyebrow">Faith. Knowledge. Life. Free for everyone.</span>
-          <h1>Become a genuinely well-educated person, for free.</h1>
-          <p class="lede">History, philosophy, mathematics, science, and literature, alongside the practical skills universities skip: money, sales, health, self-reliance, and using AI. Real lessons, real tests, and a review system that keeps what you learn from fading.</p>
-          <div class="btn-row">
-            <a class="btn btn-primary" href="#/path">Start the path</a>
-            <a class="btn btn-secondary" href="#/courses">Browse all courses</a>
+      <section class="hero-wrap">
+        <div class="hero-media"><video autoplay muted loop playsinline poster="assets/media/hero-poster.jpg" onerror="this.style.display='none'"><source src="assets/media/hero.mp4" type="video/mp4"></video></div>
+        <div class="hero-inner">
+          <div>
+            <span class="eyebrow">Faith. Knowledge. Life. Free for everyone.</span>
+            <h1>A real education, free, for anyone who wants one.</h1>
+            <p class="lede">History, philosophy, mathematics, science, and Scripture, alongside what most schools skip: money, sales, health, self-reliance, and how to think. Written by people who know the subject, checked against the sources, and taught the way a good professor talks.</p>
+            <div class="btn-row">
+              <a class="btn btn-primary" href="#/path">Start the path</a>
+              <a class="btn btn-secondary" href="#/courses">Browse the courses</a>
+            </div>
           </div>
-        </div>
-        <div class="hero-card">
-          <h3>How it works</h3>
-          <ul class="principles">
-            <li>Follow the Foval Core, or jump into any course you like</li>
-            <li>Every lesson ends with a quiz that tests understanding, not recall</li>
-            <li>Questions you've passed come back on a schedule so knowledge stays fresh</li>
-            <li>A transcript tallies everything you've learned</li>
-          </ul>
-          <div class="stat-row">
-            <div class="stat"><b>${COURSES.length}</b><span>courses live</span></div>
-            <div class="stat"><b>${lessons}</b><span>lessons</span></div>
-            <div class="stat"><b>$0</b><span>forever</span></div>
+          <div class="hero-card-dark">
+            <h3>How it works</h3>
+            <ul class="principles">
+              <li>Follow the Core, or jump into any course you like</li>
+              <li>You think as you read: predict, check yourself, do the work</li>
+              <li>Questions you've passed come back on a schedule, so it stays learned</li>
+              <li>A transcript tallies everything you can actually do</li>
+            </ul>
+            <div class="stat-row">
+              <div class="stat"><b>${COURSES.length}</b><span>courses live</span></div>
+              <div class="stat"><b>${lessons}</b><span>lessons</span></div>
+              <div class="stat"><b>$0</b><span>forever</span></div>
+            </div>
           </div>
         </div>
       </section>
       ${rs.due.length ? `<div class="path-next"><div><h3>${rs.due.length} question${rs.due.length === 1 ? "" : "s"} due for review</h3><p>A few minutes now keeps it from fading.</p></div><a class="btn btn-primary" href="#/review">Review now</a></div>` : ""}
       ${started.length ? `<section class="section"><div class="section-head"><h2>Continue</h2><p><a href="#/my-learning">Your page →</a></p></div><div class="grid">${started.filter(c => !courseComplete(c)).slice(0, 3).map(courseCard).join("")}</div></section>` : ""}
       <section class="section">
-        <div class="section-head"><h2>Courses</h2><p><a href="#/courses">See all →</a></p></div>
+        <div class="section-head"><h2>Courses</h2><p><a href="#/courses">See all</a></p></div>
         <div class="grid">${COURSES.slice(0, 6).map(courseCard).join("")}</div>
+      </section>
+      <section class="section">
+        <div class="section-head"><h2>Fifteen schools</h2><p><a href="${REPO}/blob/main/curriculum/TAXONOMY.md" target="_blank" rel="noopener">The full map</a></p></div>
+        <div class="schools">${SCHOOLS.map(s => `<div class="school"><b>${esc(s.name)}</b><span>${esc(s.line)}</span>${liveSchools.has(s.name) ? "" : "<br><span class='soon'>courses in progress</span>"}</div>`).join("")}</div>
       </section>
     `);
   }
