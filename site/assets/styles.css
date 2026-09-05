@@ -306,3 +306,11 @@ a.path-item:hover { background: var(--surface-2); color: var(--text); }
 .fb-scale label:hover { background: var(--surface-2); }
 .fb-field { display: block; margin: .75rem 0; font-size: .92rem; color: var(--text-2); }
 .fb-field textarea { display: block; width: 100%; margin-top: .35rem; font: inherit; font-size: 1rem; padding: .6rem; border: 1px solid var(--line); background: var(--bg); color: var(--text); resize: vertical; }
+
+/* Figures and video */
+.fig { margin: 1.75rem 0; }
+.fig img { display: block; width: 100%; height: auto; border: 1px solid var(--line); }
+.fig figcaption { font-size: .85rem; color: var(--text-2); margin-top: .5rem; line-height: 1.45; }
+.fig figcaption a { color: var(--text-2); }
+.video-fig .video { margin: 0; }
+.lesson-content svg { max-width: 100%; height: auto; }

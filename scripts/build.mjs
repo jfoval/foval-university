@@ -19,7 +19,19 @@ marked.setOptions({ gfm: true, breaks: false });
 function renderBlocks(md) {
   // :::callout Title / :::exercise Title ... ::: → styled div
   // :::predict Question / :::checkpoint Question ... ::: → question with the body hidden behind a button
-  return md.replace(/^:::(callout|exercise|predict|checkpoint)[ \t]*(.*)\r?\n([\s\S]*?)^:::[ \t]*$/gm, (_, kind, title, body) => {
+  return md.replace(/^:::(callout|exercise|predict|checkpoint|figure|video)[ \t]*(.*)\r?\n([\s\S]*?)^:::[ \t]*$/gm, (_, kind, title, body) => {
+    if (kind === "figure") {
+      // :::figure <src> | <alt text>   body = caption (markdown), should include the credit and licence
+      const [src, alt = ""] = title.split("|").map(s => s.trim());
+      return `<figure class="fig"><img src="${src}" alt="${alt.replace(/"/g, "&quot;")}" loading="lazy"><figcaption>${marked.parseInline(body.trim())}</figcaption></figure>`;
+    }
+    if (kind === "video") {
+      // :::video <youtube or youtube-nocookie URL> | <title>   body = why to watch it (markdown)
+      const [url, vtitle = "Video"] = title.split("|").map(s => s.trim());
+      const m = url.match(/(?:youtu\.be\/|v=|embed\/)([\w-]{11})/);
+      const embed = m ? `https://www.youtube-nocookie.com/embed/${m[1]}` : url;
+      return `<figure class="fig video-fig"><iframe class="video" src="${embed}" title="${vtitle.replace(/"/g, "&quot;")}" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe><figcaption>${marked.parseInline(body.trim())}</figcaption></figure>`;
+    }
     if (kind === "predict" || kind === "checkpoint") {
       const label = kind === "predict" ? "Predict first" : "Check yourself";
       return `<div class="think ${kind}"><b>${label}</b><p class="think-q">${marked.parseInline(title.trim())}</p><details><summary>Show the answer</summary>${marked.parse(body.trim())}</details></div>`;

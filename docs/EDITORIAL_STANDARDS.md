@@ -176,7 +176,18 @@ The research on learning is unusually clear and we apply it:
 
 Courses include, as appropriate: a **course-end test** drawing on all lessons; **projects** with a clear deliverable and a rubric; and **applied exercises** that have the learner do the real thing (write the email, build the budget, run the experiment, make the sale). Projects are where learning becomes competence. Every course of six or more lessons has at least one.
 
-### 4.5 Accessibility and devices
+### 4.5 Media: pictures, video, links, and graphics
+
+A lesson is not only prose. Where a picture, a short video, a link, or a chart would teach better than a paragraph, use it. Where it wouldn't, don't. The test is the same as for every sentence: can you say why the reader needs it?
+
+- **Links.** Link to the primary source, the free full text, the original data, the better explanation, the Wikipedia article as a starting point for names and dates. A lesson with no links is a lesson that hides its sources. Use plain Markdown links in the text; say what the reader will find there.
+- **Images.** Use real images: a manuscript page, a map, a photograph of the thing, a period painting, a diagram from a paper. Sources: Wikimedia Commons (public domain or Creative Commons, hotlinking from upload.wikimedia.org is permitted), Library of Congress, NASA, museum open-access collections, the papers themselves when the licence allows. Every image gets alt text that says what it shows and a caption with the credit and licence. No AI-generated images, no stock-photo filler, no decorative pictures that carry no information. Format: `:::figure <url> | <alt text>` with the caption (including credit) as the body, closed with `:::`.
+- **Video.** Embed a video when a lecture, an animation, or a demonstration explains the thing better than text can: a Khan Academy or 3Blue1Brown animation, a Bible Project overview, a university lecture, a practitioner showing a technique. YouTube only, embedded privacy-enhanced. Say in the caption why to watch it and how long it is. Videos are supplementary: the lesson must teach the idea in text too. Format: `:::video <url> | <title>` with the reason to watch as the body.
+- **Charts and diagrams.** When numbers or a structure are the point, draw them: an SVG chart of the actual data (Cepeda's ridgeline, the Roediger and Karpicke crossover, the retention curve), a diagram of the argument's structure, a timeline of the canon. Build them from real data with real axes and labels, in the site's colours, as inline SVG or a file under `site/assets/media/<course>/`. Follow the data-visualisation guidance: one idea per chart, labelled directly, readable at phone width, no 3D, no decoration. No generated imagery that merely looks like a chart.
+- **Where they go.** Media sits where the reader needs it, not in a gallery at the end. A figure should be referred to in the text ("look at the second bar").
+- **Licensing.** Only use what we are allowed to use: public domain, Creative Commons with the required attribution, or embedding from the platform that hosts it. Record the licence in the caption. When in doubt, link instead of embedding.
+
+### 4.6 Accessibility and devices
 
 Lessons must read well on a phone. Short paragraphs, headings every few hundred words, tables that fit or degrade gracefully, code blocks that scroll horizontally, no essential information conveyed only by colour or images. Alt text on every image. Videos are supplementary, never the only carrier of content.
 
@@ -194,6 +205,7 @@ A lesson is done when:
 - [ ] The quiz meets 4.3 and at least half its questions require application
 - [ ] It passes the voice review against `docs/STYLE_GUIDE.md`: no em dashes, no banned phrases, reads aloud as a person talking
 - [ ] It makes the reader think as they read: predict blocks, checkpoints, an exercise, free recall before the quiz
+- [ ] It uses links, images, video, and charts where they teach better than prose, each with alt text, caption, credit, and licence (4.5), and none that are decorative or AI-generated
 - [ ] It reads well at phone width
 - [ ] It is live, and the feedback loop is open on it
 

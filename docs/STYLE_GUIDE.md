@@ -83,6 +83,10 @@ A lesson is not paragraphs followed by a quiz. Reading is the weakest form of le
 - **Do it now.** Every lesson has at least one exercise the reader actually does, on paper or in their own subject, before the quiz.
 - **Free recall before the quiz.** The site asks the reader to write everything they remember before the quiz opens. That is the single most useful thing a lesson can make someone do.
 
+## Pictures, video, links, charts
+
+A good professor draws on the board, plays the clip, hands you the photocopy of the manuscript, and tells you which book to read next. Do the same. Link the primary source. Show the actual painting, the actual page, the actual data drawn as a chart. Embed the ten-minute video that explains it better than you can, and say why. The standards (4.5) give the formats and the licensing rules. Two rules of taste: no picture that is only decoration, and nothing generated to look like a photo or a painting. Real things, or nothing.
+
 ## The check
 
 Before a lesson is done, read it aloud. Where you would be embarrassed to say a sentence to a real person sitting across from you, rewrite it. Then search the file for "—" and for every word in the banned list. Then ask: does this sound like someone who knows the subject and likes the reader? If not, it's not done.
