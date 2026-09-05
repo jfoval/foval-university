@@ -34,7 +34,9 @@ Every lesson contains, in a natural order:
 
 ### 1.3 Length
 
-A lesson is as long as it needs to be to actually teach the thing. Typical range is 1,200 to 3,000 words of body text, plus exercises and quiz. Under 800 words is almost always too thin for a real topic. Over 4,000 usually means it should be two lessons. The build script warns below 250 words as a floor; the real bar is higher.
+A lesson is as long as it takes to teach the thing properly, and no shorter. There is no ceiling. Never cut a worked example, a mechanism, a misconception, or a source to hit a word count; the value is in those. Under about 800 words is almost always too thin for a real topic, and the build script warns below 250 as a floor.
+
+The one reason to split a long lesson into two is the learner, not the count: most people read on a phone in sittings of half an hour to an hour, and a lesson works best when one sitting gets them to a natural stopping point with something learned. If a lesson covers two ideas that can each stand alone, and a reader would benefit from a quiz and a rest between them, split it. If the ideas depend on each other, keep them together however long it runs. Reviewers should never flag length on its own; they should flag padding, which is a different thing.
 
 ### 1.4 Research before writing
 

@@ -14,7 +14,7 @@ Everything below is just that idea, spelled out.
 
 **Plain words.** Use the word a person would say out loud. "Use" not "utilise". "Start" not "commence". "About" not "approximately". If a technical term is needed, use it, then say what it means in the next sentence.
 
-**Short sentences, mostly.** Fifteen to twenty words on average. A long sentence now and then is fine when the idea needs it. A long sentence every time is a wall.
+**Short sentences, mostly.** Fifteen to twenty words on average. A long sentence now and then is fine when the idea needs it. A long sentence every time is a wall. (This is about sentences, not lessons. A lesson is as long as the teaching needs; see the standards, 1.3.)
 
 **You and I.** Second person throughout. "You'll notice", "try this", "here's the part people miss". The lesson can say "I" when it is speaking as the teacher: "I'd start with the second method."
 

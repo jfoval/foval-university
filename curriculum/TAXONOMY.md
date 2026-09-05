@@ -22,7 +22,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 | Course | Level | Status | Notes |
 |---|---|---|---|
 | Reading Well | Foundation | planned | How to read a book, a paper, a primary source. Adler's levels of reading. Note-taking that sticks. |
-| Logic and Argument | Foundation | planned | Deductive and inductive reasoning, argument structure, formal fallacies, informal fallacies, steelmanning. |
+| Logic and Argument | Foundation | research | Deductive and inductive reasoning, argument structure, formal fallacies, informal fallacies, steelmanning. |
 | Statistics for Citizens | Foundation | planned | Averages that lie, base rates, sampling, confidence, correlation vs causation, how to read a study and a news claim. |
 | Probability and Decisions | Core | planned | Expected value, Bayes, risk, decision-making under uncertainty. |
 | How We Know: Epistemology in Practice | Core | planned | Evidence hierarchies, expert disagreement, when to trust whom, calibrated confidence. |
@@ -253,7 +253,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 | Course | Level | Status | Notes |
 |---|---|---|---|
 | The Case for Christianity | Foundation | planned | Why a thinking person can believe: the existence of God, the reliability of the Gospels, the resurrection, the problem of evil, and the strongest objections, answered honestly. |
-| The Bible: What It Is and How to Read It | Foundation | planned | Bible basics: the books, the genres, how the canon formed, translations, and how to read each kind of text well. |
+| The Bible: What It Is and How to Read It | Foundation | research | Bible basics: the books, the genres, how the canon formed, translations, and how to read each kind of text well. |
 | How to Study the Bible | Foundation | planned | Inductive study: observation, interpretation, application. Context, cross-reference, tools, a study plan you can keep. |
 | The Story of Scripture | Foundation | planned | Genesis to Revelation as one story: creation, fall, Israel, Christ, church, new creation. |
 | The Life and Teachings of Jesus | Foundation | planned | The Gospels in depth: who he claimed to be, what he taught, what he did, why it matters. |

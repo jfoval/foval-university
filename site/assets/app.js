@@ -1,4 +1,4 @@
-/* Foval Learning Institute — client-side app. Plain JS, no build step, no backend.
+/* Foval Learning Institute: client-side app. Plain JS, no build step, no backend.
    State lives in localStorage and is designed to map 1:1 onto the Phase 2 sync tables. */
 (function () {
   "use strict";
