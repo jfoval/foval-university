@@ -19,21 +19,32 @@ description: >-
   of how people actually reason, and it ends with you writing an argument of your own.
 outcomes:
   - >-
-    Identify the premises, conclusion, and missing steps of an argument, and tell an argument from
-    an explanation or a bare assertion
+    Identify the premises, conclusion, and missing premise of an argument, put it in standard form,
+    and tell an argument from an explanation, a report, or a bare assertion
   - >-
-    Judge whether a deductive argument is valid and sound, and whether an inductive argument is
-    strong and cogent, without being swayed by whether you like the conclusion
+    Judge whether a deductive argument is valid and sound by finding a counterexample, using the
+    four conditional forms and a Venn check, and test the link before consulting your opinion of
+    the conclusion
   - >-
-    Use base rates, the conjunction rule, and natural frequencies to work out how much a piece of
-    evidence should change your mind
+    Judge whether an inductive argument is strong and cogent, whether it generalises from a sample,
+    argues by analogy, claims a cause, or infers the best explanation
   - >-
-    Reconstruct someone else's argument in its strongest form and evaluate it with the
-    acceptability, relevance, and grounds tests
+    Use natural frequencies, the conjunction rule, base rates, and the likelihood ratio to work out
+    how much a piece of evidence should change your mind, and spot the prosecutor's fallacy
   - >-
-    Name the standard formal and informal fallacies, recognise them in real cases, and explain when
-    the same pattern is legitimate reasoning
-  - Build a one-page written argument that survives your own fallacy check and a reader's objections
+    Reconstruct someone else's argument in its strongest form, with Toulmin's layout and Rapoport's
+    rules, and evaluate it with the acceptability, relevance, and grounds conditions
+  - >-
+    Name the standard fallacies, recognise them in documented real cases, and use critical questions
+    to tell a fallacy from the legitimate argument that shares its shape
+  - >-
+    Check a news argument for source quality, relative versus absolute risk, survivorship, and your
+    own motivated reasoning, with a repeatable checklist
+  - >-
+    Build a one-page written argument that states its strongest objection, concedes or answers it,
+    and survives your own fallacy check and a reader's
+# How to Learn Anything is recommended first (it is the first course on the Foval Core) but nothing
+# here depends on it.
 prerequisites: []
-estimated_hours: 12
+estimated_hours: 14
 sensitive_domain: false
