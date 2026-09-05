@@ -3,12 +3,42 @@ title: "The Bible: What It Is and How to Read It"
 school: christian-studies
 subject: Christian Studies
 level: Foundation
-status: research
-summary: TODO after research
-description: TODO after research
+status: drafting
+summary: >-
+  What the Bible is, how it is put together, where it came from, and how to read each kind of
+  writing in it well. For anyone new to it or coming back.
+description: >-
+  The Bible is the most read and most misread book in the world, and most people who own one were
+  never shown how it works. This course starts at the beginning: the sixty-six books and why
+  Catholic and Orthodox Bibles have more; the two testaments and the one story that runs from
+  Genesis to Revelation; the different kinds of writing inside (story, law, poetry, wisdom,
+  prophecy, gospel, letter, apocalyptic) and the rules for reading each one; how the collection
+  formed, how the text was copied and what we can say about its reliability; how translations
+  differ and how to choose one; and a way of reading that you can keep up. It is taught from within
+  the Christian faith and says so. It also says plainly what history establishes, what scholars
+  argue about, and what Christians hold by faith, and it presents the views it disagrees with in
+  their own terms.
 outcomes:
-  - TODO after research
+  - >-
+    Find any book in the Bible, say which section and genre it belongs to, and place it on the
+    timeline of the one story from creation to new creation
+  - >-
+    Identify the kind of writing in a passage and apply the reading rules for that kind, so that a
+    proverb, a law, a prophecy, and a letter are each read as what they are
+  - >-
+    Explain how the canon formed, why Protestant, Catholic, and Orthodox Bibles differ, and what
+    the Council of Nicaea did not do
+  - >-
+    Describe how the text was copied and recovered, what the Dead Sea Scrolls and the Greek
+    manuscripts show, and state fairly what is established and what is still argued about
+    reliability
+  - >-
+    Compare formal, functional, and free translations, and choose a translation for reading and
+    one for study with reasons you can defend
+  - >-
+    Read a whole book of the Bible in context with a repeatable method and a plan, and write a short
+    reading guide to it for someone else
 prerequisites: []
-estimated_hours: 8
+estimated_hours: 10
 sensitive_domain: true
 standpoint: christian
