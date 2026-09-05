@@ -1,4 +1,4 @@
-/* Foval University — client-side app. Plain JS, no build step, no backend.
+/* Foval Learning Institute — client-side app. Plain JS, no build step, no backend.
    State lives in localStorage and is designed to map 1:1 onto the Phase 2 sync tables. */
 (function () {
   "use strict";
@@ -7,7 +7,7 @@
   const PATH = window.FOVAL_PATH || { terms: [] };
   const SUBJECTS = [...new Set(COURSES.map(c => c.subject))];
   const PASS_MARK = 0.7;
-  const REPO = "https://github.com/jfoval/foval-university";
+  const REPO = "https://github.com/jfoval/foval-learning-institute";
   // Feedback endpoint: when set, feedback is POSTed here as JSON (Supabase REST insert, Formspree, or any endpoint).
   // Leave empty to keep feedback in this browser and offer the GitHub issue route. See docs/FEEDBACK_LOOP.md.
   const FEEDBACK_ENDPOINT = window.FOVAL_FEEDBACK_ENDPOINT || "";
@@ -96,7 +96,7 @@
   }
   function render(html, title) {
     main.innerHTML = html;
-    document.title = title ? `${title} · Foval University` : "Foval University";
+    document.title = title ? `${title} · Foval Learning Institute` : "Foval Learning Institute";
     window.scrollTo({ top: 0 });
   }
 
@@ -130,7 +130,7 @@
     render(`
       <section class="hero">
         <div>
-          <span class="eyebrow">Free. Open. For everyone.</span>
+          <span class="eyebrow">Faith. Knowledge. Life. Free for everyone.</span>
           <h1>Become a genuinely well-educated person, for free.</h1>
           <p class="lede">History, philosophy, mathematics, science, and literature, alongside the practical skills universities skip: money, sales, health, self-reliance, and using AI. Real lessons, real tests, and a review system that keeps what you learn from fading.</p>
           <div class="btn-row">
@@ -487,8 +487,8 @@
     const date = new Date().toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" });
     render(`
       <div class="cert">
-        <img class="cert-seal" src="assets/mark.svg" alt="Foval University seal">
-        <span class="eyebrow">Foval University</span>
+        <img class="cert-seal" src="assets/mark.svg" alt="Foval Learning Institute seal">
+        <span class="eyebrow">Foval Learning Institute</span>
         <h2>Certificate of Completion</h2>
         <p>This certifies that</p>
         <h3>${name ? esc(name) : "________________"}</h3>
@@ -509,8 +509,20 @@
     render(`
       <div class="prose">
         <span class="eyebrow">About</span>
-        <h1>Why Foval University exists</h1>
-        <p class="lede">Good teaching should not be rationed by price, and a real education should cover both the great questions and the practical skills of living well. Foval University is free, open, and built to make you both well-read and street-smart.</p>
+        <h1>What we stand on</h1>
+        <p class="lede">Faith. Knowledge. Life. Free for everyone. Good teaching should not be rationed by price, and a real education should cover the great questions, the practical skills of living well, and the faith that gives both their meaning. Foval Learning Institute is free, open, and built to make you well-read, hard to fool, and useful.</p>
+        <h2>The values</h2>
+        <ol>
+          <li><strong>Free, for everyone.</strong> No tuition, no ads, no paywalls, no account needed to learn.</li>
+          <li><strong>Truth, and honesty about it.</strong> What is known, how it is known, and what is not settled. Every claim sourced and fact-checked.</li>
+          <li><strong>Faith, taught honestly.</strong> The School of Christian Studies teaches from within the Christian faith and says so on every course. The rest of the institute teaches on neutral ground and never mocks belief or unbelief.</li>
+          <li><strong>Depth over polish.</strong> Written from the standard references, with worked examples and the mistakes experts know beginners make.</li>
+          <li><strong>The whole person.</strong> Books and street smarts: history and philosophy alongside money, sales, health, and survival.</li>
+          <li><strong>Plain speech.</strong> A good professor talking to one student across a table.</li>
+          <li><strong>Learning that lasts.</strong> You think while you read, do the work before the quiz, and come back on a schedule so it stays learned.</li>
+          <li><strong>Built with the people learning from it.</strong> Every lesson asks for feedback. What makes it better gets built in; what would make it shallower or slanted is set aside, with a reason.</li>
+          <li><strong>Open.</strong> Content and code live in the open, and anyone can see how a lesson was researched, reviewed, and revised.</li>
+        </ol>
         <h2>What we teach</h2>
         <p>Fourteen schools: thinking tools, mathematics, the natural sciences, history, philosophy and religion, literature and the arts, economics and government, computer science and AI, business, money, health, practical self-reliance, communication, and learning itself. The Foval Core is a recommended path through them, in the order that builds best.</p>
         <h2>How we keep it honest</h2>

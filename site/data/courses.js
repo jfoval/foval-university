@@ -6,7 +6,7 @@ window.FOVAL_COURSES = [
   "school": "communication-and-people",
   "subject": "Humanities",
   "level": "All levels",
-  "status": "review",
+  "status": "published",
   "summary": "Write emails, essays, and reports that people actually read and understand. Practical techniques, not grammar drills.",
   "description": "Clear writing is clear thinking made visible. This short course teaches the handful of techniques that separate writing people finish from writing they abandon: leading with the point, choosing concrete words, building sentences that move, and editing ruthlessly. Every lesson has before-and-after examples and a rewriting exercise.",
   "outcomes": [
@@ -185,7 +185,7 @@ window.FOVAL_COURSES = [
   "school": "computer-science-and-ai",
   "subject": "Computer Science",
   "level": "Beginner",
-  "status": "review",
+  "status": "published",
   "summary": "Learn to think like a programmer and write real Python from your first lesson. No prior experience needed.",
   "description": "Programming is the skill of giving precise instructions to a machine. This course teaches you the core ideas every programmer relies on, using Python, one of the most readable and widely used languages in the world. By the end you will be able to write small programs that store data, make decisions, repeat work, and organise themselves into reusable pieces.",
   "outcomes": [
@@ -449,7 +449,7 @@ window.FOVAL_COURSES = [
   "school": "learning-and-mind",
   "subject": "Learning & Mind",
   "level": "Foundation",
-  "status": "review",
+  "status": "published",
   "summary": "The research on how people actually learn, turned into a method you can use on any subject, starting with this university.",
   "description": "Most people were never taught how to learn; they were taught subjects and left to guess at the method. A century of research in cognitive psychology has produced clear, replicated findings about what makes learning stick and what only feels like it does. This course teaches those findings and turns them into a working method: how to study, practise, remember, and get genuinely good at something. It is the first course on the Foval Core because every other course goes better once you have it.",
   "outcomes": [
@@ -1305,7 +1305,7 @@ window.FOVAL_COURSES = [
   "school": "mathematics",
   "subject": "Mathematics",
   "level": "Beginner",
-  "status": "review",
+  "status": "published",
   "summary": "Variables, equations, and graphs from the ground up. The algebra you need for science, finance, and further maths.",
   "description": "Algebra is the language for describing relationships between quantities. If arithmetic is about specific numbers, algebra is about patterns that hold for any number. This course builds it up carefully: what a variable is, how to solve equations by keeping them balanced, how straight lines encode rates of change, and how to handle two unknowns at once.",
   "outcomes": [
@@ -1526,7 +1526,7 @@ window.FOVAL_COURSES = [
   "school": "money",
   "subject": "Business & Finance",
   "level": "Beginner",
-  "status": "review",
+  "status": "published",
   "summary": "Budgeting, saving, debt, and investing explained plainly, so money stops being a source of stress.",
   "description": "Most people are never taught how money works. This course covers the handful of ideas that make the biggest difference: where your money goes, how to build a cushion, how debt really costs you, how compounding works for you, and how to think about big financial decisions. It is general education, not personalised advice.",
   "outcomes": [

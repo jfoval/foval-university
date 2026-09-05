@@ -1,13 +1,16 @@
-# Foval University
+# Foval Learning Institute
 
-A free, open, general-education online university. The goal is simple to state and hard to do: make a person broadly educated, in the classical sense (history, philosophy, mathematics, science, literature) *and* in the practical sense almost no university bothers with (money, sales, health, self-reliance, using AI). Free for everyone, no accounts required to learn, no ads, ever.
+**Faith. Knowledge. Life. Free for everyone.**
 
-**Live site:** https://jfoval.github.io/foval-university/ (deployed from `site/` by GitHub Pages on every push to main).
+A free, open, general-education online institute. The goal is simple to state and hard to do: make a person broadly educated, in the classical sense (history, philosophy, mathematics, science, literature) *and* in the practical sense almost no university bothers with (money, sales, health, self-reliance, using AI). Free for everyone, no accounts required to learn, no ads, ever.
+
+**Live site:** https://jfoval.github.io/foval-learning-institute/ (deployed from `site/` by GitHub Pages on every push to main).
 
 ## What's here
 
 | Path | What |
 |---|---|
+| `docs/VALUES.md` | What the institute stands on; the filter for every decision and every piece of feedback |
 | `curriculum/TAXONOMY.md` | The full map: 15 schools, ~155 courses, and the Foval Core progression |
 | `curriculum/core-path.yaml` | The Core path as data, used by the site |
 | `docs/EDITORIAL_STANDARDS.md` | What every lesson must meet: depth, truth, neutrality, pedagogy |

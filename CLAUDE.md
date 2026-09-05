@@ -1,8 +1,9 @@
-# Foval University — instructions for Claude Code
+# Foval Learning Institute — instructions for Claude Code
 
-Foval University is a free, open, general-education online university. Content lives in this repo as Markdown; a build script compiles it into a static site. Read this file, then the document relevant to your task.
+Foval Learning Institute is a free, open, general-education online university. Content lives in this repo as Markdown; a build script compiles it into a static site. Read this file, then the document relevant to your task.
 
 ## Read these before working on content
+- `docs/VALUES.md` — what the institute stands on. Every decision, and every piece of feedback, runs against this.
 - `docs/EDITORIAL_STANDARDS.md` — what a lesson must be (depth, truth, neutrality, pedagogy). Non-negotiable.
 - `docs/STYLE_GUIDE.md` — how it must sound: a professor talking to one student. No em dashes, no AI vocabulary, no salesy talk. Every lesson gets a voice pass.
 - `docs/FEEDBACK_LOOP.md` — how learner feedback becomes lesson improvements.
@@ -23,7 +24,7 @@ Foval University is a free, open, general-education online university. Content l
 2. One lesson per drafting session. Do not batch-generate lessons.
 3. Reviews run in fresh-context subagents, never in the same context as the draft.
 4. Every lesson change: run `npm run validate` before committing. Run `npm run build` and commit `site/data/courses.js` when publishing.
-5. When a course's status changes, update both `course.yaml` and its row in `curriculum/TAXONOMY.md`.
+5. When a course's status changes, update both `course.yaml` and its row in `curriculum/TAXONOMY.md`. Statuses are planned → research → drafting → published. There is no "review" state and no owner sign-off gate: a course goes live when its lessons have passed Stage 4 and the voice pass, and improves afterwards through the feedback loop. Never hold a course for the owner to review.
 6. Sensitive domains (standards Part 3.4) require the neutrality audit before publish. No exceptions.
 6b. School of Christian Studies courses carry `standpoint: christian` and follow standards 3.7: taught from within the faith, labelled as such, objections engaged at full strength. Neutral schools never assert or mock religious claims either way.
 7. Never use an em dash in any prose that learners will read. Search for "—" before committing content.

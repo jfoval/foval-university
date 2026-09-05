@@ -32,7 +32,7 @@ Until an endpoint is set, the form still works and tells the learner their feedb
 Weekly, or whenever a lesson has ten or more responses:
 
 1. **Export** the feedback for a course to a JSON or CSV file.
-2. **Run `/triage-feedback <file> <course-id>`.** Claude groups it by lesson, finds the recurring struggles and suggestions, and sorts each into: unclear passage, missing content, factual error (routed to `/fact-check`), a request the standards say no to (declined with a reason), or a site bug (logged as an issue).
+2. **Run `/triage-feedback <file> <course-id>`.** Claude groups it by lesson, finds the recurring struggles and suggestions, and sorts each against `docs/VALUES.md` into: unclear passage, missing content, factual error (routed to `/fact-check`), a request the values or standards say no to (declined with a reason), or a site bug (logged as an issue). This is the filter: valuable feedback makes the lesson better; unhelpful feedback is set aside, and the reason is logged so the decision can be checked.
 3. **Edits are made** to the lesson, in the style guide's voice, with each edit traced to the feedback it answers. Everything is logged in the course's `research/REVIEWS.md` under "Feedback triage".
 4. **Review as normal.** Substantive changes go through `/review-lesson` again. Small clarifications don't.
 5. **Publish** with a line in `CHANGELOG.md`: "Lesson X clarified based on learner feedback."

@@ -1,4 +1,4 @@
-/* Foval University service worker: network-first, cache fallback, so lessons read offline. */
+/* Foval Learning Institute service worker: network-first, cache fallback, so lessons read offline. */
 const CACHE = "foval-v1";
 const CORE = ["./", "./index.html", "./assets/styles.css", "./assets/app.js", "./data/courses.js", "./manifest.webmanifest"];
 self.addEventListener("install", e => {

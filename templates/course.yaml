@@ -3,7 +3,7 @@ title: Course Title
 school: school-slug           # one of the 14 in curriculum/TAXONOMY.md; must match parent folder
 subject: School Display Name  # e.g. "History", "Money", "Natural Sciences"
 level: Foundation             # Foundation | Core | Advanced
-status: research              # planned | research | drafting | review | published
+status: research              # planned | research | drafting | published
 summary: One sentence for the catalog card. What you'll be able to do.
 description: >-
   Two to four sentences for the course page. What the course covers, who it's for,

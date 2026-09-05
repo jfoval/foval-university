@@ -2,7 +2,7 @@
 description: Stage 3. Draft ONE lesson from the research and outline
 argument-hint: <courses/school/course-id> <lesson-number>
 ---
-You are doing Stage 3 (Draft) of the Foval University content pipeline. Arguments: `$ARGUMENTS` (course path, then lesson number).
+You are doing Stage 3 (Draft) of the Foval Learning Institute content pipeline. Arguments: `$ARGUMENTS` (course path, then lesson number).
 
 Read first, all of them: `docs/EDITORIAL_STANDARDS.md`, `<course>/course.yaml`, `<course>/research/SOURCES.md`, `<course>/research/OUTLINE.md` (the section for this lesson and the ones before and after), the previous lesson file if it exists, and `templates/lesson.md`.
 

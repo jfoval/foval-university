@@ -1,6 +1,6 @@
-# Foval University: Curriculum Map
+# Foval Learning Institute: Curriculum Map
 
-This is the master map of what Foval University teaches. It is organised as **schools → courses**. Every course folder under `courses/` must belong to exactly one school listed here, using the school's slug as its parent folder.
+This is the master map of what Foval Learning Institute teaches. It is organised as **schools → courses**. Every course folder under `courses/` must belong to exactly one school listed here, using the school's slug as its parent folder.
 
 The map is deliberately ambitious. Most courses are `planned`. The point of writing the whole map now is so that every course we build knows where it sits, what comes before it, and what it feeds into.
 
@@ -12,7 +12,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 4. **Depth over breadth per course.** A course should leave you genuinely competent in its subject, not "exposed" to it.
 
 **Levels:** `Foundation` (no prerequisites), `Core` (assumes Foundation courses), `Advanced` (assumes Core).
-**Status:** `planned` → `research` → `drafting` → `review` → `published`.
+**Status:** `planned` → `research` → `drafting` → `published`. A course is published when its lessons have been through the review pipeline; it keeps improving through the feedback loop after that. The four original starter courses are marked `published` but were written before the pipeline existed and are queued to go through it.
 
 ---
 
@@ -36,7 +36,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 | Course | Level | Status | Notes |
 |---|---|---|---|
 | Number Sense and Arithmetic Refresher | Foundation | planned | Fractions, percentages, ratios, estimation, mental maths. For adults who were badly taught. |
-| Algebra Essentials | Foundation | review | Built. |
+| Algebra Essentials | Foundation | published | Built. |
 | Geometry and Trigonometry | Foundation | planned | Euclid's method, proof, shapes, triangles, the unit circle. |
 | Precalculus: Functions | Core | planned | Functions, exponentials, logarithms, sequences, modelling. |
 | Calculus I: Change | Core | planned | Limits, derivatives, applications. |
@@ -146,7 +146,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 | Course | Level | Status | Notes |
 |---|---|---|---|
 | Digital Literacy | Foundation | planned | Files, networks, security hygiene, how the internet works. |
-| Introduction to Programming with Python | Foundation | review | Built. |
+| Introduction to Programming with Python | Foundation | published | Built. |
 | How Computers Work | Foundation | planned | From transistors to operating systems. |
 | Data Structures and Algorithms | Core | planned | |
 | Web Development | Core | planned | HTML, CSS, JS, a real site. |
@@ -180,7 +180,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 
 | Course | Level | Status | Notes |
 |---|---|---|---|
-| Personal Finance Fundamentals | Foundation | review | Built. |
+| Personal Finance Fundamentals | Foundation | published | Built. |
 | Investing | Core | planned | Asset classes, risk, evidence on active vs passive, building a portfolio. |
 | Taxes Explained | Core | planned | How they work, how to be efficient, US-focused with notes for others. |
 | Real Estate | Core | planned | Renting, buying, investing; the actual numbers. |
@@ -223,7 +223,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 
 | Course | Level | Status | Notes |
 |---|---|---|---|
-| Writing Clearly | Foundation | review | Built. |
+| Writing Clearly | Foundation | published | Built. |
 | Public Speaking | Foundation | planned | |
 | Persuasion and Influence | Core | planned | The research and the ethics. |
 | Conversation and Listening | Foundation | planned | |
@@ -238,7 +238,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 
 | Course | Level | Status | Notes |
 |---|---|---|---|
-| How to Learn Anything | Foundation | review | Retrieval, spacing, interleaving, deliberate practice. Take this first. |
+| How to Learn Anything | Foundation | published | Retrieval, spacing, interleaving, deliberate practice. Take this first. |
 | Memory | Foundation | planned | |
 | Focus and Deep Work | Foundation | planned | |
 | Note-Taking and Personal Knowledge | Foundation | planned | |

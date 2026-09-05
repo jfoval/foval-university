@@ -1,6 +1,6 @@
 # Inspiration: Peterson Academy
 
-Research notes on Peterson Academy (petersonacademy.com), compiled September 2026 as a reference point for Foval University. Foval is free, aims for strict political and ideological neutrality, and wants a general-education progression that also covers practical life skills. Peterson Academy is a paid, for-profit platform with a stated ideological purpose, so it is a useful comparison rather than a template.
+Research notes on Peterson Academy (petersonacademy.com), compiled September 2026 as a reference point for Foval Learning Institute. Foval is free, aims for strict political and ideological neutrality, and wants a general-education progression that also covers practical life skills. Peterson Academy is a paid, for-profit platform with a stated ideological purpose, so it is a useful comparison rather than a template.
 
 ## 1. Mission and pedagogical approach
 

@@ -1,6 +1,6 @@
 # Platform Roadmap
 
-How Foval University gets from a static prototype to a full learning platform with accounts, progress sync, continual review, social accountability, and credentials, without ever compromising "free for everyone" or "works on any device".
+How Foval Learning Institute gets from a static prototype to a full learning platform with accounts, progress sync, continual review, social accountability, and credentials, without ever compromising "free for everyone" or "works on any device".
 
 ## Principles
 

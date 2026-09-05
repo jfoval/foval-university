@@ -58,11 +58,11 @@ Four independent review passes, each run as a subagent with fresh context so it 
 
 Findings are appended to `research/REVIEWS.md`. Then the fixes are applied. Then review again until clean. A lesson that needed heavy rewriting gets a second full review.
 
-### Stage 5: Human sign-off and publish
-The owner reads the lesson on a phone. Signs off in REVIEWS.md. When every lesson of a course is signed off, set `status: published`, run `npm run build`, commit, push. GitHub Pages deploys.
+### Stage 5: Publish
+When every lesson has passed Stage 4 and the voice pass, set `status: published`, run `npm run build`, commit, push. GitHub Pages deploys. There is no separate sign-off gate: the owner reads courses as a learner, and that reading, together with everyone else's feedback, is Stage 6.
 
 ### Stage 6: Feedback loop
-Learner feedback (from the site's feedback links, GitHub Issues, or later the platform's feedback table) is triaged into REVIEWS.md and fixed. Content is versioned in git, so every change is traceable.
+This is how lessons get better after they're live, and it never ends. Learner feedback (from the form on every lesson, GitHub Issues, or later the platform's feedback table) runs through `/triage-feedback`, which sorts it against `docs/VALUES.md` and the standards: what makes a lesson clearer, deeper, or more honest is built in; what would make it shallower, slanted, or softer on the truth is declined with a reason. Everything is logged in REVIEWS.md. Content is versioned in git, so every change is traceable. See `docs/FEEDBACK_LOOP.md`.
 
 ## Working practices that protect quality
 
@@ -70,7 +70,7 @@ Learner feedback (from the site's feedback links, GitHub Issues, or later the pl
 - **Research file in context, always.** If SOURCES.md is not loaded, the draft is being written from vibes.
 - **Fresh eyes for review.** Reviews run in subagents or new sessions. A model reviewing its own draft in the same context is far too kind to it.
 - **Adversarial fact-check.** The fact-checker's prompt says "assume there are errors; find them."
-- **Read on a phone before sign-off.** Most learners will be on one.
+- **Read on a phone.** Most learners will be on one; the owner reads every course that way, as a learner, after it's live.
 - **Log everything in REVIEWS.md.** Future sessions and future contributors need the history.
 - **Prefer linking to duplicating.** If MIT OCW has the perfect lecture, link it in "Go deeper" and write the lesson around it rather than re-explaining it worse.
 - **Update the map.** When a course changes status, update its row in `curriculum/TAXONOMY.md`.

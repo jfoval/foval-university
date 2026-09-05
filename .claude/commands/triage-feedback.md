@@ -2,7 +2,7 @@
 description: Turn learner feedback into lesson improvements (see docs/FEEDBACK_LOOP.md)
 argument-hint: <path/to/feedback.json or .csv> [course-id]
 ---
-Read `docs/FEEDBACK_LOOP.md`, `docs/EDITORIAL_STANDARDS.md`, and `docs/STYLE_GUIDE.md`. Then read the feedback export at `$ARGUMENTS` (a JSON array or CSV with fields: course, lesson, clarity, struggled, improve, at). If a course id is given as a second argument, filter to it.
+Read `docs/VALUES.md` first, then `docs/FEEDBACK_LOOP.md`, `docs/EDITORIAL_STANDARDS.md`, and `docs/STYLE_GUIDE.md`. The values are the filter: feedback that would make a lesson clearer, deeper, or more honest is acted on; feedback that would make it shallower, slanted, softer on the truth, or that asks the institute to be something it isn't, is declined with a one-line reason. Log both. Then read the feedback export at `$ARGUMENTS` (a JSON array or CSV with fields: course, lesson, clarity, struggled, improve, at). If a course id is given as a second argument, filter to it.
 
 Group the feedback by lesson. For each lesson with feedback, summarise: clarity distribution, the recurring things people struggled with (quote representative comments), and the recurring suggestions. Ignore spam and abuse; log it separately.
 

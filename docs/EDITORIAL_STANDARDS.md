@@ -1,4 +1,4 @@
-# Foval University Editorial Standards
+# Foval Learning Institute Editorial Standards
 
 This document defines what a Foval course is and is not. Every lesson is held to it. Claude Code reads it before drafting or reviewing anything. If a lesson does not meet it, the lesson is not done.
 
@@ -88,7 +88,7 @@ For health, finance, legal, and safety topics: follow the evidence hierarchy, st
 
 ## Part 3: Neutrality
 
-Foval University's promise is that a learner can trust what they read here because it is not trying to move them toward a political, religious, or ideological conclusion. This is a hard standard because bias is easiest to see in others and hardest in oneself, and because "neutral" is itself a claim people contest. Here is how we operationalise it.
+Foval Learning Institute's promise is that a learner can trust what they read here because it is not trying to move them toward a political, religious, or ideological conclusion. This is a hard standard because bias is easiest to see in others and hardest in oneself, and because "neutral" is itself a claim people contest. Here is how we operationalise it.
 
 ### 3.1 Sort every claim into one of three kinds
 
@@ -193,6 +193,6 @@ A lesson is done when:
 - [ ] It passes the voice review against `docs/STYLE_GUIDE.md`: no em dashes, no banned phrases, reads aloud as a person talking
 - [ ] It makes the reader think as they read: predict blocks, checkpoints, an exercise, free recall before the quiz
 - [ ] It reads well at phone width
-- [ ] A human has read it and signed off
+- [ ] It is live, and the feedback loop is open on it
 
-Reviewers record their findings in the course's `research/REVIEWS.md`.
+Reviewers record their findings in the course's `research/REVIEWS.md`. There is no separate human sign-off gate before publishing: the owner reads every course as a learner once it's live, and that reading plus everyone else's feedback, filtered through `docs/VALUES.md`, is how lessons keep improving.

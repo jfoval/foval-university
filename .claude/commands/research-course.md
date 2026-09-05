@@ -2,7 +2,7 @@
 description: Stage 1. Research a course thoroughly and write research/SOURCES.md
 argument-hint: <courses/school/course-id>
 ---
-You are doing Stage 1 (Research) of the Foval University content pipeline for the course at `$ARGUMENTS`.
+You are doing Stage 1 (Research) of the Foval Learning Institute content pipeline for the course at `$ARGUMENTS`.
 
 First read, in this order:
 1. `docs/EDITORIAL_STANDARDS.md` (all of it)

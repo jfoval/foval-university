@@ -2,7 +2,7 @@
 description: Stage 2. Produce research/OUTLINE.md, the lesson-by-lesson plan
 argument-hint: <courses/school/course-id>
 ---
-You are doing Stage 2 (Outline) of the Foval University content pipeline for `$ARGUMENTS`.
+You are doing Stage 2 (Outline) of the Foval Learning Institute content pipeline for `$ARGUMENTS`.
 
 Read first: `docs/EDITORIAL_STANDARDS.md`, `$ARGUMENTS/course.yaml`, `$ARGUMENTS/research/SOURCES.md` (required; if it does not exist, stop and say Stage 1 must run first), and `templates/OUTLINE.md`.
 

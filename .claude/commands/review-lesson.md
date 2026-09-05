@@ -2,7 +2,7 @@
 description: Stage 4. Run the four review passes on a lesson as fresh-context subagents, then apply fixes
 argument-hint: <courses/school/course-id> <lesson-number>
 ---
-You are doing Stage 4 (Review) of the Foval University content pipeline. Arguments: `$ARGUMENTS` (course path, then lesson number). Locate the lesson file `<course>/lessons/NN-*.md`.
+You are doing Stage 4 (Review) of the Foval Learning Institute content pipeline. Arguments: `$ARGUMENTS` (course path, then lesson number). Locate the lesson file `<course>/lessons/NN-*.md`.
 
 Launch five subagents in parallel, each with fresh context. Give each: the full path to the lesson file, the path to `docs/EDITORIAL_STANDARDS.md`, the path to `<course>/research/SOURCES.md`, and the instruction to read all three before starting. Their briefs:
 
