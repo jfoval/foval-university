@@ -3,11 +3,37 @@ title: "Logic and Argument"
 school: foundations
 subject: Foundations
 level: Foundation
-status: research
-summary: TODO after research
-description: TODO after research
+status: drafting
+summary: >-
+  How to tell a good argument from a bad one, take apart the arguments you meet, and build
+  ones that hold up.
+description: >-
+  Most arguments you meet, in the news, at work, and in your own head, are never checked. This
+  course gives you the tools to check them. You will learn what makes a deductive argument valid
+  and sound, what makes an inductive argument strong, and how probability decides how much a piece
+  of evidence should move you. You will practise reconstructing what someone actually argued,
+  putting it in its strongest form before you answer it, and finding the missing step. You will
+  learn the standard fallacies by their real names and real examples, and also why the experts
+  who study them warn against using the names as verdicts. The course draws on the textbooks
+  universities assign, the primary texts from Aristotle to Mill and Toulmin, and the psychology
+  of how people actually reason, and it ends with you writing an argument of your own.
 outcomes:
-  - TODO after research
+  - >-
+    Identify the premises, conclusion, and missing steps of an argument, and tell an argument from
+    an explanation or a bare assertion
+  - >-
+    Judge whether a deductive argument is valid and sound, and whether an inductive argument is
+    strong and cogent, without being swayed by whether you like the conclusion
+  - >-
+    Use base rates, the conjunction rule, and natural frequencies to work out how much a piece of
+    evidence should change your mind
+  - >-
+    Reconstruct someone else's argument in its strongest form and evaluate it with the
+    acceptability, relevance, and grounds tests
+  - >-
+    Name the standard formal and informal fallacies, recognise them in real cases, and explain when
+    the same pattern is legitimate reasoning
+  - Build a one-page written argument that survives your own fallacy check and a reader's objections
 prerequisites: []
-estimated_hours: 8
+estimated_hours: 12
 sensitive_domain: false

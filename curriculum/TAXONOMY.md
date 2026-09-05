@@ -22,7 +22,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 | Course | Level | Status | Notes |
 |---|---|---|---|
 | Reading Well | Foundation | planned | How to read a book, a paper, a primary source. Adler's levels of reading. Note-taking that sticks. |
-| Logic and Argument | Foundation | research | Deductive and inductive reasoning, argument structure, formal fallacies, informal fallacies, steelmanning. |
+| Logic and Argument | Foundation | drafting | Deductive and inductive reasoning, argument structure, formal fallacies, informal fallacies, steelmanning. |
 | Statistics for Citizens | Foundation | planned | Averages that lie, base rates, sampling, confidence, correlation vs causation, how to read a study and a news claim. |
 | Probability and Decisions | Core | planned | Expected value, Bayes, risk, decision-making under uncertainty. |
 | How We Know: Epistemology in Practice | Core | planned | Evidence hierarchies, expert disagreement, when to trust whom, calibrated confidence. |
